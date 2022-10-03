@@ -1,4 +1,18 @@
 
-main a{
-    color: red;
+.links {
+    width: 934px;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 36px;
+}
+
+.links ul li {
+    margin: 10px;
+}
+ul {
+    padding: 0px;
+}
+a:visited{
+    color: black;
 }
