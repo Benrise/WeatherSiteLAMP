@@ -118,12 +118,14 @@
                 document.getElementById("proportions-checkbox").disabled = true;
                 document.getElementById("radius-slider-wrapper").style = "opacity: 0.3;";
                 document.getElementById("checkbox-wrapper").style = "opacity: 0";
+                document.getElementById("radius-input").disabled = true;
                 break;
             case 3:
                 document.getElementById("radius-slider").disabled = true;
                 document.getElementById("radius-slider-wrapper").style = "opacity: 0.3;";
                 document.getElementById("proportions-checkbox").disabled = true;
                 document.getElementById("checkbox-wrapper").style = "opacity: 0";
+                document.getElementById("radius-input").disabled = true;
                 break;
             default:
                 return;

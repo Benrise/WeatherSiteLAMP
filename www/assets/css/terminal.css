@@ -1,0 +1,48 @@
+main {
+    width: 1350px;
+    height: 1000px;
+    margin: 1em auto;
+    font-family: "SF Pro Display";
+}
+h1:after {
+    content: "Terminal";
+}
+h1:hover:after {
+    content: "Назад";
+}
+#index {
+    text-decoration: none;
+    color: black;
+}
+main h1 {
+    font-size: 96pt;
+    margin: 0px;
+    margin-left: -5pt;
+}
+.terminal-container {
+    width: 610px;
+    min-height: 500px;
+    background-color: black;
+    color: white;
+}
+.command-input
+{
+    all: unset;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.command-input::placeholder{
+    color: white;
+    animation: blink 1.2s step-start infinite;
+}
+@keyframes blink {
+    0% { color: white; }
+    25% { color: black; }
+    100% { color: white; }
+}
+.line{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}

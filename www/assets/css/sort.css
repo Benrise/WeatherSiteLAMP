@@ -1,0 +1,27 @@
+main {
+    width: 1350px;
+    height: 1000px;
+    margin: 1em auto;
+    font-family: "SF Pro Display";
+}
+h1:after {
+    content: "Shell Sort";
+}
+h1:hover:after {
+    content: "Назад";
+}
+#index {
+    text-decoration: none;
+    color: black;
+}
+main h1 {
+    font-size: 96pt;
+    margin: 0px;
+    margin-left: -5pt;
+}
+.nums-area {
+    width: 1000px;
+    height: 220px;
+    font-size: 30px;
+
+}
