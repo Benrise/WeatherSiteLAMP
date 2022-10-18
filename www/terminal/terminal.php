@@ -7,7 +7,8 @@
             localhost:~<input id="command-input" class="command-input" type="text" name="code" placeholder="_"></form>
     </div>
     <form action="terminal-clear-backend.php" method="post" id="index">
-        <input type="submit" value="&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100; &#1082;&#1086;&#1085;&#1089;&#1086;&#1083;&#1100;" name="clear"></form>
+        <input type="submit" value="&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100; &#1082;&#1086;&#1085;&#1089;&#1086;&#1083;&#1100;" name="clear">
+    </form>
 
 
 </main></body></html>

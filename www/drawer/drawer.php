@@ -11,33 +11,33 @@
         <p>1. Ввести значение фигуры в URL строке параметра get-запроса</p>
         <form action="drawer-backend.php" class="link-wrapper" method="get">
             <input type="hidden" name="figure" value="2">
-            <p class ="link">http://localhost/drawer/drawer.php<input class = "get" type="submit" value="?figure=2"></p>
+            <p class ="link">http://localhost/drawer/drawer.php<input class="get" type="submit" value="?figure=2"></p>
         </form>
         <br>
         <p>2. Воспользоваться генератором SVG фигур:</p>
-        <form action="drawer-backend.php" method="GET">
+        <form action="drawer-backend.php" method="POST">
             <div class="generator-wrapper">
 <!--                https://www.code.mu/ru/php/book/prime/forms/values-remaining/-->
                 <div class="slider-wrapper"><p>Форма</p><input type="range"
                             name = "form"
-                            value = "<?php if (isset($_GET['form'])) echo $_GET['form']; ?>"
+                            value = "<?php if (isset($_POST['form'])) echo $_POST['form']; ?>"
                             id = "form-slider" min="1" max="3" step="1"
                             oninput="setInput(1)" ></div>
                 <div class="slider-wrapper" id = "color-slider-wrapper"><p>Цвет </p><input type="color"
                             name = "color"
-                            value = "<?php if (isset($_GET['color'])) echo $_GET['color']; ?>"
+                            value = "<?php if (isset($_POST['color'])) echo $_POST['color']; ?>"
                             id = "color-slider"  min="0" max="10000" step="1" min="1" max="100"
                             oninput="setInput(2)"></div>
                 <div class="slider-wrapper"><p>Размер </p><input type="range"
                             name = "size"
-                            value = "<?php if (isset($_GET['size'])) echo $_GET['size']; ?>"
+                            value = "<?php if (isset($_POST['size'])) echo $_POST['size']; ?>"
                             id = "size-slider"  min="1" max="750" step="1" min="1" max="100"
                             oninput="setInput(3)"></div>
-                <div id="checkbox-wrapper"><input type="checkbox" id = "proportions-checkbox"name = "proportions" value="<?php if (isset($_GET['proportions'])) echo $_GET['proportions'] ?>" ><span id = "proportion-text">Сохранить пропорции</span></div>
+                <div id="checkbox-wrapper"><input type="checkbox" id = "proportions-checkbox"name = "proportions" value="<?php if (isset($_POST['proportions'])) echo $_POST['proportions'] ?>" ><span id = "proportion-text">Сохранить пропорции</span></div>
                 <div id="radius-slider-wrapper" class="slider-wrapper"><p>Радиус углов </p>
                     <input type="range"
                            name = "radius"
-                           value = "<?php if (isset($_GET['radius'])) echo $_GET['radius'] ?>"
+                           value = "<?php if (isset($_POST['radius'])) echo $_POST['radius'] ?>"
                            id = "radius-slider"  min="1" max="100" step="1" min="1" max="100"
                            oninput="setInput(4)">
                 </div>
@@ -46,22 +46,22 @@
             <input type="text"
                    size="40"
                    placeholder="Форма"
-                   value = "<?php if (isset($_GET['form-input'])) echo $_GET['form-input'] ?>"
+                   value = "<?php if (isset($_POST['form-input'])) echo $_POST['form-input'] ?>"
                    name = "form-input" id = "form-input">
             <input type="text"
                    size="40"
                    placeholder="Цвет"
-                   value = "<?php if (isset($_GET['color-input'])) echo $_GET['color-input'] ?>"
+                   value = "<?php if (isset($_POST['color-input'])) echo $_POST['color-input'] ?>"
                    name = "color-input" id = "color-input">
             <input type="text"
                    size="40"
                    placeholder="Размер"
-                   value = "<?php if (isset($_GET['size-input'])) echo $_GET['size-input'] ?>"
+                   value = "<?php if (isset($_POST['size-input'])) echo $_POST['size-input'] ?>"
                    name = "size-input" id = "size-input">
             <input type="text"
                    size="40"
                    placeholder="Радиус углов"
-                   value = "<?php if (isset($_GET['radius-input'])) echo $_GET['radius-input'] ?>"
+                   value = "<?php if (isset($_POST['radius-input'])) echo $_POST['radius-input'] ?>"
                    name = "radius-input" id = "radius-input">
             <input type="submit" value="Готово">
         </form>
@@ -76,9 +76,19 @@
     </section>
     <section id="figure">
             <svg width="765px" height="765px">
-                <rect x=100px y=0px rx="<?php if (isset($xRadiusRect)) echo $xRadiusRect?>" ry="<?php if (isset($yRadiusRect)) echo $yRadiusRect?>" width="<?php if (isset($widthRect)) echo $widthRect?>" height="<?php if (isset($heightRect)) echo $heightRect?>" fill="<?php if (isset($color)) echo $color?>"/>
-                <ellipse cx=382.5 cy=280 rx="<?php if (isset($xRadiusEllipse)) echo $xRadiusEllipse?>" ry="<?php if (isset($yRadiusEllipse)) echo $yRadiusEllipse?>" fill="<?php if (isset($color)) echo $color?>"/>
-                <circle cx="382.5" cy=280 r="<?php if (isset($radius)) echo $radius?>" fill="<?php if (isset($color)) echo $color?>"/>
+                <rect x=100px y=0px
+                      rx="<?php if (isset($xRadiusRect)) echo $xRadiusRect?>"
+                      ry="<?php if (isset($yRadiusRect)) echo $yRadiusRect?>"
+                      width="<?php if (isset($widthRect)) echo $widthRect?>"
+                      height="<?php if (isset($heightRect)) echo $heightRect?>"
+                      fill="<?php if (isset($color)) echo $color?>"/>
+                <ellipse cx=382.5 cy=280
+                         rx="<?php if (isset($xRadiusEllipse)) echo $xRadiusEllipse?>"
+                         ry="<?php if (isset($yRadiusEllipse)) echo $yRadiusEllipse?>"
+                         fill="<?php if (isset($color)) echo $color?>"/>
+                <circle cx="382.5" cy=280
+                        r="<?php if (isset($radius)) echo $radius?>"
+                        fill="<?php if (isset($color)) echo $color?>"/>
             </svg >
     </section>
 </main>
@@ -112,6 +122,7 @@
                 document.getElementById("proportions-checkbox").disabled = false;
                 document.getElementById("checkbox-wrapper").style = "opacity: 1;";
                 document.getElementById("radius-slider-wrapper").style = "opacity: 1;";
+                document.getElementById("radius-input").disabled = false;
                 break;
             case 2:
                 document.getElementById("radius-slider").disabled = true;

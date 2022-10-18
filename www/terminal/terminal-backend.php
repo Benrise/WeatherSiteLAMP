@@ -1,11 +1,10 @@
 <?php
 if (!empty($_POST['code'])) {
 
-    $file = 'terminal.php';
     $result = "";
-
     $result = shell_exec($_POST['code']);
-//    echo "Result: <b>$result</b>";
+
+    $file = 'terminal.php';
     libxml_use_internal_errors( true );
     $dom=new DOMDocument;
     $dom->validateOnParse=false;
@@ -27,6 +26,6 @@ if (!empty($_POST['code'])) {
 
 }
 
-
 include ('terminal.php');
 include('terminal-clear.php');
+

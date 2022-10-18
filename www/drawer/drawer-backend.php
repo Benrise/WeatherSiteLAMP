@@ -1,32 +1,32 @@
 <?php
-if (isset($_GET['form'])){
-    $form_parameter = $_GET['form'];
+if (isset($_POST['form'])){
+    $form_parameter = $_POST['form'];
     switch ($form_parameter) {
         # rect
         case 1:
-            $xRadiusRect = intval($_GET['radius-input'])/2;
-            $yRadiusRect = intval($_GET['radius-input'])/2;
-            if (isset($_GET['proportions'])){
+            $xRadiusRect = intval($_POST['radius-input'])/2;
+            $yRadiusRect = intval($_POST['radius-input'])/2;
+            if (isset($_POST['proportions'])){
 
-                $widthRect = intval($_GET['size-input'])*0.7;
+                $widthRect = intval($_POST['size-input'])*0.7;
                 $heightRect = $widthRect;
             }
             else {
-                $widthRect = $_GET['size-input'];
-                $heightRect = intval($_GET['size-input'])*0.7;
+                $widthRect = $_POST['size-input'];
+                $heightRect = intval($_POST['size-input'])*0.7;
             }
-            $color = $_GET['color'];
+            $color = $_POST['color'];
             break;
         # ellipse
         case 2:
-            $xRadiusEllipse = intval($_GET['size-input'])*0.5;
-            $yRadiusEllipse = intval($_GET['size-input'])*0.25;
-            $color = $_GET['color-input'];
+            $xRadiusEllipse = intval($_POST['size-input'])*0.5;
+            $yRadiusEllipse = intval($_POST['size-input'])*0.25;
+            $color = $_POST['color-input'];
             break;
         # circle
         case 3:
-            $radius = intval($_GET['size-input'])/3;
-            $color = $_GET['color-input'];
+            $radius = intval($_POST['size-input'])/3;
+            $color = $_POST['color-input'];
             break;
         default:
             return;
@@ -57,7 +57,6 @@ if (isset($_GET['figure']))
             return;
     }
 }
-
 
 include ('drawer.php');
 ?>
