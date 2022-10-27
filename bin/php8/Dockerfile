@@ -21,3 +21,5 @@ libsqlite3-0 && \
 RUN docker-php-ext-install pdo_mysql && \
     docker-php-ext-install pdo_sqlite &&  \
     docker-php-ext-install mysqli
+
+USER www-data
