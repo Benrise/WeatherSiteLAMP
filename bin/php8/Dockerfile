@@ -1,5 +1,6 @@
 FROM php:8.0.19-apache-buster
 
+
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Синхронизируем и обновляем пакеты
@@ -20,4 +21,3 @@ libsqlite3-0 && \
 RUN docker-php-ext-install pdo_mysql && \
     docker-php-ext-install pdo_sqlite &&  \
     docker-php-ext-install mysqli
-
