@@ -14,13 +14,15 @@ services:
       - database
     volumes:
       #  Монтируем директорию с php-скриптом внутрь контейнера
-      - ${DOCUMENT_ROOT-./www}:/var/www/html:rw
+      - ./www/non-static/:/var/www/non-static/
       #  Монтируем файл конфигурации php.ini внутрь контейнера
-      - ${PHP_INI-./config/php/php.ini}:/usr/local/etc/php/php.ini
+      - ./config/php/php.ini:/usr/local/etc/php/php.ini
       #  Монтируем файл конфигурации Apache2 внутрь контейнера
-      - ${VHOSTS_DIR-./config/vhosts}:/etc/apache2/sites-enabled
+      - ./config/vhosts/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
+      - ./config/vhosts/ports.conf:/etc/apache2/ports.conf
+      - ./config/vhosts/apache2.conf:/etc/apache2/apache2.conf
     environment:
-      APACHE_DOCUMENT_ROOT: ${APACHE_DOCUMENT_ROOT-/var/www/html}
+      APACHE_DOCUMENT_ROOT: ${APACHE_DOCUMENT_ROOT-/var/www/non-static}
       PMA_PORT: ${HOST_MACHINE_PMA_PORT}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_USER: ${MYSQL_USER}
@@ -37,8 +39,8 @@ services:
     ports:
       - "127.0.0.1:${HOST_MACHINE_MYSQL_PORT}:3306"
     volumes:
-      - ${MYSQL_INITDB_DIR-./config/initdb}:/docker-entrypoint-initdb.d
-      - ${MYSQL_DATA_DIR-./data/mysql}:/var/lib/mysql
+      - ./config/initdb:/docker-entrypoint-initdb.d
+      - ./data/mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
@@ -62,7 +64,8 @@ services:
     ports:
       - "${HOST_MACHINE_PMA_PORT}:80"
     volumes:
-      - ${PHP_INI-./config/php/php.ini}:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
+      - ./config/php/php.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
+      - ./config/pma/apache2.conf:/etc/apache2/apache2.conf
 
   nginx:
     build:
@@ -72,6 +75,7 @@ services:
       - "80:80"
     volumes:
       - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ./www/static:/var/www/web
+      - ./www/static:/var/www/static
+      - ./logs/nginx:/var/log/nginx
     depends_on:
       - webserver

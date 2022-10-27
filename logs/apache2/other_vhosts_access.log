@@ -1,5 +1,0 @@
-localhost:80 172.19.0.1 - - [27/Sep/2022:21:50:19 +0000] "GET / HTTP/1.1" 200 28577 "https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.114 YaBrowser/22.9.1.1079 Yowser/2.5 Safari/537.36"
-localhost:80 172.19.0.1 - - [27/Sep/2022:21:50:19 +0000] "GET /favicon.ico HTTP/1.1" 404 487 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.114 YaBrowser/22.9.1.1079 Yowser/2.5 Safari/537.36"
-localhost:80 172.19.0.1 - - [27/Sep/2022:21:51:10 +0000] "-" 408 0 "-" "-"
-localhost:80 172.19.0.1 - - [27/Sep/2022:21:52:55 +0000] "GET / HTTP/1.1" 200 28576 "https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.114 YaBrowser/22.9.1.1079 Yowser/2.5 Safari/537.36"
-localhost:80 172.19.0.1 - - [27/Sep/2022:21:53:46 +0000] "-" 408 0 "-" "-"
