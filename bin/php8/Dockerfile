@@ -1,4 +1,4 @@
-FROM php:8.0.19-apache-buster
+FROM php:8.0.19-apache
 
 
 ARG DEBIAN_FRONTEND=noninteractive
@@ -22,4 +22,4 @@ RUN docker-php-ext-install pdo_mysql && \
     docker-php-ext-install pdo_sqlite &&  \
     docker-php-ext-install mysqli
 
-EXPOSE 8081
+EXPOSE 81

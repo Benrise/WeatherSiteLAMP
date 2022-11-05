@@ -1,43 +1,42 @@
 version: "3"
 
 services:
-  webserver:
+  apache:
     build: # инструкции для создания образа
       # контекст (путь к каталогу, содержащему Dockerfile)
-      context: ./bin/${PHPVERSION}
-    container_name: "${COMPOSE_PROJECT_NAME}-${PHPVERSION}"
+      context: ./bin/php8
+    container_name: "lamp-apache"
     restart: "always"
     ports:
-      - "${HOST_MACHINE_UNSECURE_HOST_PORT}:80"
+      - "81:80"
     # Cвязываем контейнеры вместе
     links:
       - database
     volumes:
       #  Монтируем директорию с php-скриптом внутрь контейнера
-      - ./www/non-static/:/var/www/non-static/
+      - ./www/public:/var/www/html/public
       #  Монтируем файл конфигурации php.ini внутрь контейнера
       - ./config/php/php.ini:/usr/local/etc/php/php.ini
-      #  Монтируем файл конфигурации Apache2 внутрь контейнера
-      - ./config/vhosts/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
-      - ./config/vhosts/ports.conf:/etc/apache2/ports.conf
+      #  Монтируем файл конфигурации Apache2 внутрь контейнерa
       - ./config/vhosts/apache2.conf:/etc/apache2/apache2.conf
+      - ./config/vhosts/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
+      # Монтируем файл конфигурации портов
+      - ./config/vhosts/ports.conf:/etc/apache2/ports.conf
     environment:
-      APACHE_DOCUMENT_ROOT: ${APACHE_DOCUMENT_ROOT-/var/www/non-static}
+      APACHE_DOCUMENT_ROOT: ${APACHE_DOCUMENT_ROOT}
       PMA_PORT: ${HOST_MACHINE_PMA_PORT}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       HOST_MACHINE_MYSQL_PORT: ${HOST_MACHINE_MYSQL_PORT}
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
   database:
     build:
-      context: "./bin/${DATABASE}"
-    container_name: "${COMPOSE_PROJECT_NAME}-${DATABASE}"
+      context: "./bin/mysql8"
+    container_name: "lamp-mysql8"
     restart: "always"
     ports:
-      - "127.0.0.1:${HOST_MACHINE_MYSQL_PORT}:3306"
+      - "3306:3306"
     volumes:
       - ./config/initdb:/docker-entrypoint-initdb.d
       - ./data/mysql:/var/lib/mysql
@@ -48,7 +47,7 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
   phpmyadmin:
     image: phpmyadmin
-    container_name: "${COMPOSE_PROJECT_NAME}-phpmyadmin"
+    container_name: "lamp-phpmyadmin"
     links:
       - database
     environment:
@@ -59,10 +58,8 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-      UPLOAD_LIMIT: ${UPLOAD_LIMIT}
-      MEMORY_LIMIT: ${MEMORY_LIMIT}
     ports:
-      - "${HOST_MACHINE_PMA_PORT}:80"
+      - "8080:80"
     volumes:
       - ./config/php/php.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
       - ./config/pma/apache2.conf:/etc/apache2/apache2.conf
@@ -74,8 +71,8 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ./www/static:/var/www/static
+      - ./config/nginx/default.conf:/etc/nginx/conf.d/default.conf
       - ./logs/nginx:/var/log/nginx
+      - ./www/private:/var/www/private
     depends_on:
-      - webserver
+      - apache
