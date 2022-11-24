@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS docker;
+CREATE USER IF NOT EXISTS 'user'@'localhost' IDENTIFIED BY 'password';
+GRANT SELECT,UPDATE,INSERT ON docker.* TO 'user'@'localhost';
+FLUSH PRIVILEGES;
+
+USE docker;

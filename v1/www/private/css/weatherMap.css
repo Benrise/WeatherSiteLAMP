@@ -1,0 +1,373 @@
+.left-tab
+{
+    width: 400px;
+    height: 650px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 14px 28px rgb(0 0 0 / 25%), 0px 10px 10px rgb(0 0 0 / 22%);
+}
+
+body, .site-header
+{
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    background-attachment: fixed;
+}
+
+
+#windy
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 780px;
+    height: 650px;
+    animation: appearance 1s ease-in;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 14px 28px rgb(0 0 0 / 25%), 0px 10px 10px rgb(0 0 0 / 22%);
+}
+@keyframes appearance
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+.content-container .up-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.slider-bar
+{
+    margin-top: 20px;
+    width: 1200px;
+    height: 65px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 14px 28px rgb(0 0 0 / 25%), 0px 10px 10px rgb(0 0 0 / 22%);
+}
+.btn-next, .btn-prev
+{
+    color: black;
+}
+.slider-bar
+{
+    display: flex;
+}
+.bar
+{
+    width: 1111px;
+    height: 65px;
+}
+.elem-featureMap img
+{
+    width: 150%;
+}
+.filter
+{
+    display: flex;
+    flex-direction: row;
+}
+.elem-temp
+{
+    font-size: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.elementMap
+{
+    min-width: 100px;
+}
+.elem-featureMap
+{
+    width: 25px;
+}
+.daily-container
+{
+    border: none;
+}
+.daily-track
+{
+    padding-left:0px;
+}
+.up-tab
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left-tab-up
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.city-temp, .feature-right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10px;
+    width: 190px;
+    height: 190px;
+}
+.city-temp
+{
+    width: 130px;
+}
+.feature-right img
+{
+    width: 70%;
+}
+
+.desc-geo
+{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 378px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 200%; 
+}
+
+
+.geo
+{
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: white;
+    width: 40px;
+    height: 40px;
+}
+.geo
+{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    background: #FFDE40	;
+    box-shadow: 0 -3px #FF9640 inset;
+    transition: 0.2s;
+    background-image: url(../img/geo.png);
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    background-position-y: 55%;
+}
+.geo:hover
+{
+    background: orange;
+    background-image: url(../img/geo.png);
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    background-position-y: 55%;
+}
+.geo:active
+{
+    background: white;
+    box-shadow: 0 3px white inset;
+    background-image: url(../img/geo.png);
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    background-position-y: 55%;
+}
+.to-index
+{
+    outline: none;
+    border: none;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #d6d5cf	;
+    box-shadow: 0 -3px #aaa6a3 inset;
+    transition: 0.2s;
+    font-size: 120%;
+}
+.to-index:hover
+{
+    background: rgb(179, 176, 174);
+}
+.to-index:active
+{
+    background: white;
+    box-shadow: 0 3px white inset;
+}
+
+#submit
+{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+
+.to-index
+{
+    width: 380px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.date-info
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 380px;
+    height: 360px;
+}
+.clocks
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 370px;
+    height: 210px;
+}
+.left-clock, .right-clock
+{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+.currClock, .gmtClock
+{
+    width: 180px;
+    height: 180px;
+}
+.gmtClock img, .currClock img 
+{
+    width: 85%;
+    margin-left: 15px;
+}
+.month, .day-of-week
+{
+    margin: 10px;
+    font-size: 150%;
+}
+.description, .day-of-week, .month
+{
+    text-transform: capitalize;
+}
+.city
+{
+    font-size: 300%;
+}
+.temp
+{
+    font-size: 250%;
+}
+.description
+{
+    font-size: 80%;
+}
+.city-temp
+{
+    margin-top: 0px;
+}
+.feature-right img 
+{
+    margin-top: 60px;
+}
+ @media (max-width: 300px)
+{
+    .body
+    {
+        width: 1200px
+    }
+    #windy
+    {
+        width: 300px;
+    }
+    .slider-bar
+    {
+        width: 720px;
+    }
+    .daily-container
+    {
+        width: 620px;
+    }
+    .head-container
+    {
+        width: 735px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .menu
+    {
+        margin-top: 10px;
+        display: flex;
+        width: 300px;
+    }
+}
+@media (max-width: 1600px)
+{
+    .body
+    {
+        width: 1200px
+    }
+    #windy
+    {
+        width: 500px;
+    }
+    .slider-bar
+    {
+        width: 920px;
+    }
+    .daily-container
+    {
+        width: 820px;
+    }
+    .head-container
+    {
+        width: 935px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .menu
+    {
+        margin-top: 10px;
+        display: flex;
+        width: 500px;
+        margin-left: 50px;
+    }
+    #search-bar
+    {
+        padding-right: 15px;
+    }
+}
+
+.loader {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 5px solid #cae0f1;
+    border-right: 5px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1.5s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+ 
