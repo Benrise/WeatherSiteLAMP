@@ -3566,3 +3566,501 @@
 2022/11/05 15:03:03 [notice] 1#1: signal 17 (SIGCHLD) received from 25
 2022/11/05 15:03:03 [notice] 1#1: worker process 25 exited with code 0
 2022/11/05 15:03:03 [notice] 1#1: exit
+2022/11/23 18:11:24 [notice] 1#1: using the "epoll" event method
+2022/11/23 18:11:24 [notice] 1#1: nginx/1.20.2
+2022/11/23 18:11:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 18:11:24 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 18:11:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 18:11:24 [notice] 1#1: start worker processes
+2022/11/23 18:11:24 [notice] 1#1: start worker process 24
+2022/11/23 18:11:24 [notice] 1#1: start worker process 25
+2022/11/23 18:11:24 [notice] 1#1: start worker process 26
+2022/11/23 18:11:24 [notice] 1#1: start worker process 27
+2022/11/23 18:18:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 18:18:30 [notice] 24#24: gracefully shutting down
+2022/11/23 18:18:30 [notice] 25#25: gracefully shutting down
+2022/11/23 18:18:30 [notice] 27#27: gracefully shutting down
+2022/11/23 18:18:30 [notice] 27#27: exiting
+2022/11/23 18:18:30 [notice] 26#26: gracefully shutting down
+2022/11/23 18:18:30 [notice] 26#26: exiting
+2022/11/23 18:18:30 [notice] 25#25: exiting
+2022/11/23 18:18:30 [notice] 25#25: exit
+2022/11/23 18:18:30 [notice] 27#27: exit
+2022/11/23 18:18:30 [notice] 26#26: exit
+2022/11/23 18:18:30 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/11/23 18:18:30 [notice] 1#1: worker process 25 exited with code 0
+2022/11/23 18:18:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:18:30 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/11/23 18:18:30 [notice] 1#1: worker process 27 exited with code 0
+2022/11/23 18:18:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:18:30 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 18:18:30 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 18:18:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:19:16 [notice] 1#1: using the "epoll" event method
+2022/11/23 18:19:16 [notice] 1#1: nginx/1.20.2
+2022/11/23 18:19:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 18:19:16 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 18:19:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 18:19:16 [notice] 1#1: start worker processes
+2022/11/23 18:19:16 [notice] 1#1: start worker process 23
+2022/11/23 18:19:16 [notice] 1#1: start worker process 24
+2022/11/23 18:19:16 [notice] 1#1: start worker process 25
+2022/11/23 18:19:16 [notice] 1#1: start worker process 26
+2022/11/23 18:27:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 18:27:03 [notice] 24#24: gracefully shutting down
+2022/11/23 18:27:03 [notice] 24#24: exiting
+2022/11/23 18:27:03 [notice] 26#26: gracefully shutting down
+2022/11/23 18:27:03 [notice] 26#26: exiting
+2022/11/23 18:27:03 [notice] 25#25: gracefully shutting down
+2022/11/23 18:27:03 [notice] 25#25: exiting
+2022/11/23 18:27:03 [notice] 23#23: gracefully shutting down
+2022/11/23 18:27:03 [notice] 24#24: exit
+2022/11/23 18:27:03 [notice] 26#26: exit
+2022/11/23 18:27:03 [notice] 25#25: exit
+2022/11/23 18:27:03 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/11/23 18:27:03 [notice] 1#1: worker process 24 exited with code 0
+2022/11/23 18:27:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:27:03 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 18:27:03 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 18:27:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:27:03 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/11/23 18:27:03 [notice] 1#1: worker process 25 exited with code 0
+2022/11/23 18:27:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:32:16 [notice] 1#1: using the "epoll" event method
+2022/11/23 18:32:16 [notice] 1#1: nginx/1.20.2
+2022/11/23 18:32:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 18:32:16 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 18:32:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 18:32:16 [notice] 1#1: start worker processes
+2022/11/23 18:32:16 [notice] 1#1: start worker process 24
+2022/11/23 18:32:16 [notice] 1#1: start worker process 25
+2022/11/23 18:32:16 [notice] 1#1: start worker process 26
+2022/11/23 18:32:16 [notice] 1#1: start worker process 27
+2022/11/23 18:33:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 18:33:38 [notice] 25#25: gracefully shutting down
+2022/11/23 18:33:38 [notice] 24#24: gracefully shutting down
+2022/11/23 18:33:38 [notice] 27#27: gracefully shutting down
+2022/11/23 18:33:38 [notice] 27#27: exiting
+2022/11/23 18:33:38 [notice] 26#26: gracefully shutting down
+2022/11/23 18:33:38 [notice] 26#26: exiting
+2022/11/23 18:33:38 [notice] 24#24: exiting
+2022/11/23 18:33:38 [notice] 27#27: exit
+2022/11/23 18:33:38 [notice] 26#26: exit
+2022/11/23 18:33:38 [notice] 24#24: exit
+2022/11/23 18:33:38 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/11/23 18:33:38 [notice] 1#1: worker process 27 exited with code 0
+2022/11/23 18:33:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:33:38 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/11/23 18:33:38 [notice] 1#1: worker process 24 exited with code 0
+2022/11/23 18:33:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:33:38 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 18:33:38 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 18:33:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:33:56 [notice] 1#1: using the "epoll" event method
+2022/11/23 18:33:56 [notice] 1#1: nginx/1.20.2
+2022/11/23 18:33:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 18:33:56 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 18:33:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 18:33:56 [notice] 1#1: start worker processes
+2022/11/23 18:33:56 [notice] 1#1: start worker process 24
+2022/11/23 18:33:56 [notice] 1#1: start worker process 25
+2022/11/23 18:33:56 [notice] 1#1: start worker process 26
+2022/11/23 18:33:56 [notice] 1#1: start worker process 27
+2022/11/23 18:37:20 [error] 24#24: *6 open() "/var/www/html/private/style.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/register.php"
+2022/11/23 18:38:10 [error] 24#24: *6 open() "/var/www/html/private/style.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/register.php"
+2022/11/23 18:38:10 [error] 24#24: *6 open() "/var/www/html/private/style.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/register.php"
+2022/11/23 18:38:10 [error] 24#24: *6 open() "/var/www/html/private/style.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/register.php"
+2022/11/23 18:38:11 [error] 24#24: *6 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 18:38:12 [error] 24#24: *6 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 18:38:14 [error] 24#24: *6 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:38:14 [error] 24#24: *6 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:38:16 [error] 24#24: *6 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:38:18 [error] 24#24: *6 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:38:20 [error] 24#24: *6 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:38:24 [error] 24#24: *6 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 18:38:38 [error] 24#24: *6 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:38:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 18:38:53 [notice] 27#27: gracefully shutting down
+2022/11/23 18:38:53 [notice] 24#24: gracefully shutting down
+2022/11/23 18:38:53 [notice] 25#25: gracefully shutting down
+2022/11/23 18:38:53 [notice] 26#26: gracefully shutting down
+2022/11/23 18:38:53 [notice] 27#27: exiting
+2022/11/23 18:38:53 [notice] 27#27: exit
+2022/11/23 18:38:53 [notice] 25#25: exiting
+2022/11/23 18:38:53 [notice] 25#25: exit
+2022/11/23 18:38:53 [notice] 26#26: exiting
+2022/11/23 18:38:53 [notice] 26#26: exit
+2022/11/23 18:38:53 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/11/23 18:38:53 [notice] 1#1: worker process 27 exited with code 0
+2022/11/23 18:38:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:38:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/11/23 18:38:53 [notice] 1#1: worker process 25 exited with code 0
+2022/11/23 18:38:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:38:53 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 18:38:53 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 18:38:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:39:10 [notice] 1#1: using the "epoll" event method
+2022/11/23 18:39:10 [notice] 1#1: nginx/1.20.2
+2022/11/23 18:39:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 18:39:10 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 18:39:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 18:39:10 [notice] 1#1: start worker processes
+2022/11/23 18:39:10 [notice] 1#1: start worker process 24
+2022/11/23 18:39:10 [notice] 1#1: start worker process 25
+2022/11/23 18:39:10 [notice] 1#1: start worker process 26
+2022/11/23 18:39:10 [notice] 1#1: start worker process 27
+2022/11/23 18:39:16 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.26.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:39:18 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.26.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:46:27 [error] 24#24: *7 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.26.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:46:47 [error] 24#24: *7 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.26.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:48:34 [error] 24#24: *11 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.26.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/11/23 18:48:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 18:48:37 [notice] 27#27: gracefully shutting down
+2022/11/23 18:48:37 [notice] 27#27: exiting
+2022/11/23 18:48:37 [notice] 26#26: gracefully shutting down
+2022/11/23 18:48:37 [notice] 26#26: exiting
+2022/11/23 18:48:37 [notice] 25#25: gracefully shutting down
+2022/11/23 18:48:37 [notice] 25#25: exiting
+2022/11/23 18:48:37 [notice] 24#24: gracefully shutting down
+2022/11/23 18:48:37 [notice] 27#27: exit
+2022/11/23 18:48:37 [notice] 26#26: exit
+2022/11/23 18:48:37 [notice] 25#25: exit
+2022/11/23 18:48:37 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 18:48:37 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 18:48:37 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/11/23 18:48:37 [notice] 1#1: worker process 27 exited with code 0
+2022/11/23 18:48:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:48:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:48:37 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/11/23 18:48:37 [notice] 1#1: worker process 25 exited with code 0
+2022/11/23 18:48:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 18:49:40 [emerg] 1#1: unexpected "}" in /etc/nginx/conf.d/default.conf:15
+2022/11/23 18:49:58 [notice] 1#1: using the "epoll" event method
+2022/11/23 18:49:58 [notice] 1#1: nginx/1.20.2
+2022/11/23 18:49:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 18:49:58 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 18:49:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 18:49:58 [notice] 1#1: start worker processes
+2022/11/23 18:49:58 [notice] 1#1: start worker process 24
+2022/11/23 18:49:58 [notice] 1#1: start worker process 25
+2022/11/23 18:49:58 [notice] 1#1: start worker process 26
+2022/11/23 18:49:58 [notice] 1#1: start worker process 27
+2022/11/23 20:09:09 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:09:12 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:09:33 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:09:34 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:09:35 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:09:56 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:02 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:02 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:03 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:03 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:03 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:25 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:30 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:31 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:31 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:32 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:32 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:32 [error] 24#24: *1 "/var/www/html/index.php" is not found (2: No such file or directory), client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 20:10:34 [notice] 24#24: gracefully shutting down
+2022/11/23 20:10:34 [notice] 25#25: gracefully shutting down
+2022/11/23 20:10:34 [notice] 27#27: gracefully shutting down
+2022/11/23 20:10:34 [notice] 27#27: exiting
+2022/11/23 20:10:34 [notice] 26#26: gracefully shutting down
+2022/11/23 20:10:34 [notice] 26#26: exiting
+2022/11/23 20:10:34 [notice] 24#24: exiting
+2022/11/23 20:10:34 [notice] 27#27: exit
+2022/11/23 20:10:34 [notice] 26#26: exit
+2022/11/23 20:10:34 [notice] 24#24: exit
+2022/11/23 20:10:34 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 20:10:34 [notice] 1#1: worker process 24 exited with code 0
+2022/11/23 20:10:34 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 20:10:34 [notice] 1#1: worker process 27 exited with code 0
+2022/11/23 20:10:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:10:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/11/23 20:10:50 [notice] 1#1: using the "epoll" event method
+2022/11/23 20:10:50 [notice] 1#1: nginx/1.20.2
+2022/11/23 20:10:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 20:10:50 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 20:10:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 20:10:50 [notice] 1#1: start worker processes
+2022/11/23 20:10:50 [notice] 1#1: start worker process 24
+2022/11/23 20:10:50 [notice] 1#1: start worker process 25
+2022/11/23 20:10:50 [notice] 1#1: start worker process 26
+2022/11/23 20:10:50 [notice] 1#1: start worker process 27
+2022/11/23 20:10:52 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:54 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:55 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:10:57 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:11:00 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:11:10 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:11:11 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:11:36 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:11:36 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:11:36 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:11:37 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:12:00 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:12:00 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:12:00 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:12:00 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:12:01 [error] 24#24: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:13:53 [error] 24#24: *4 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:13:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 20:13:56 [notice] 26#26: gracefully shutting down
+2022/11/23 20:13:56 [notice] 26#26: exiting
+2022/11/23 20:13:56 [notice] 27#27: gracefully shutting down
+2022/11/23 20:13:56 [notice] 27#27: exiting
+2022/11/23 20:13:56 [notice] 25#25: gracefully shutting down
+2022/11/23 20:13:56 [notice] 24#24: gracefully shutting down
+2022/11/23 20:13:56 [notice] 26#26: exit
+2022/11/23 20:13:56 [notice] 27#27: exit
+2022/11/23 20:13:56 [notice] 24#24: exiting
+2022/11/23 20:13:56 [notice] 24#24: exit
+2022/11/23 20:13:56 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 20:13:56 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 20:13:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:13:56 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/11/23 20:13:56 [notice] 1#1: worker process 27 exited with code 0
+2022/11/23 20:13:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:13:56 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/11/23 20:13:56 [notice] 1#1: worker process 24 exited with code 0
+2022/11/23 20:13:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:14:25 [emerg] 1#1: invalid number of arguments in "root" directive in /etc/nginx/conf.d/default.conf:24
+2022/11/23 20:15:01 [notice] 1#1: using the "epoll" event method
+2022/11/23 20:15:01 [notice] 1#1: nginx/1.20.2
+2022/11/23 20:15:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 20:15:01 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 20:15:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 20:15:01 [notice] 1#1: start worker processes
+2022/11/23 20:15:01 [notice] 1#1: start worker process 23
+2022/11/23 20:15:01 [notice] 1#1: start worker process 24
+2022/11/23 20:15:01 [notice] 1#1: start worker process 25
+2022/11/23 20:15:01 [notice] 1#1: start worker process 26
+2022/11/23 20:15:11 [error] 23#23: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.29.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:15:13 [error] 23#23: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.29.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:15:21 [error] 23#23: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.29.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:15:45 [error] 23#23: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.29.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:16:20 [error] 23#23: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 172.29.0.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:21:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 20:21:41 [notice] 23#23: gracefully shutting down
+2022/11/23 20:21:41 [notice] 24#24: gracefully shutting down
+2022/11/23 20:21:41 [notice] 25#25: gracefully shutting down
+2022/11/23 20:21:41 [notice] 25#25: exiting
+2022/11/23 20:21:41 [notice] 26#26: gracefully shutting down
+2022/11/23 20:21:41 [notice] 24#24: exiting
+2022/11/23 20:21:41 [notice] 25#25: exit
+2022/11/23 20:21:41 [notice] 26#26: exiting
+2022/11/23 20:21:41 [notice] 24#24: exit
+2022/11/23 20:21:41 [notice] 26#26: exit
+2022/11/23 20:21:42 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/11/23 20:21:42 [notice] 1#1: worker process 25 exited with code 0
+2022/11/23 20:21:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:21:42 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 20:21:42 [notice] 1#1: worker process 24 exited with code 0
+2022/11/23 20:21:42 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 20:21:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:21:58 [notice] 1#1: using the "epoll" event method
+2022/11/23 20:21:58 [notice] 1#1: nginx/1.20.2
+2022/11/23 20:21:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 20:21:58 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 20:21:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 20:21:58 [notice] 1#1: start worker processes
+2022/11/23 20:21:58 [notice] 1#1: start worker process 24
+2022/11/23 20:21:58 [notice] 1#1: start worker process 25
+2022/11/23 20:21:58 [notice] 1#1: start worker process 26
+2022/11/23 20:21:58 [notice] 1#1: start worker process 27
+2022/11/23 20:22:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 20:22:41 [notice] 24#24: gracefully shutting down
+2022/11/23 20:22:41 [notice] 26#26: gracefully shutting down
+2022/11/23 20:22:41 [notice] 26#26: exiting
+2022/11/23 20:22:41 [notice] 27#27: gracefully shutting down
+2022/11/23 20:22:41 [notice] 25#25: gracefully shutting down
+2022/11/23 20:22:41 [notice] 26#26: exit
+2022/11/23 20:22:41 [notice] 27#27: exiting
+2022/11/23 20:22:41 [notice] 25#25: exiting
+2022/11/23 20:22:41 [notice] 27#27: exit
+2022/11/23 20:22:41 [notice] 25#25: exit
+2022/11/23 20:22:41 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 20:22:41 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 20:22:41 [notice] 1#1: worker process 27 exited with code 0
+2022/11/23 20:22:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:22:41 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/11/23 20:22:41 [notice] 1#1: worker process 25 exited with code 0
+2022/11/23 20:22:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:22:57 [notice] 1#1: using the "epoll" event method
+2022/11/23 20:22:57 [notice] 1#1: nginx/1.20.2
+2022/11/23 20:22:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 20:22:57 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 20:22:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 20:22:57 [notice] 1#1: start worker processes
+2022/11/23 20:22:57 [notice] 1#1: start worker process 24
+2022/11/23 20:22:57 [notice] 1#1: start worker process 25
+2022/11/23 20:22:57 [notice] 1#1: start worker process 26
+2022/11/23 20:22:57 [notice] 1#1: start worker process 27
+2022/11/23 20:23:00 [error] 24#24: *1 "/var/www/html/public/index.html" is not found (2: No such file or directory), client: 172.31.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:23:01 [error] 24#24: *1 "/var/www/html/public/index.html" is not found (2: No such file or directory), client: 172.31.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:23:38 [error] 24#24: *1 "/var/www/html/public/index.html" is not found (2: No such file or directory), client: 172.31.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:24:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 20:24:39 [notice] 25#25: gracefully shutting down
+2022/11/23 20:24:39 [notice] 25#25: exiting
+2022/11/23 20:24:39 [notice] 27#27: gracefully shutting down
+2022/11/23 20:24:39 [notice] 26#26: gracefully shutting down
+2022/11/23 20:24:39 [notice] 26#26: exiting
+2022/11/23 20:24:39 [notice] 24#24: gracefully shutting down
+2022/11/23 20:24:39 [notice] 25#25: exit
+2022/11/23 20:24:39 [notice] 27#27: exiting
+2022/11/23 20:24:39 [notice] 26#26: exit
+2022/11/23 20:24:39 [notice] 24#24: exiting
+2022/11/23 20:24:39 [notice] 24#24: exit
+2022/11/23 20:24:39 [notice] 27#27: exit
+2022/11/23 20:24:39 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/11/23 20:24:39 [notice] 1#1: worker process 24 exited with code 0
+2022/11/23 20:24:39 [notice] 1#1: worker process 25 exited with code 0
+2022/11/23 20:24:39 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 20:24:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:24:39 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/11/23 20:24:39 [notice] 1#1: worker process 27 exited with code 0
+2022/11/23 20:24:39 [notice] 1#1: exit
+2022/11/23 20:24:45 [emerg] 1#1: directive "index" is not terminated by ";" in /etc/nginx/conf.d/default.conf:9
+2022/11/23 20:25:03 [notice] 1#1: using the "epoll" event method
+2022/11/23 20:25:03 [notice] 1#1: nginx/1.20.2
+2022/11/23 20:25:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 20:25:03 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 20:25:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 20:25:03 [notice] 1#1: start worker processes
+2022/11/23 20:25:03 [notice] 1#1: start worker process 24
+2022/11/23 20:25:03 [notice] 1#1: start worker process 25
+2022/11/23 20:25:03 [notice] 1#1: start worker process 26
+2022/11/23 20:25:03 [notice] 1#1: start worker process 27
+2022/11/23 20:25:04 [error] 24#24: *1 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:25:05 [error] 24#24: *1 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:25:22 [error] 24#24: *1 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:26:37 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:05 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:06 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:07 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:09 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:09 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:09 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:11 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:11 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:11 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:11 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:11 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:12 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:12 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:12 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:12 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:18 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:18 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:19 [error] 24#24: *3 "/etc/nginx/html/index.php" is not found (2: No such file or directory), client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2022/11/23 20:27:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 20:27:20 [notice] 27#27: gracefully shutting down
+2022/11/23 20:27:20 [notice] 25#25: gracefully shutting down
+2022/11/23 20:27:20 [notice] 25#25: exiting
+2022/11/23 20:27:20 [notice] 26#26: gracefully shutting down
+2022/11/23 20:27:20 [notice] 24#24: gracefully shutting down
+2022/11/23 20:27:20 [notice] 27#27: exiting
+2022/11/23 20:27:20 [notice] 27#27: exit
+2022/11/23 20:27:20 [notice] 25#25: exit
+2022/11/23 20:27:20 [notice] 26#26: exiting
+2022/11/23 20:27:20 [notice] 26#26: exit
+2022/11/23 20:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/11/23 20:27:21 [notice] 1#1: worker process 27 exited with code 0
+2022/11/23 20:27:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 20:27:21 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 20:27:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/11/23 20:27:21 [notice] 1#1: worker process 25 exited with code 0
+2022/11/23 20:27:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:28:18 [notice] 1#1: using the "epoll" event method
+2022/11/23 20:28:18 [notice] 1#1: nginx/1.20.2
+2022/11/23 20:28:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 20:28:18 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 20:28:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 20:28:18 [notice] 1#1: start worker processes
+2022/11/23 20:28:18 [notice] 1#1: start worker process 24
+2022/11/23 20:28:18 [notice] 1#1: start worker process 25
+2022/11/23 20:28:18 [notice] 1#1: start worker process 26
+2022/11/23 20:28:18 [notice] 1#1: start worker process 27
+2022/11/23 20:30:46 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:30:48 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:30:59 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:31:01 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:31:01 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:31:01 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:31:02 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:31:02 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:31:06 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:31:06 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:31:06 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:31:06 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:31:07 [error] 24#24: *1 open() "/var/www/html/private/private/css/auth.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /private/css/auth.css HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/11/23 20:35:07 [error] 24#24: *1 open() "/var/www/html/private/style.css" failed (2: No such file or directory), client: 192.168.16.1, server: localhost, request: "GET /style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/register.php"
+2022/11/23 20:56:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 20:56:36 [notice] 24#24: gracefully shutting down
+2022/11/23 20:56:36 [notice] 25#25: gracefully shutting down
+2022/11/23 20:56:36 [notice] 26#26: gracefully shutting down
+2022/11/23 20:56:36 [notice] 27#27: gracefully shutting down
+2022/11/23 20:56:36 [notice] 27#27: exiting
+2022/11/23 20:56:36 [notice] 24#24: exiting
+2022/11/23 20:56:36 [notice] 25#25: exiting
+2022/11/23 20:56:36 [notice] 26#26: exiting
+2022/11/23 20:56:36 [notice] 27#27: exit
+2022/11/23 20:56:36 [notice] 24#24: exit
+2022/11/23 20:56:36 [notice] 25#25: exit
+2022/11/23 20:56:36 [notice] 26#26: exit
+2022/11/23 20:56:36 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/11/23 20:56:36 [notice] 1#1: worker process 24 exited with code 0
+2022/11/23 20:56:36 [notice] 1#1: worker process 27 exited with code 0
+2022/11/23 20:56:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:56:36 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 20:56:36 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 20:56:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:56:36 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/11/23 20:56:36 [notice] 1#1: worker process 25 exited with code 0
+2022/11/23 20:56:36 [notice] 1#1: exit
+2022/11/23 20:56:42 [notice] 1#1: using the "epoll" event method
+2022/11/23 20:56:42 [notice] 1#1: nginx/1.20.2
+2022/11/23 20:56:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 20:56:42 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 20:56:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 20:56:42 [notice] 1#1: start worker processes
+2022/11/23 20:56:42 [notice] 1#1: start worker process 23
+2022/11/23 20:56:42 [notice] 1#1: start worker process 24
+2022/11/23 20:56:42 [notice] 1#1: start worker process 25
+2022/11/23 20:56:42 [notice] 1#1: start worker process 26
+2022/11/23 20:57:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/23 20:57:48 [notice] 23#23: gracefully shutting down
+2022/11/23 20:57:48 [notice] 24#24: gracefully shutting down
+2022/11/23 20:57:48 [notice] 24#24: exiting
+2022/11/23 20:57:48 [notice] 25#25: gracefully shutting down
+2022/11/23 20:57:48 [notice] 26#26: gracefully shutting down
+2022/11/23 20:57:48 [notice] 24#24: exit
+2022/11/23 20:57:48 [notice] 25#25: exiting
+2022/11/23 20:57:48 [notice] 25#25: exit
+2022/11/23 20:57:48 [notice] 26#26: exiting
+2022/11/23 20:57:48 [notice] 26#26: exit
+2022/11/23 20:57:48 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/11/23 20:57:48 [notice] 1#1: worker process 24 exited with code 0
+2022/11/23 20:57:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:57:48 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/11/23 20:57:48 [notice] 1#1: worker process 25 exited with code 0
+2022/11/23 20:57:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:57:48 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/23 20:57:48 [notice] 1#1: worker process 26 exited with code 0
+2022/11/23 20:57:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/23 20:58:07 [emerg] 1#1: unknown directive "RewriteCond" in /etc/nginx/conf.d/default.conf:27
+2022/11/23 21:01:33 [notice] 1#1: using the "epoll" event method
+2022/11/23 21:01:33 [notice] 1#1: nginx/1.20.2
+2022/11/23 21:01:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/23 21:01:33 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/23 21:01:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/23 21:01:33 [notice] 1#1: start worker processes
+2022/11/23 21:01:33 [notice] 1#1: start worker process 24
+2022/11/23 21:01:33 [notice] 1#1: start worker process 25
+2022/11/23 21:01:33 [notice] 1#1: start worker process 26
+2022/11/23 21:01:33 [notice] 1#1: start worker process 27
