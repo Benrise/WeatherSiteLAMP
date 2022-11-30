@@ -6,7 +6,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 # Синхронизируем и обновляем пакеты
 RUN apt-get -y update --fix-missing && \
     apt-get upgrade -y && \
-    apt-get --no-install-recommends install -y apt-utils && \
+    apt-get --no-install-recommends install -y apt-utils libaprutil1-dbd-mysql && \
     rm -rf /var/lib/apt/lists/*
 
 # Устанавливаем нужные инстурменты и важные библиотеки для работы
