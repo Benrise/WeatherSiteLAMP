@@ -14,7 +14,7 @@ services:
       - database
     volumes:
       #  Монтируем директорию с php-скриптом внутрь контейнера
-      - ./www/public/:/var/www/html/publicпше
+      - ./www:/var/www/html
       #  Монтируем файл конфигурации php.ini внутрь контейнера
       - ./config/php/php.ini:/usr/local/etc/php/php.ini
       #  Монтируем файл конфигурации Apache2 внутрь контейнерa
@@ -73,6 +73,6 @@ services:
     volumes:
       - ./config/nginx/default.conf:/etc/nginx/conf.d/default.conf
       - ./logs/nginx:/var/log/nginx
-      - ./www/private:/var/www/html/private
+      - ./www:/var/www/html
     depends_on:
       - apache

@@ -11,9 +11,16 @@ $password_confirm = $_POST['password_confirm'];
 
 if ($password === $password_confirm) {
 
+    $path = './uploads/' . time() . $_FILES['avatar']['name'];
+    if (!move_uploaded_file($_FILES['avatar']['tmp_name'], '../' . $path)) {
+        $_SESSION['message'] = 'Ошибка при загрузке сообщения';
+        header('Location: ../register.php');
+    }
+
     $password = md5($password);
 
-    mysqli_query($GLOBALS['connect'], "INSERT INTO `users` (`id`, `full_name`, `login`, `email`, `password`) VALUES (NULL, '$full_name', '$login', '$email', '$password')");
+
+    mysqli_query($connect, "INSERT INTO `users` (`id`, `full_name`, `login`, `email`, `password`, `avatar`) VALUES (NULL, '$full_name', '$login', '$email', '$password', '$path')");
 
     $_SESSION['message'] = 'Регистрация прошла успешно!';
     header('Location: ../profile.php');
