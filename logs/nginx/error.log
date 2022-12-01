@@ -5720,3 +5720,36 @@
 2022/11/30 17:54:22 [notice] 1#1: start worker process 26
 2022/11/30 17:54:22 [notice] 1#1: start worker process 27
 2022/11/30 18:18:51 [error] 24#24: *75 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 172.31.0.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
+2022/11/30 23:15:52 [error] 24#24: *201 client intended to send too large body: 1930519 bytes, client: 172.31.0.1, server: localhost, request: "POST /authentication/signup.php HTTP/1.1", host: "localhost", referrer: "http://localhost/register.php"
+2022/11/30 23:17:14 [error] 24#24: *203 client intended to send too large body: 1930519 bytes, client: 172.31.0.1, server: localhost, request: "POST /authentication/signup.php HTTP/1.1", host: "localhost", referrer: "http://localhost/register.php"
+2022/11/30 23:17:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/11/30 23:17:44 [notice] 24#24: gracefully shutting down
+2022/11/30 23:17:44 [notice] 25#25: gracefully shutting down
+2022/11/30 23:17:44 [notice] 25#25: exiting
+2022/11/30 23:17:44 [notice] 26#26: gracefully shutting down
+2022/11/30 23:17:44 [notice] 27#27: gracefully shutting down
+2022/11/30 23:17:44 [notice] 27#27: exiting
+2022/11/30 23:17:44 [notice] 25#25: exit
+2022/11/30 23:17:44 [notice] 26#26: exiting
+2022/11/30 23:17:44 [notice] 27#27: exit
+2022/11/30 23:17:44 [notice] 26#26: exit
+2022/11/30 23:17:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/11/30 23:17:44 [notice] 1#1: worker process 26 exited with code 0
+2022/11/30 23:17:44 [notice] 1#1: worker process 27 exited with code 0
+2022/11/30 23:17:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/30 23:17:44 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/11/30 23:17:44 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/11/30 23:17:44 [notice] 1#1: worker process 25 exited with code 0
+2022/11/30 23:17:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/11/30 23:18:13 [notice] 1#1: using the "epoll" event method
+2022/11/30 23:18:13 [notice] 1#1: nginx/1.20.2
+2022/11/30 23:18:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/11/30 23:18:13 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/11/30 23:18:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/11/30 23:18:13 [notice] 1#1: start worker processes
+2022/11/30 23:18:13 [notice] 1#1: start worker process 24
+2022/11/30 23:18:13 [notice] 1#1: start worker process 25
+2022/11/30 23:18:13 [notice] 1#1: start worker process 26
+2022/11/30 23:18:13 [notice] 1#1: start worker process 27
+2022/11/30 23:18:49 [warn] 24#24: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 192.168.0.1, server: localhost, request: "POST /authentication/signup.php HTTP/1.1", host: "localhost", referrer: "http://localhost/register.php"
+2022/12/01 00:28:36 [warn] 24#24: *115 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 192.168.0.1, server: localhost, request: "POST /authentication/signup.php HTTP/1.1", host: "localhost", referrer: "http://localhost/register.php"
