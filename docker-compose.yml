@@ -5,7 +5,7 @@ services:
     build: # инструкции для создания образа
       # контекст (путь к каталогу, содержащему Dockerfile)
       context: ./bin/php8
-    container_name: "lamp-apache"
+    container_name: apache
     restart: "always"
     ports:
       - "81:80"
@@ -33,10 +33,10 @@ services:
   database:
     build:
       context: "./bin/mysql8"
-    container_name: "lamp-mysql8"
+    container_name: mysql8
     restart: "always"
     ports:
-      - "3306:3306"
+      - "3306:80"
     volumes:
       - ./config/initdb:/docker-entrypoint-initdb.d
       - ./data/mysql:/var/lib/mysql
@@ -47,7 +47,7 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
   phpmyadmin:
     image: phpmyadmin
-    container_name: "lamp-phpmyadmin"
+    container_name: PMA
     links:
       - database
     environment:
@@ -76,3 +76,18 @@ services:
       - ./www:/var/www/html
     depends_on:
       - apache
+
+  redis:
+    container_name: redis
+    build:
+      context: "./bin/redis/"
+    hostname: redis
+    command: redis-server /usr/local/etc/redis.conf
+    ports:
+      - "6379:80"
+    volumes:
+      - ./logs/redis/redis.log:/usr/local/redis/redis.log
+      - ./data/redis:/usr/local/redis/data
+      - ./config/redis/redis.conf:/usr/local/etc/redis.conf
+    restart: always
+
