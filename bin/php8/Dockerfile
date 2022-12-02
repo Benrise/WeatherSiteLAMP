@@ -9,6 +9,9 @@ RUN apt-get -y update --fix-missing && \
     apt-get --no-install-recommends install -y apt-utils libaprutil1-dbd-mysql && \
     rm -rf /var/lib/apt/lists/*
 
+#Нам нужно установить расширение redis, иначе PHP не сможет подключиться к серверу Redis.
+RUN pecl -v install redis && docker-php-ext-enable redis
+
 # Устанавливаем нужные инстурменты и важные библиотеки для работы
 RUN apt-get -y update && \
     apt-get -y --no-install-recommends install nano wget \
