@@ -4,7 +4,7 @@ services:
   apache:
     build: # инструкции для создания образа
       # контекст (путь к каталогу, содержащему Dockerfile)
-      context: ./bin/php8
+      context: ./bin/php7
     container_name: apache
     restart: "always"
     ports:
