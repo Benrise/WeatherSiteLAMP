@@ -62,7 +62,7 @@ else{
                     <script src="./js/script.js"></script>
                     <input type ="search"  name = "search" id = "search" required placeholder="Введите город">
                     <input type="submit" value="Найти" id = "submit">
-
+                    <a  style="color:white; "  href="profile.php">Профиль</a>
                 </form>
             </div>
         </div>

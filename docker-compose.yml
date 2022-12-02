@@ -4,7 +4,7 @@ services:
   apache:
     build: # инструкции для создания образа
       # контекст (путь к каталогу, содержащему Dockerfile)
-      context: ./bin/php7
+      context: ./bin/php8
     container_name: apache
     restart: "always"
     ports:
@@ -36,7 +36,7 @@ services:
     container_name: mysql8
     restart: "always"
     ports:
-      - "3306:80"
+      - "3306:3306"
     volumes:
       - ./config/initdb:/docker-entrypoint-initdb.d
       - ./data/mysql:/var/lib/mysql
@@ -85,8 +85,8 @@ services:
     ports:
       - "6379:80"
     volumes:
-      - ./logs/redis/redis.log:/usr/local/redis/redis.log
-      - ./data/redis:/usr/local/redis/data
-      - ./config/redis/redis.conf:/usr/local/etc/redis.conf
+     - ./logs/redis/redis.log:/usr/local/redis/redis.log
+     - ./data/redis:/usr/local/redis/data
+     - ./config/redis/redis.conf:/usr/local/etc/redis.conf
     restart: always
 
