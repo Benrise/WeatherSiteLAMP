@@ -6,7 +6,6 @@ function geoSetup(){
             document.getElementById("text-input").style = 'opacity: 0.5;';
             break;
         case 2:
-            document.getElementById("submit-geo").enabled = true;
             document.getElementById("text-input").disabled = false;
             document.getElementById("text-input").style = 'opacity: 1;';
             break;

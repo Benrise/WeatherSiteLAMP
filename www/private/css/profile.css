@@ -64,8 +64,7 @@ button {
 form img {
     max-width: 350px;
 }
-
-.submit{
+#submit{
     width: 230px;
 }
 .text-input{
@@ -95,3 +94,39 @@ h3 {
     font-weight: normal;
 }
 
+.back-button {
+
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 16px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12.5px;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: top;
+    color: black;
+    background: #FFDE40	;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    overflow: hidden;
+}
+.back-button:focus-visible {
+    box-shadow: 0 -3px #FF9640 inset;
+}
+.back-button:hover {
+    opacity: 0.88;
+}
+.back-button:active {
+    line-height: 32px;
+}
+.back-button:disabled {
+    pointer-events: none;
+    opacity: 0.65;
+}
