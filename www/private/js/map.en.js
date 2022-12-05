@@ -18,7 +18,13 @@ if (!flag)
         function changeLocation()
         {
             let apiKey = "49c8e7a1210aefbd0380c4684ee65305"
-            let data = document.getElementById('search').value
+            if (getCookie('customCity') != "" && getCookie('customCity') != undefined){
+                var data = getCookie('customCity');
+                data = data.toString();
+            }
+            else{
+                var data = document.getElementById('search').value
+            }
             let url = `https://api.openweathermap.org/data/2.5/weather?q=${data}&lang=en&units=metric&appid=${apiKey}`
             fetch(url)
             .then(function(resp){return resp.json() })
@@ -39,7 +45,7 @@ if (!flag)
                             center: [latitude, longitude],
                             zoom: 12,
                             controls: []
-                        });
+                            });
                         }
 
 

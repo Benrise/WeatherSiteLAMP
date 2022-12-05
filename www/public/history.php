@@ -54,10 +54,10 @@ if (!isset($_SESSION['user'])) {
                     <a href="" class="history" onclick = "return false"> Прогноз прошлой недели</a>
                     <a href="weatherMap.php" class="map-forecast">Геокарта мира</a>
                 </div>
-                <form id="search-bar" onsubmit="return Weather(), changeLocation(), Update()" method="post">
+                <form id="search-bar" method="post">
                     <script src="./js/script.js"></script>
                     <input type ="search"  name = "search" id = "search" required placeholder="Введите город">
-                    <input type="submit" value="Найти" id = "submit">
+                    <input type="button" onclick="return Weather(), changeLocation(), Update()" value="Найти" id = "submit">
                     <a  style="color:white; "  href="profile.php">Профиль</a>
                 </form>
             </div>

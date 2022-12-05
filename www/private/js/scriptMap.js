@@ -60,25 +60,8 @@ function Search()
             document.querySelector('.day-of-week').textContent = dayOfWeek;
             document.querySelector('.month').textContent = monthYear;
 
-
-
-
-
-
-
-
-
         })
     })
-
-
-
-
-
-
-
-
-
 
     return false;
 }

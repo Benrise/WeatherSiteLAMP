@@ -8,21 +8,38 @@ if (isset($_SESSION['user'])) {
     if (isset($_POST['select-lang'])
         && isset($_POST['select-theme'])
         && isset($_POST['select-geo'])){
-        changeTheme();
-        changeLang();
+        setTheme();
+        setLang();
+        setDefaultGeo();
     }
 }
 else{
     header('Location: http://localhost/login.php');
 }
 
-function changeTheme(): void
+function setTheme(): void
 {
     $selectedTheme = $_POST['select-theme'];
     redisSet(substr_replace(session_id(),"PHPREDIS_THEME:",0, 0), $selectedTheme);
 }
 
-function changeLang(): void
+function setDefaultGeo(){
+    if (intval($_POST['select-geo'])){
+        $isCustomCity = "true";
+        $selectedCity = $_POST['input-default-geo'];
+        setcookie("isCustomCity", $isCustomCity);
+        setcookie("customCity", $selectedCity);
+
+
+    }
+    else {
+        setcookie("customCity", "");
+        setcookie("isCustomCity", "false");
+    }
+
+}
+
+function setLang(): void
 {
     global $langInProfilePages;
     // получаем язык
@@ -87,11 +104,15 @@ function changeLang(): void
             <br>
             <h3>Город для прогноза по умолчанию</h3>
             <select id="select-geo" name ="select-geo" onChange="geoSetup()";>
-                <option selected value="0" >Автоматически</option>
-                <option value="1">Ввести город</option>
+                <option <?php if(@$_COOKIE['customCity'] == 'auto') {
+                    echo "selected ";
+                }?>selected value="0" >Автоматически</option>
+                <option <?php if(@$_COOKIE['customCity'] !== 'auto') {
+                    echo "selected ";
+                }?>value="1">Ввести город</option>
             </select>
             <p>Введите город по умолчанию, для которого будет устанавливаться погода на главной странице</p>
-            <input type="text" placeholder="Введите город" value="Москва" class = "text-input" id = "text-input" size="40">
+            <input type="text" placeholder="Введите город" value="<?php echo @$_COOKIE['customCity']?>" name = "input-default-geo" class = "text-input" id = "text-input" size="40">
             <input type="submit" value="Применить" id = "submit"></p>
         </form>
     </div>

@@ -85,10 +85,9 @@ if (!isset($_COOKIE['isCustomLanguage'])){
                     <a href="history.en.php" class="history">For last 7 days</a>
                     <a href="weatherMap.en.php" class="map-forecast">Geomap</a>
                 </div>
-                <form id="search-bar" onsubmit="Weather(), changeLocation(), Update()" method="post" >
-                    <script src="./js/script.js"></script>
+                <form id="search-bar" method="post" >
                     <input type ="search"  name = "search" id = "search" required placeholder="Enter city">
-                    <input type="submit" value="Search" id = "submit">
+                    <input type="button" onclick="return Weather(), changeLocation(), Update()" value="Search" id = "submit">
                     <a  style="color:white; "  href="profile.en.php">Profile</a>
                 </form>
             </div>

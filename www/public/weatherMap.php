@@ -64,10 +64,10 @@ if (!isset($_SESSION['user'])) {
                     <a href="history.php" class="history">Прогноз прошлой недели</a>
                     <a href="" class="map-forecast" onclick="return false">Геокарта мира</a>
                 </div>
-                <form id="search-bar" onsubmit="return Search()" method="post">
+                <form id="search-bar" method="post">
                     <script src="./js/script.js"></script>
                     <input type ="search"  name = "search" id = "search" required placeholder="Введите город">
-                    <input type="submit" value="Найти" id = "submit">
+                    <input type="button" onclick="return Search()" value="Найти" id = "submit">
                     <a  style="color:white; "  href="profile.php">Профиль</a>
                 </form>
             </div>

@@ -1,4 +1,9 @@
 
+function getCookie(name) {
+    var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+
 
 
 var flag = false;
@@ -17,6 +22,9 @@ if (!flag)
 {
     function  displayLocation(position) 
     {
+        if (getCookie('customCity') == "" ^ getCookie('customCity') !== undefined){
+            return Weather(), changeLocation(), Update()
+        }
         flag = true;
         //передаем в нашу функцию объект position - этот объект содержит ширину и долготу и еще массу всяких вещей.
         latitude = position.coords.latitude; // излвекаем широту
@@ -74,10 +82,11 @@ if (!flag)
             if (flag)
             {
                 let apiKey = "49c8e7a1210aefbd0380c4684ee65305"
+
                 fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=alerts&appid=${apiKey}&lang=en`)
                 .then(function(resp){return resp.json() })
                 .then(function(data)
-                {   
+                {
                     console.log(data)
                     // погода для основого баннера
                     document.getElementById('need').innerHTML = '';
@@ -769,7 +778,7 @@ if (!flag)
             }
         }
     
-    
+
     }
     
     

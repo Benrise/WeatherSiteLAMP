@@ -1,15 +1,22 @@
 
-
 function Weather()
 {
-    let data = document.getElementById('search').value
-   
-    let failText = ""
-    if (data == "" || data == " ")
-        failText = "Введите город"
-    if (failText != "")
-        alert(failText)
-        
+
+
+    if ( (data == "" || data == " ") && getCookie('isCustomCity') ==""){
+        alert("Введите город");
+    }
+    else if(getCookie('isCustomCity') !== ""){
+        var data = getCookie("customCity");
+    }
+    else{
+        let data = document.getElementById('search').value
+    }
+
+
+
+
+
     document.querySelector('.city').textContent = data;
 
     let apiKey = "49c8e7a1210aefbd0380c4684ee65305"
