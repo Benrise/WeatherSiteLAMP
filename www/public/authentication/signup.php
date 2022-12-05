@@ -8,6 +8,8 @@ $login = $_POST['login'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 $password_confirm = $_POST['password_confirm'];
+$userTheme = substr_replace(session_id(),"PHPREDIS_THEME:",0, 0);
+redisSet($userTheme, "sky-theme.css");
 
 if ($password === $password_confirm) {
 
@@ -22,7 +24,7 @@ if ($password === $password_confirm) {
 
     mysqli_query($connect, "INSERT INTO `users` (`id`, `full_name`, `login`, `email`, `password`, `avatar`) VALUES (NULL, '$full_name', '$login', '$email', '$password', '$path')");
 
-    $_SESSION['message'] = 'Регистрация прошла успешно!';
+    $_SESSION['message'] = 'Регистрация прошла успешно! Теперь вам доступны настройки сайта! Взгляните на фон страницы!';
     header('Location: ../profile.php');
 
 

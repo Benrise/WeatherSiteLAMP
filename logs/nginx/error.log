@@ -8341,3 +8341,382 @@
 2022/12/03 15:41:25 [notice] 1#1: start worker process 24
 2022/12/03 15:41:25 [notice] 1#1: start worker process 25
 2022/12/03 15:41:25 [notice] 1#1: start worker process 26
+2022/12/04 17:10:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/04 17:10:52 [notice] 23#23: gracefully shutting down
+2022/12/04 17:10:52 [notice] 25#25: gracefully shutting down
+2022/12/04 17:10:52 [notice] 25#25: exiting
+2022/12/04 17:10:52 [notice] 24#24: gracefully shutting down
+2022/12/04 17:10:52 [notice] 26#26: gracefully shutting down
+2022/12/04 17:10:52 [notice] 26#26: exiting
+2022/12/04 17:10:52 [notice] 23#23: exiting
+2022/12/04 17:10:52 [notice] 25#25: exit
+2022/12/04 17:10:52 [notice] 24#24: exiting
+2022/12/04 17:10:52 [notice] 26#26: exit
+2022/12/04 17:10:52 [notice] 23#23: exit
+2022/12/04 17:10:52 [notice] 24#24: exit
+2022/12/04 17:10:52 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/04 17:10:52 [notice] 1#1: worker process 23 exited with code 0
+2022/12/04 17:10:52 [notice] 1#1: worker process 25 exited with code 0
+2022/12/04 17:10:52 [notice] 1#1: worker process 26 exited with code 0
+2022/12/04 17:10:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/04 17:10:52 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/04 17:10:52 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/04 17:10:52 [notice] 1#1: worker process 24 exited with code 0
+2022/12/04 17:10:52 [notice] 1#1: exit
+2022/12/04 17:11:06 [notice] 1#1: using the "epoll" event method
+2022/12/04 17:11:06 [notice] 1#1: nginx/1.20.2
+2022/12/04 17:11:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/04 17:11:06 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/12/04 17:11:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/04 17:11:06 [notice] 1#1: start worker processes
+2022/12/04 17:11:06 [notice] 1#1: start worker process 24
+2022/12/04 17:11:06 [notice] 1#1: start worker process 25
+2022/12/04 17:11:06 [notice] 1#1: start worker process 26
+2022/12/04 17:11:06 [notice] 1#1: start worker process 27
+2022/12/04 20:29:03 [error] 24#24: *694 open() "/var/www/html/private/resources/themes.css.phf" failed (2: No such file or directory), client: 192.168.144.1, server: localhost, request: "GET /resources/themes.css.phf HTTP/1.1", host: "localhost"
+2022/12/04 20:34:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/04 20:34:59 [notice] 24#24: gracefully shutting down
+2022/12/04 20:34:59 [notice] 27#27: gracefully shutting down
+2022/12/04 20:34:59 [notice] 25#25: gracefully shutting down
+2022/12/04 20:34:59 [notice] 26#26: gracefully shutting down
+2022/12/04 20:34:59 [notice] 26#26: exiting
+2022/12/04 20:34:59 [notice] 24#24: exiting
+2022/12/04 20:34:59 [notice] 27#27: exiting
+2022/12/04 20:34:59 [notice] 27#27: exit
+2022/12/04 20:34:59 [notice] 25#25: exiting
+2022/12/04 20:34:59 [notice] 25#25: exit
+2022/12/04 20:34:59 [notice] 26#26: exit
+2022/12/04 20:34:59 [notice] 24#24: exit
+2022/12/04 20:34:59 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/04 20:34:59 [notice] 1#1: worker process 27 exited with code 0
+2022/12/04 20:34:59 [notice] 1#1: worker process 25 exited with code 0
+2022/12/04 20:34:59 [notice] 1#1: worker process 26 exited with code 0
+2022/12/04 20:34:59 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/04 20:34:59 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/04 20:34:59 [notice] 1#1: worker process 24 exited with code 0
+2022/12/04 20:34:59 [notice] 1#1: exit
+2022/12/04 20:35:10 [notice] 1#1: using the "epoll" event method
+2022/12/04 20:35:10 [notice] 1#1: nginx/1.20.2
+2022/12/04 20:35:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/04 20:35:10 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/12/04 20:35:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/04 20:35:10 [notice] 1#1: start worker processes
+2022/12/04 20:35:10 [notice] 1#1: start worker process 24
+2022/12/04 20:35:10 [notice] 1#1: start worker process 25
+2022/12/04 20:35:10 [notice] 1#1: start worker process 26
+2022/12/04 20:35:10 [notice] 1#1: start worker process 27
+2022/12/04 20:35:27 [error] 24#24: *1 open() "/var/www/html/private/nigga.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /nigga.css HTTP/1.1", host: "localhost"
+2022/12/04 20:35:45 [error] 24#24: *1 open() "/var/www/html/private/nigga.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /nigga.css HTTP/1.1", host: "localhost"
+2022/12/04 20:35:46 [error] 24#24: *1 open() "/var/www/html/private/nigga.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /nigga.css HTTP/1.1", host: "localhost"
+2022/12/04 20:35:46 [error] 24#24: *1 open() "/var/www/html/private/nigga.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /nigga.css HTTP/1.1", host: "localhost"
+2022/12/04 20:54:05 [error] 24#24: *39 open() "/var/www/html/private/bluesky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /bluesky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:54:07 [error] 24#24: *38 open() "/var/www/html/private/bluesky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /bluesky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:54:09 [error] 24#24: *38 open() "/var/www/html/private/bluesky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /bluesky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:54:33 [error] 24#24: *38 open() "/var/www/html/private/bluesky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /bluesky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:54:36 [error] 24#24: *38 open() "/var/www/html/private/bluesky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /bluesky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:54:40 [error] 24#24: *38 open() "/var/www/html/private/bluesky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /bluesky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:58:50 [error] 24#24: *52 open() "/var/www/html/private/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:58:53 [error] 24#24: *52 open() "/var/www/html/private/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:59:34 [error] 24#24: *52 open() "/var/www/html/private/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:59:40 [error] 24#24: *52 open() "/var/www/html/private/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:59:52 [error] 24#24: *52 open() "/var/www/html/private/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 20:59:58 [error] 24#24: *52 open() "/var/www/html/private/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:00:15 [error] 24#24: *52 open() "/var/www/html/private/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:00:19 [error] 25#25: *60 open() "/var/www/html/private/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/04 21:00:38 [error] 25#25: *60 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:00:40 [error] 25#25: *60 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:00:43 [error] 25#25: *60 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/04 21:01:04 [error] 25#25: *60 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/04 21:01:35 [error] 25#25: *60 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:01:40 [error] 25#25: *60 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/04 21:01:45 [error] 25#25: *60 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/04 21:01:47 [error] 25#25: *60 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/04 21:04:26 [error] 24#24: *81 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:04:28 [error] 24#24: *81 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:04:37 [error] 24#24: *81 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:04:39 [error] 24#24: *81 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:04:42 [error] 24#24: *81 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:05:02 [error] 24#24: *81 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:05:04 [error] 24#24: *81 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:05:09 [error] 24#24: *81 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:10:48 [error] 24#24: *100 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:16:58 [error] 24#24: *106 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:17:04 [error] 24#24: *106 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:18:42 [error] 25#25: *113 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:18:46 [error] 25#25: *112 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:20:42 [error] 24#24: *117 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:20:46 [error] 24#24: *118 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:23:23 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:23:48 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:23:58 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:24:32 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:24:34 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:24:53 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:25:14 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:25:16 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:25:18 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:25:29 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:25:30 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:25:33 [error] 24#24: *124 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:27:24 [error] 24#24: *148 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:27:27 [error] 24#24: *148 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:27:46 [error] 24#24: *148 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:27:51 [error] 24#24: *148 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:28:19 [error] 24#24: *148 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:28:23 [error] 24#24: *148 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:28:32 [error] 24#24: *161 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:28:42 [error] 24#24: *161 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:28:49 [error] 24#24: *161 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:28:53 [error] 24#24: *161 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:28:58 [error] 25#25: *163 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:29:28 [error] 25#25: *163 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:29:29 [error] 25#25: *163 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:36:26 [error] 24#24: *198 open() "/var/www/html/private/css/2" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/2 HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:36:56 [error] 25#25: *201 open() "/var/www/html/private/css/2" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/2 HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:37:20 [error] 24#24: *198 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:37:29 [error] 25#25: *201 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:37:53 [error] 24#24: *198 open() "/var/www/html/private/css/2" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/2 HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:38:02 [error] 24#24: *198 open() "/var/www/html/private/css/2" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/2 HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:39:57 [error] 25#25: *220 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:39:59 [error] 25#25: *220 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:40:03 [error] 25#25: *219 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:40:24 [error] 26#26: *226 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:40:31 [error] 26#26: *226 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:40:33 [error] 24#24: *234 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:40:34 [error] 24#24: *234 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:40:38 [error] 24#24: *234 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:40:41 [error] 24#24: *234 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 21:40:51 [error] 24#24: *234 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:14:43 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:15:14 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:15:35 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:15:39 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:15:47 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:16:02 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:16:04 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:16:19 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:16:20 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:16:20 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:16:20 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:17:03 [error] 24#24: *249 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:20:20 [error] 24#24: *278 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:21:12 [error] 24#24: *278 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:21:17 [error] 24#24: *278 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:21:22 [error] 24#24: *278 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:22:05 [error] 24#24: *278 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:22:30 [error] 24#24: *278 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/04 22:27:06 [error] 25#25: *289 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 07:45:36 [error] 24#24: *295 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 07:46:22 [error] 26#26: *303 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 07:48:36 [error] 25#25: *307 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 07:48:37 [error] 25#25: *307 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 07:48:43 [error] 25#25: *307 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 10:32:08 [error] 24#24: *426 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 11:41:01 [error] 24#24: *510 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 11:41:06 [error] 25#25: *511 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 11:42:09 [error] 25#25: *511 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 11:43:09 [error] 25#25: *511 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 11:43:12 [error] 25#25: *511 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 11:43:34 [error] 25#25: *511 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 11:48:19 [error] 25#25: *541 open() "/var/www/html/private/connect.db" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /connect.db HTTP/1.1", host: "localhost"
+2022/12/05 11:50:44 [error] 25#25: *541 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 11:54:58 [error] 24#24: *561 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 11:55:11 [error] 24#24: *562 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 11:57:06 [error] 24#24: *562 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:04:41 [error] 24#24: *583 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:04:45 [error] 24#24: *583 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:05:04 [error] 24#24: *583 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:05:05 [error] 24#24: *583 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:05:05 [error] 24#24: *583 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:05:08 [error] 24#24: *583 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:06:14 [error] 25#25: *597 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:06:14 [error] 25#25: *597 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.160.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:07:16 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:07:21 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:07:23 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:07:29 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:07:32 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:07:49 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:08:03 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 12:08:05 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:14 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:36 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:36 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:36 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:36 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:37 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:37 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:37 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:37 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:38 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:38 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:39 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:39 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:39 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:39 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:39 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:39 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:39 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:40 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:40 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:40 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:41 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:41 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:41 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:41 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:41 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:41 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:42 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:42 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:42 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:43 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:43 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:43 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:08:43 [error] 25#25: *597 open() "/var/www/html/private/css/sky-theme.css" failed (2: No such file or directory), client: 192.168.160.1, server: localhost, request: "GET /css/sky-theme.css HTTP/1.1", host: "localhost"
+2022/12/05 12:09:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/05 12:09:01 [notice] 25#25: gracefully shutting down
+2022/12/05 12:09:01 [notice] 24#24: gracefully shutting down
+2022/12/05 12:09:01 [notice] 27#27: gracefully shutting down
+2022/12/05 12:09:01 [notice] 26#26: gracefully shutting down
+2022/12/05 12:09:01 [notice] 26#26: exiting
+2022/12/05 12:09:01 [notice] 25#25: exiting
+2022/12/05 12:09:01 [notice] 25#25: exit
+2022/12/05 12:09:01 [notice] 27#27: exiting
+2022/12/05 12:09:01 [notice] 26#26: exit
+2022/12/05 12:09:01 [notice] 27#27: exit
+2022/12/05 12:09:01 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/05 12:09:01 [notice] 1#1: worker process 26 exited with code 0
+2022/12/05 12:09:01 [notice] 1#1: worker process 25 exited with code 0
+2022/12/05 12:09:01 [notice] 1#1: worker process 27 exited with code 0
+2022/12/05 12:09:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/05 12:09:01 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/05 12:09:21 [notice] 1#1: using the "epoll" event method
+2022/12/05 12:09:21 [notice] 1#1: nginx/1.20.2
+2022/12/05 12:09:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/05 12:09:21 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/12/05 12:09:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/05 12:09:21 [notice] 1#1: start worker processes
+2022/12/05 12:09:21 [notice] 1#1: start worker process 24
+2022/12/05 12:09:21 [notice] 1#1: start worker process 25
+2022/12/05 12:09:21 [notice] 1#1: start worker process 26
+2022/12/05 12:09:21 [notice] 1#1: start worker process 27
+2022/12/05 13:40:35 [error] 24#24: *131 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 13:42:10 [error] 24#24: *140 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 13:42:43 [error] 24#24: *140 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 13:44:51 [error] 24#24: *150 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/05 14:28:34 [error] 24#24: *418 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/05 14:28:51 [error] 24#24: *418 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/05 14:30:37 [error] 24#24: *424 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/05 14:30:38 [error] 24#24: *424 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/05 14:30:38 [error] 24#24: *424 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/05 14:30:38 [error] 24#24: *424 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/05 14:31:03 [error] 24#24: *424 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/05 15:52:11 [error] 26#26: *1681 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 192.168.176.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
+2022/12/05 15:56:26 [error] 24#24: *1709 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 15:57:15 [error] 24#24: *1709 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 15:57:17 [error] 24#24: *1709 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 15:57:19 [error] 24#24: *1709 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 15:57:59 [error] 24#24: *1709 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 15:58:00 [error] 24#24: *1709 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 15:58:24 [error] 24#24: *1709 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:00:00 [error] 24#24: *1755 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:00:12 [error] 24#24: *1755 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:00:13 [error] 24#24: *1755 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:00:18 [error] 24#24: *1755 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:00:19 [error] 24#24: *1755 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/cities.php"
+2022/12/05 16:00:21 [error] 24#24: *1755 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:00:37 [error] 24#24: *1755 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.176.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:00:51 [error] 24#24: *1755 open() "/var/www/html/private/css/adasda" failed (2: No such file or directory), client: 192.168.176.1, server: localhost, request: "GET /css/adasda HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:01:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/05 16:01:03 [notice] 26#26: gracefully shutting down
+2022/12/05 16:01:03 [notice] 24#24: gracefully shutting down
+2022/12/05 16:01:03 [notice] 25#25: gracefully shutting down
+2022/12/05 16:01:03 [notice] 27#27: gracefully shutting down
+2022/12/05 16:01:03 [notice] 25#25: exiting
+2022/12/05 16:01:03 [notice] 26#26: exiting
+2022/12/05 16:01:03 [notice] 27#27: exiting
+2022/12/05 16:01:03 [notice] 25#25: exit
+2022/12/05 16:01:03 [notice] 26#26: exit
+2022/12/05 16:01:03 [notice] 24#24: exiting
+2022/12/05 16:01:03 [notice] 27#27: exit
+2022/12/05 16:01:03 [notice] 24#24: exit
+2022/12/05 16:01:03 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/05 16:01:03 [notice] 1#1: worker process 26 exited with code 0
+2022/12/05 16:01:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/05 16:01:03 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/05 16:01:03 [notice] 1#1: worker process 27 exited with code 0
+2022/12/05 16:01:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/05 16:01:03 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/05 16:01:03 [notice] 1#1: worker process 24 exited with code 0
+2022/12/05 16:01:03 [notice] 1#1: worker process 25 exited with code 0
+2022/12/05 16:01:03 [notice] 1#1: exit
+2022/12/05 16:02:15 [notice] 1#1: using the "epoll" event method
+2022/12/05 16:02:15 [notice] 1#1: nginx/1.20.2
+2022/12/05 16:02:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/05 16:02:15 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/12/05 16:02:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/05 16:02:15 [notice] 1#1: start worker processes
+2022/12/05 16:02:15 [notice] 1#1: start worker process 24
+2022/12/05 16:02:15 [notice] 1#1: start worker process 25
+2022/12/05 16:02:15 [notice] 1#1: start worker process 26
+2022/12/05 16:02:15 [notice] 1#1: start worker process 27
+2022/12/05 16:02:21 [error] 24#24: *1 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:02:24 [error] 26#26: *7 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:02:26 [error] 26#26: *7 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:03:33 [error] 24#24: *12 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:05:36 [error] 24#24: *17 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:05:42 [error] 25#25: *21 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:05:45 [error] 25#25: *21 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:07:45 [error] 24#24: *34 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:07:47 [error] 24#24: *34 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:07:50 [error] 24#24: *34 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:07:52 [error] 24#24: *34 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:13:03 [error] 24#24: *68 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:13:05 [error] 25#25: *69 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:13:06 [error] 25#25: *69 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:13:55 [error] 24#24: *73 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:13:58 [error] 24#24: *73 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:14:00 [error] 24#24: *73 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:14:01 [error] 24#24: *73 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:14:03 [error] 24#24: *73 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:14:55 [error] 24#24: *73 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:17:33 [error] 24#24: *109 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:17:34 [error] 24#24: *109 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:17:49 [error] 24#24: *109 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:17:53 [error] 24#24: *109 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:17:56 [error] 24#24: *109 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/history.php"
+2022/12/05 16:18:00 [error] 24#24: *127 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/history.php"
+2022/12/05 16:21:24 [error] 24#24: *134 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:21:26 [error] 24#24: *134 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:21:27 [error] 24#24: *135 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:21:29 [error] 24#24: *135 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:23:53 [error] 24#24: *135 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:29:09 [error] 25#25: *191 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:29:55 [error] 25#25: *191 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:29:56 [error] 25#25: *191 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/history.php"
+2022/12/05 16:29:57 [error] 25#25: *191 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/05 16:31:08 [error] 24#24: *204 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/05 16:31:09 [error] 24#24: *204 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:31:10 [error] 24#24: *204 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:31:18 [error] 24#24: *204 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:31:22 [error] 24#24: *204 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:31:28 [error] 25#25: *225 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 192.168.192.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
+2022/12/05 16:31:37 [error] 25#25: *225 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 192.168.192.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
+2022/12/05 16:34:13 [error] 25#25: *240 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:34:17 [error] 25#25: *240 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 192.168.192.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
+2022/12/05 16:34:27 [error] 25#25: *240 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 192.168.192.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
+2022/12/05 16:34:31 [error] 25#25: *240 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 192.168.192.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
+2022/12/05 16:35:51 [error] 24#24: *277 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 192.168.192.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
+2022/12/05 16:36:41 [error] 24#24: *286 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/05 16:36:43 [error] 27#27: *292 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:37:19 [error] 26#26: *289 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:37:37 [error] 26#26: *289 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 192.168.192.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
+2022/12/05 16:37:48 [error] 24#24: *286 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 192.168.192.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
+2022/12/05 16:39:32 [error] 24#24: *338 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:39:35 [error] 24#24: *338 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.en.php"
+2022/12/05 16:39:37 [error] 24#24: *338 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.en.php"
+2022/12/05 16:52:29 [error] 24#24: *524 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:55:02 [error] 24#24: *561 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:57:00 [error] 24#24: *561 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:57:07 [error] 24#24: *629 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/05 16:57:09 [error] 24#24: *630 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"

@@ -1,13 +1,12 @@
 <?php
+require_once("authentication/db_connect.php");
 session_start();
 
-if (isset($_SESSION['user'])) {
-
-}
-else{
+if (!isset($_SESSION['user'])) {
     setcookie("lastPage", "weatherMap");
     header('Location: http://localhost/login.php');
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,6 +18,7 @@ else{
     <link rel = "stylesheet" type = "text/css" href = "./css/style.css">
     <link rel = "stylesheet" type = "text/css" href = "./css/normalize.css">
     <link rel = "stylesheet" type = "text/css" href = "./css/weatherMap.css">
+    <link rel="stylesheet" href="/css/<?php echo $_SESSION['theme'] = redisGet(substr_replace(session_id(),"PHPREDIS_THEME:",0, 0));?>">
     <title>Погода</title>
     <!--Загрузка шрифтов-->
     <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">

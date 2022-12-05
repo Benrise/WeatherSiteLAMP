@@ -191,8 +191,5 @@ a.button:hover
     padding-bottom: 20px;
     border-bottom: 1px solid white;
 }
-body, .site-header
-{
-    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
-}
+
 

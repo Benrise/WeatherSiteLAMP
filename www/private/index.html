@@ -2,12 +2,11 @@
 <html lang="ru">
 <head>
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-  <meta http-equiv="refresh" content="0; url=http://localhost/index.php">
+<!--  <meta http-equiv="refresh" content="0; url=http://localhost/index.php">-->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=, initial-scale=1.0">
   <link rel = "stylesheet" type = "text/css" href = "./css/redirect.css">
-  <title>Погода</title>
 
   <!-- favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
@@ -22,4 +21,27 @@
 
 </head>
 <body>
+<script>
+  // функция определения языка пользователя на javascript
+  function LanguageInfo(){
+    let n = navigator;
+    this.UALanguage = n.language ? n.language : n.browserLanguage ? n.browserLanguage : null;
+  }
+
+
+  let oLanguage = new LanguageInfo();
+  switch (oLanguage.UALanguage) {
+    case "ru":
+      location.href="index.php";
+      break;
+    case "en":
+      location.href="index.en.php";
+      break;
+    default:
+      break;
+  }
+
+
+
+</script>
 </body>

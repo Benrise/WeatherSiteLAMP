@@ -1,15 +1,57 @@
+<?php
+require_once("resources/lang.php");
+require_once("authentication/db_connect.php");
+session_start();
+
+
+global $langIndexes;
+
+
+// Включение автоопределения языка
+if (!isset($_COOKIE['isCustomLanguage'])){
+
+    $selectedLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    $_SESSION['lang'] = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    setcookie("autoLanguage", "$selectedLang");
+    // проверяем есть ли язык в списке поддерживаемых
+    if (!in_array($selectedLang, array_keys($langIndexes))) {
+        $selectedLang = 'ru';
+    }
+
+    if ($selectedLang != "en"){
+        // перенаправление на субдомен
+        header('Location: ' . $langIndexes[$selectedLang]);
+    }
+}
+
+
+
+?>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/<?php echo $_SESSION['theme'] = redisGet(substr_replace(session_id(),"PHPREDIS_THEME:",0, 0));?>">
     <link rel = "stylesheet" type = "text/css" href = "./css/style.css">
     <link rel = "stylesheet" type = "text/css" href = "./css/normalize.css">
     <title>Forecast</title>
 
+    <!--Загрузка шрифтов-->
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+    <link href="./fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=559dfe93-fc2a-44ff-830e-8ed8ca51c764&lang=en_RU" type="text/javascript"></script>
+    <script src= "./js/moment-with-locales.js"></script>
+    <script src="./js/moment-timezone-with-data.js"></script>
+    <script src="./js/map.en.js"></script>
+    <script src="./js/current.en.js"></script>
     <script src="./js/script.en.js"></script>
+    <script src="./js/Chart.js"></script>
     
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
@@ -38,16 +80,16 @@
 
             <div class="menu-searchbar">
                 <div class="menu" style = "width: auto">
-                    <a href="cities.php"  class = "cities">In cities </a>
-                    <a href="sixteen.php" class="sixteen-forecast">For 16 days</a>
-                    <a href="history.php" class="history">For last 7 days</a>
-                    <a href="weatherMap.php" class="map-forecast">Geomap</a>
+                    <a href="cities.en.php"  class = "cities">In cities </a>
+                    <a href="sixteen.en.php" class="sixteen-forecast">For 16 days</a>
+                    <a href="history.en.php" class="history">For last 7 days</a>
+                    <a href="weatherMap.en.php" class="map-forecast">Geomap</a>
                 </div>
                 <form id="search-bar" onsubmit="Weather(), changeLocation(), Update()" method="post" >
                     <script src="./js/script.js"></script>
                     <input type ="search"  name = "search" id = "search" required placeholder="Enter city">
                     <input type="submit" value="Search" id = "submit">
-                    <a  style="color:white; "  href="profile.php">Profile</a>
+                    <a  style="color:white; "  href="profile.en.php">Profile</a>
                 </form>
             </div>
 

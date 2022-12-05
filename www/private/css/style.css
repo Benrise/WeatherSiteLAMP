@@ -705,11 +705,11 @@ h2
 {
     margin-right: 10px;
 }
-body, .site-header
-{
-    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
-    background-attachment: fixed;
-}
+/*body, .site-header*/
+/*{*/
+/*    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);*/
+/*    background-attachment: fixed;*/
+/*}*/
 .site-header
 {
     border-bottom: 0.5px solid black;

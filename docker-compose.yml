@@ -82,6 +82,8 @@ services:
     build:
       context: "./bin/redis/"
     command: redis-server /usr/local/etc/redis.conf
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
     ports:
       - "6379:80"
     volumes:

@@ -1,4 +1,5 @@
 <?php
+require_once("authentication/db_connect.php");
 session_start();
 
 if (isset($_SESSION['user'])) {
@@ -10,7 +11,8 @@ if (isset($_SESSION['user'])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Авторизация и регистрация</title>
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="/css/<?php echo $_SESSION['theme'] = redisGet(substr_replace(session_id(),"PHPREDIS_THEME:",0, 0));?>">
     <link rel="stylesheet" href="/css/auth.css">
 </head>
 <body>
@@ -25,7 +27,11 @@ if (isset($_SESSION['user'])) {
         <button type="submit">Войти</button>
         <p>
             У вас нет аккаунта? - <a href="/register.php">зарегистрируйтесь</a>!
+            <br>
+            <br>
+            <a class="back-button" href="http://localhost/index.php">Вернуться на главную</a>
         </p>
+
         <?php
         if (isset($_SESSION['message'])) {
             echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';

@@ -1,3 +1,33 @@
+<?php
+require_once("resources/lang.php");
+require_once("authentication/db_connect.php");
+session_start();
+
+
+global $langIndexes;
+
+
+// Включение автоопределения языка
+if (!isset($_COOKIE['isCustomLanguage']) || $_COOKIE['isCustomLanguage']=="false"){
+
+    $selectedLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    $_SESSION['lang'] = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    setcookie("autoLanguage", "$selectedLang");
+    // проверяем есть ли язык в списке поддерживаемых
+    if (!in_array($selectedLang, array_keys($langIndexes))) {
+        $selectedLang = 'ru';
+    }
+
+    if ($selectedLang != "ru"){
+        // перенаправление на субдомен
+        header('Location: ' . $langIndexes[$selectedLang]);
+    }
+}
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -5,6 +35,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/<?php echo $_SESSION['theme'] = redisGet(substr_replace(session_id(),"PHPREDIS_THEME:",0, 0));?>">
     <link rel = "stylesheet" type = "text/css" href = "./css/style.css">
     <link rel = "stylesheet" type = "text/css" href = "./css/normalize.css">
     <title>Погода</title>
