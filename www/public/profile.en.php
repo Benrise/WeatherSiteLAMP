@@ -1,9 +1,6 @@
 <?php
 require_once("resources/lang.php");
-require_once("authentication/db_connect.php");
 session_start();
-unset($_SESSION['theme']);
-$_SESSION['theme'] = redisGet(substr_replace(session_id(),"PHPREDIS_THEME:",0, 0));
 if (isset($_SESSION['user'])) {
     if (isset($_POST['select-lang'])
         && isset($_POST['select-theme'])
@@ -20,7 +17,7 @@ else{
 function setTheme(): void
 {
     $selectedTheme = $_POST['select-theme'];
-    redisSet(substr_replace(session_id(),"PHPREDIS_THEME:",0, 0), $selectedTheme);
+    setcookie("theme", $selectedTheme);
 
 }
 
@@ -66,7 +63,7 @@ function setLang(): void
 <head>
     <meta charset="UTF-8">
     <title>Profile</title>
-    <link rel="stylesheet" href="/css/<?php echo @$_SESSION['theme'];?>">
+    <link rel="stylesheet" href="/css/<?php echo @$_COOKIE['theme'];?>">
     <link rel="stylesheet" href="/css/profile.css">
 </head>
 <body id="body" class = body">
@@ -79,7 +76,7 @@ function setLang(): void
             <h1 style="margin: 10px 0;"><?= @$_SESSION['user']['login'] ?></h1>
             <h2 style="margin: 10px 0;"><?= @$_SESSION['user']['full_name'] ?></h2>
             <a href="#"><?= @$_SESSION['user']['email'] ?></a>
-            <a href="authentication/logout.php" class="logout" style="margin-left: 10px;">Exit</a>
+            <a href="authentication/logout.en.php" class="logout" style="margin-left: 10px;">Exit</a>
         </form>
     </div>
     <div class="settings-wrapper">
@@ -95,10 +92,10 @@ function setLang(): void
             <br>
             <h3>Selected theme</h3>
             <select name="select-theme" id = "select-theme" onChange="themeSetup()">
-                <option <?php if ($_SESSION['theme'] == 'sky-theme.css'){
+                <option <?php if (@$_COOKIE['theme'] == 'sky-theme.css'){
                     echo "selected ";
                 }?>value="sky-theme.css">Clear Sky</option>
-                <option <?php if($_SESSION['theme'] == 'dawn-theme.css') {
+                <option <?php if(@$_COOKIE['theme'] == 'dawn-theme.css') {
                     echo "selected ";
                 }?>value="dawn-theme.css" >Dawn</option>
             </select>
@@ -111,10 +108,10 @@ function setLang(): void
                 }?>selected value="0" >Auto</option>
                 <option <?php if(@$_COOKIE['customCity'] !== 'auto') {
                     echo "selected ";
-                }?>value="1">Enter city</option>
+                }?>value="1">Custom</option>
             </select>
             <p>Default forecast city</p>
-            <input type="text" placeholder="Enter city" value="<?php echo @$_COOKIE['customCity']?>"  name = "input-default-geo" class = "text-input" id = "text-input" size="40">
+            <input type="text" placeholder="Сity" value="<?php echo @$_COOKIE['customCity']?>"  name = "input-default-geo" class = "text-input" id = "text-input" size="40">
             <input type="submit" value="Submit" id = "submit"></p>
         </form>
     </div>

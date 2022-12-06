@@ -9,7 +9,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $password_confirm = $_POST['password_confirm'];
 $userTheme = substr_replace(session_id(),"PHPREDIS_THEME:",0, 0);
-redisSet($userTheme, "sky-theme.css");
+setcookie('theme', 'sky-theme.css', '../');
 
 if ($password === $password_confirm) {
 

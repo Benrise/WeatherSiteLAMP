@@ -11,7 +11,7 @@ if (isset($_SESSION['user'])) {
 <head>
     <meta charset="UTF-8">
     <title>Авторизация и регистрация</title>
-    <link rel="stylesheet" href="/css/<?php echo $_SESSION['theme'] = redisGet(substr_replace(session_id(),"PHPREDIS_THEME:",0, 0));?>">
+    <link rel="stylesheet" href="/css/<?php echo @$_COOKIE['theme'];?>">
     <link rel="stylesheet" href="/css/auth.css">
 </head>
 <body>

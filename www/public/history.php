@@ -15,7 +15,7 @@ if (!isset($_SESSION['user'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Погода</title>
-    <link rel="stylesheet" href="/css/<?php echo $_SESSION['theme'] = redisGet(substr_replace(session_id(),"PHPREDIS_THEME:",0, 0));?>">
+    <link rel="stylesheet" href="/css/<?php echo @$_COOKIE['theme'];?>">
     <link rel = "stylesheet" type = "text/css" href = "./css/style.css">
     <link rel = "stylesheet" type = "text/css" href = "./css/normalize.css">
     <link rel = "stylesheet" type = "text/css" href = "./css/history.css">
