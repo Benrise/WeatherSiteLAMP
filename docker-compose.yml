@@ -89,6 +89,6 @@ services:
     volumes:
      - ./logs/redis/redis.log:/usr/local/redis/redis.log
      - ./data/redis:/usr/local/redis/data
-     - ./config/redis/redis.conf:/usr/local/etc/redis.conf
+     - ./config/redis/redis.conf:/usr/local/redis/redis.conf
     restart: always
 

@@ -128,6 +128,7 @@ function setLang(): void
                 }
             }
             ?>
+        </form>
     </div>
 </div>
 

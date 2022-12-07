@@ -1,5 +1,6 @@
 <?php
 require_once("resources/lang.php");
+require_once("authentication/db_connect.php");
 session_start();
 if (isset($_SESSION['user'])) {
     if (isset($_POST['select-lang'])
@@ -23,7 +24,7 @@ function setTheme(): void
 
 function setDefaultGeo(){
     if (intval($_POST['select-geo'])){
-        $isCustomCity = "selected";
+        $isCustomCity = "true";
         $selectedCity = $_POST['input-default-geo'];
         setcookie("isCustomCity", $isCustomCity);
         setcookie("customCity", $selectedCity);
@@ -111,6 +112,22 @@ function setLang(): void
             <p>Default forecast city</p>
             <input type="text" placeholder="Сity" value="<?php echo @$_COOKIE['customCity']?>"  name = "input-default-geo" class = "text-input" id = "text-input" size="40">
             <input type="submit" value="Submit" id = "submit"></p>
+        </form>
+        <form method="POST" action="./uploading/uploading.php" enctype="multipart/form-data">Uploading PDF files
+            <input type="file" accept="application/pdf" name="pdf">
+            <input type="submit" value="Upload">
+            <?php
+            if (isset($_SESSION['type_message'])) {
+                echo '<p class="msg"> ' . $_SESSION['type_message'] . ' </p>';
+            }
+            unset($_SESSION['type_message']);
+            if (isset($_SESSION['files'])){
+                foreach ( $_SESSION['files'] as $file) {
+                    echo '<a href=' . redislIndex($_SESSION['user']['id']) .' download>'. $file . ' </a>';
+                    echo '<br>';
+                }
+            }
+            ?>
         </form>
     </div>
 </div>

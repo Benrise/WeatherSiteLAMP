@@ -38,7 +38,6 @@ if (isset($_SESSION['user'])) {
         unset($_SESSION['message']);
 
         ?>
-
     </form>
 </div>
 </body>
