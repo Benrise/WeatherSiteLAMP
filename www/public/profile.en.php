@@ -23,12 +23,10 @@ function setTheme(): void
 
 function setDefaultGeo(){
     if (intval($_POST['select-geo'])){
-        $isCustomCity = "true";
+        $isCustomCity = "selected";
         $selectedCity = $_POST['input-default-geo'];
         setcookie("isCustomCity", $isCustomCity);
         setcookie("customCity", $selectedCity);
-
-
     }
     else {
         setcookie("customCity", "");
@@ -103,10 +101,10 @@ function setLang(): void
             <br>
             <h3>Forecast city</h3>
             <select id="select-geo" name ="select-geo" onChange="geoSetup()";>
-                <option <?php if(@$_COOKIE['customCity'] == 'auto') {
+                <option <?php if(@$_COOKIE['isCustomCity'] == 'false')  {
                     echo "selected ";
-                }?>selected value="0" >Auto</option>
-                <option <?php if(@$_COOKIE['customCity'] !== 'auto') {
+                }?>value="0" >Auto</option>
+                <option <?php if(@$_COOKIE['isCustomCity'] == 'true') {
                     echo "selected ";
                 }?>value="1">Custom</option>
             </select>

@@ -101,10 +101,10 @@ function setLang(): void
             <br>
             <h3>Город для прогноза по умолчанию</h3>
             <select id="select-geo" name ="select-geo" onChange="geoSetup()";>
-                <option <?php if(@$_COOKIE['customCity'] == 'auto') {
-                    echo "selected ";
-                }?>selected value="0" >Автоматически</option>
-                <option <?php if(@$_COOKIE['customCity'] !== 'auto') {
+                <option <?php if(@$_COOKIE['isCustomCity'] == 'false') {
+                   echo "selected ";
+                }?>value="0" >Автоматически</option>
+                <option <?php if(@$_COOKIE['isCustomCity'] == 'true') {
                     echo "selected ";
                 }?>value="1">Указать вручную</option>
             </select>

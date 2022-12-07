@@ -1,7 +1,9 @@
 <?php
 require_once("resources/lang.php");
 session_start();
-
+if (!isset($_COOKIE['theme'])) {
+    setcookie('theme', '');
+}
 
 global $langIndexes;
 

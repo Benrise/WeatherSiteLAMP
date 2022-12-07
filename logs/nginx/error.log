@@ -8914,3 +8914,81 @@
 2022/12/06 00:06:50 [error] 24#24: *2159 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
 2022/12/06 00:07:03 [error] 24#24: *2136 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
 2022/12/06 00:07:04 [error] 24#24: *2136 directory index of "/var/www/html/private/css/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/06 11:22:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/06 11:22:52 [notice] 25#25: gracefully shutting down
+2022/12/06 11:22:52 [notice] 26#26: gracefully shutting down
+2022/12/06 11:22:52 [notice] 26#26: exiting
+2022/12/06 11:22:52 [notice] 24#24: gracefully shutting down
+2022/12/06 11:22:52 [notice] 24#24: exiting
+2022/12/06 11:22:52 [notice] 27#27: gracefully shutting down
+2022/12/06 11:22:52 [notice] 25#25: exiting
+2022/12/06 11:22:52 [notice] 26#26: exit
+2022/12/06 11:22:52 [notice] 24#24: exit
+2022/12/06 11:22:52 [notice] 27#27: exiting
+2022/12/06 11:22:52 [notice] 25#25: exit
+2022/12/06 11:22:52 [notice] 27#27: exit
+2022/12/06 11:22:52 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/06 11:22:52 [notice] 1#1: worker process 24 exited with code 0
+2022/12/06 11:22:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/06 11:22:52 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/06 11:22:52 [notice] 1#1: worker process 26 exited with code 0
+2022/12/06 11:22:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/06 11:22:52 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/06 11:22:52 [notice] 1#1: worker process 25 exited with code 0
+2022/12/06 11:22:52 [notice] 1#1: worker process 27 exited with code 0
+2022/12/06 11:22:52 [notice] 1#1: exit
+2022/12/07 09:09:31 [notice] 1#1: using the "epoll" event method
+2022/12/07 09:09:31 [notice] 1#1: nginx/1.20.2
+2022/12/07 09:09:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/07 09:09:31 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/12/07 09:09:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/07 09:09:31 [notice] 1#1: start worker processes
+2022/12/07 09:09:31 [notice] 1#1: start worker process 23
+2022/12/07 09:09:31 [notice] 1#1: start worker process 24
+2022/12/07 09:09:31 [notice] 1#1: start worker process 25
+2022/12/07 09:09:31 [notice] 1#1: start worker process 26
+2022/12/07 09:10:28 [error] 25#25: *5 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/07 09:10:37 [error] 25#25: *5 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/07 09:10:54 [error] 25#25: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "POST /authentication/signing.php HTTP/1.1", upstream: "http://172.19.0.5:80/authentication/signing.php", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/07 09:10:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/07 09:10:55 [notice] 24#24: gracefully shutting down
+2022/12/07 09:10:55 [notice] 24#24: exiting
+2022/12/07 09:10:55 [notice] 23#23: gracefully shutting down
+2022/12/07 09:10:55 [notice] 26#26: gracefully shutting down
+2022/12/07 09:10:55 [notice] 25#25: gracefully shutting down
+2022/12/07 09:10:55 [notice] 24#24: exit
+2022/12/07 09:10:55 [notice] 23#23: exiting
+2022/12/07 09:10:55 [notice] 26#26: exiting
+2022/12/07 09:10:55 [notice] 25#25: exiting
+2022/12/07 09:10:55 [notice] 25#25: exit
+2022/12/07 09:10:55 [notice] 23#23: exit
+2022/12/07 09:10:55 [notice] 26#26: exit
+2022/12/07 09:10:55 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/07 09:10:55 [notice] 1#1: worker process 24 exited with code 0
+2022/12/07 09:10:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/07 09:10:55 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/07 09:10:55 [notice] 1#1: worker process 25 exited with code 0
+2022/12/07 09:10:55 [notice] 1#1: worker process 23 exited with code 0
+2022/12/07 09:10:55 [notice] 1#1: worker process 26 exited with code 0
+2022/12/07 09:10:55 [notice] 1#1: exit
+2022/12/07 09:10:56 [notice] 1#1: using the "epoll" event method
+2022/12/07 09:10:56 [notice] 1#1: nginx/1.20.2
+2022/12/07 09:10:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/07 09:10:56 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/12/07 09:10:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/07 09:10:56 [notice] 1#1: start worker processes
+2022/12/07 09:10:56 [notice] 1#1: start worker process 24
+2022/12/07 09:10:56 [notice] 1#1: start worker process 25
+2022/12/07 09:10:56 [notice] 1#1: start worker process 26
+2022/12/07 09:10:56 [notice] 1#1: start worker process 27
+2022/12/07 09:11:27 [error] 24#24: *1 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/07 09:14:13 [error] 24#24: *16 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/07 09:14:18 [error] 24#24: *16 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/07 09:14:23 [error] 24#24: *16 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/07 09:19:38 [error] 24#24: *52 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/07 09:19:46 [error] 24#24: *52 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/07 09:19:47 [error] 24#24: *52 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/07 09:42:46 [error] 26#26: *152 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/07 09:43:02 [error] 26#26: *152 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
+2022/12/07 09:43:06 [error] 24#24: *149 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.en.php"
+2022/12/07 09:43:27 [error] 26#26: *152 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.en.php"
