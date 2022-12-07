@@ -1,5 +1,6 @@
 <?php
 require_once("resources/lang.php");
+require_once("authentication/db_connect.php");
 session_start();
 if (isset($_SESSION['user'])) {
     if (isset($_POST['select-lang'])
@@ -112,6 +113,21 @@ function setLang(): void
             <input type="text" placeholder="Город" value="<?php echo @$_COOKIE['customCity']?>" name = "input-default-geo" class = "text-input" id = "text-input" size="40">
             <input type="submit" value="Применить" id = "submit"></p>
         </form>
+        <form method="POST" action="./uploading/uploading.php" enctype="multipart/form-data">Загрузка PDF файлов
+            <input type="file" accept="application/pdf" name="pdf">
+            <input type="submit" value="Загрузить">
+            <?php
+            if (isset($_SESSION['type_message'])) {
+                echo '<p class="msg"> ' . $_SESSION['type_message'] . ' </p>';
+            }
+            unset($_SESSION['type_message']);
+            if (isset($_SESSION['files'])){
+                foreach ( $_SESSION['files'] as $file) {
+                    echo '<a href=' . redislIndex($_SESSION['user']['id']) .' download>'. $file . ' </a>';
+                    echo '<br>';
+                }
+            }
+            ?>
     </div>
 </div>
 

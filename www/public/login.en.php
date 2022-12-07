@@ -1,8 +1,6 @@
 <?php
-require_once("authentication/db_connect.php");
 session_start();
 if (isset($_SESSION['user'])) {
-    setcookie('theme', '');
     header('Location: ../profile.php');
 }
 ?>
