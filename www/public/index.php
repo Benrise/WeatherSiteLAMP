@@ -4,6 +4,10 @@ session_start();
 if (!isset($_COOKIE['theme'])) {
     setcookie('theme', '');
 }
+if (!isset($_SESSION['user'])){
+    setcookie("customCity", "");
+    setcookie("isCustomCity", "false");
+}
 
 global $langIndexes;
 

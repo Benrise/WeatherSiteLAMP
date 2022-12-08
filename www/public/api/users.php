@@ -51,6 +51,7 @@ switch ($requestMethod) {
         if (!empty($user->{'login'}) && !empty($user->{'email'})) {
             if (empty(isset($_GET['id']))) {
                 http_response_code(422);
+                var_dump ($_GET['id']);
             }
             else {
                 $query_result = $con->query("SELECT * FROM users WHERE ID='" . $_GET['id'] . "'");

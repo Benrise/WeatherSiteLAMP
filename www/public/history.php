@@ -6,6 +6,10 @@ if (!isset($_SESSION['user'])) {
     setcookie("lastPage", "weatherMap");
     header('Location: http://localhost/login.php');
 }
+if (!isset($_SESSION['user'])){
+    setcookie("customCity", "");
+    setcookie("isCustomCity", "false");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

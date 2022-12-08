@@ -30,6 +30,7 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       HOST_MACHINE_MYSQL_PORT: ${HOST_MACHINE_MYSQL_PORT}
+
   database:
     build:
       context: "./bin/mysql8"
@@ -42,9 +43,10 @@ services:
       - ./data/mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+#      MYSQL_DATABASE: ${MYSQL_DATABASE}
+#      MYSQL_USER: ${MYSQL_USER}
+#      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+
   phpmyadmin:
     image: phpmyadmin
     container_name: PMA
@@ -54,14 +56,16 @@ services:
       PMA_HOST: database
       PMA_PORT: 3306
       PMA_USER: root
-      PMA_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      PMA_PASSWORD: tiger
+      MYSQL_ROOT_PASSWORD: tiger
+#      PMA_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+#      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+#      MYSQL_USER: ${MYSQL_USER}
+#      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     ports:
       - "8080:80"
     volumes:
-      - ./config/php/php.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
+ #     - ./config/php/php.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
       - ./config/pma/apache2.conf:/etc/apache2/apache2.conf
 
   nginx:
@@ -85,10 +89,10 @@ services:
     healthcheck:
       test: [ "CMD", "redis-cli", "ping" ]
     ports:
-      - "6379:80"
+      - "6379:6379"
     volumes:
      - ./logs/redis/redis.log:/usr/local/redis/redis.log
      - ./data/redis:/usr/local/redis/data
-     - ./config/redis/redis.conf:/usr/local/redis/redis.conf
+     - ./config/redis/redis.conf:/usr/local/etc/redis.conf
     restart: always
 
