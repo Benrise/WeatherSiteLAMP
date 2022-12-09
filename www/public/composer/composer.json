@@ -1,0 +1,11 @@
+{
+    "config": {
+        "platform": {
+            "ext-gd": "2.2"
+        }
+    },
+    "require": {
+        "fzaninotto/faker": "^1.5",
+        "amenadiel/jpgraph": "^4.1"
+    }
+}

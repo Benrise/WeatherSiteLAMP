@@ -2248,3 +2248,980 @@
 1:M 08 Dec 2022 17:52:44.922 * DB saved on disk
 1:M 08 Dec 2022 17:52:44.925 * Removing the pid file.
 1:M 08 Dec 2022 17:52:44.928 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 18:29:39.417 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 18:29:39.428 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 18:29:39.431 # Configuration loaded
+1:M 08 Dec 2022 18:29:39.435 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 18:29:39.439 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 18:29:39.441 # Server initialized
+1:M 08 Dec 2022 18:29:39.450 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 18:29:39.453 * RDB age 2215 seconds
+1:M 08 Dec 2022 18:29:39.455 * RDB memory usage when created 0.97 Mb
+1:M 08 Dec 2022 18:29:39.459 * Done loading RDB, keys loaded: 0, keys expired: 1.
+1:M 08 Dec 2022 18:29:39.467 * DB loaded from disk: 0.016 seconds
+1:M 08 Dec 2022 18:29:39.469 * Ready to accept connections
+1:signal-handler (1670525980) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 18:59:40.966 # User requested shutdown...
+1:M 08 Dec 2022 18:59:40.970 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 18:59:40.978 * DB saved on disk
+1:M 08 Dec 2022 18:59:40.981 * Removing the pid file.
+1:M 08 Dec 2022 18:59:40.983 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 19:00:39.179 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:00:39.183 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:03:10.828 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:03:10.832 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:03:10.835 # Configuration loaded
+1:M 08 Dec 2022 19:03:10.839 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 19:03:10.846 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 19:03:10.849 # Server initialized
+1:M 08 Dec 2022 19:03:10.859 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 19:03:10.863 * RDB age 210 seconds
+1:M 08 Dec 2022 19:03:10.866 * RDB memory usage when created 0.87 Mb
+1:M 08 Dec 2022 19:03:10.869 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 19:03:10.872 * DB loaded from disk: 0.017 seconds
+1:M 08 Dec 2022 19:03:10.876 * Ready to accept connections
+1:signal-handler (1670526202) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 19:03:22.234 # User requested shutdown...
+1:M 08 Dec 2022 19:03:22.237 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 19:03:22.245 * DB saved on disk
+1:M 08 Dec 2022 19:03:22.248 * Removing the pid file.
+1:M 08 Dec 2022 19:03:22.251 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 19:03:48.025 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:03:48.030 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:03:48.033 # Configuration loaded
+1:M 08 Dec 2022 19:03:48.038 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 19:03:48.044 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 19:03:48.050 # Server initialized
+1:M 08 Dec 2022 19:03:48.062 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 19:03:48.101 * RDB age 26 seconds
+1:M 08 Dec 2022 19:03:48.106 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 19:03:48.110 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 19:03:48.113 * DB loaded from disk: 0.057 seconds
+1:M 08 Dec 2022 19:03:48.115 * Ready to accept connections
+1:signal-handler (1670526768) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 19:12:48.447 # User requested shutdown...
+1:M 08 Dec 2022 19:12:48.452 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 19:12:48.462 * DB saved on disk
+1:M 08 Dec 2022 19:12:48.465 * Removing the pid file.
+1:M 08 Dec 2022 19:12:48.468 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 19:12:57.846 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:12:57.854 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:12:57.863 # Configuration loaded
+1:M 08 Dec 2022 19:12:57.870 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 19:12:57.875 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 19:12:57.878 # Server initialized
+1:M 08 Dec 2022 19:12:57.890 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 19:12:57.895 * RDB age 9 seconds
+1:M 08 Dec 2022 19:12:57.899 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 19:12:57.902 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 19:12:57.905 * DB loaded from disk: 0.021 seconds
+1:M 08 Dec 2022 19:12:57.910 * Ready to accept connections
+1:signal-handler (1670526818) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 19:13:38.093 # User requested shutdown...
+1:M 08 Dec 2022 19:13:38.097 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 19:13:38.105 * DB saved on disk
+1:M 08 Dec 2022 19:13:38.107 * Removing the pid file.
+1:M 08 Dec 2022 19:13:38.111 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 19:16:10.005 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:16:10.009 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:16:10.014 # Configuration loaded
+1:M 08 Dec 2022 19:16:10.019 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 19:16:10.025 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 19:16:10.031 # Server initialized
+1:M 08 Dec 2022 19:16:10.049 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 19:16:10.052 * RDB age 152 seconds
+1:M 08 Dec 2022 19:16:10.055 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 19:16:10.060 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 19:16:10.063 * DB loaded from disk: 0.024 seconds
+1:M 08 Dec 2022 19:16:10.066 * Ready to accept connections
+1:signal-handler (1670527006) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 19:16:46.395 # User requested shutdown...
+1:M 08 Dec 2022 19:16:46.399 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 19:16:46.407 * DB saved on disk
+1:M 08 Dec 2022 19:16:46.410 * Removing the pid file.
+1:M 08 Dec 2022 19:16:46.413 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 19:18:28.176 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:18:28.181 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:18:28.185 # Configuration loaded
+1:M 08 Dec 2022 19:18:28.190 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 19:18:28.198 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 19:18:28.202 # Server initialized
+1:M 08 Dec 2022 19:18:28.212 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 19:18:28.215 * RDB age 102 seconds
+1:M 08 Dec 2022 19:18:28.219 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 19:18:28.224 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 19:18:28.227 * DB loaded from disk: 0.020 seconds
+1:M 08 Dec 2022 19:18:28.229 * Ready to accept connections
+1:signal-handler (1670527616) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 19:26:57.027 # User requested shutdown...
+1:M 08 Dec 2022 19:26:57.030 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 19:26:57.041 * DB saved on disk
+1:M 08 Dec 2022 19:26:57.044 * Removing the pid file.
+1:M 08 Dec 2022 19:26:57.048 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 19:27:36.374 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:27:36.386 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:27:36.390 # Configuration loaded
+1:M 08 Dec 2022 19:27:36.397 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 19:27:36.412 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 19:27:36.418 # Server initialized
+1:M 08 Dec 2022 19:27:36.431 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 19:27:36.434 * RDB age 39 seconds
+1:M 08 Dec 2022 19:27:36.439 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 19:27:36.443 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 19:27:36.446 * DB loaded from disk: 0.020 seconds
+1:M 08 Dec 2022 19:27:36.455 * Ready to accept connections
+1:signal-handler (1670527760) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 19:29:20.182 # User requested shutdown...
+1:M 08 Dec 2022 19:29:20.186 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 19:29:20.195 * DB saved on disk
+1:M 08 Dec 2022 19:29:20.198 * Removing the pid file.
+1:M 08 Dec 2022 19:29:20.202 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 19:30:42.446 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:30:42.450 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:30:42.452 # Configuration loaded
+1:M 08 Dec 2022 19:30:42.455 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 19:30:42.461 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 19:30:42.464 # Server initialized
+1:M 08 Dec 2022 19:30:42.472 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 19:30:42.474 * RDB age 82 seconds
+1:M 08 Dec 2022 19:30:42.476 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 19:30:42.479 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 19:30:42.481 * DB loaded from disk: 0.012 seconds
+1:M 08 Dec 2022 19:30:42.484 * Ready to accept connections
+1:signal-handler (1670528164) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 19:36:04.492 # User requested shutdown...
+1:M 08 Dec 2022 19:36:04.496 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 19:36:04.507 * DB saved on disk
+1:M 08 Dec 2022 19:36:04.510 * Removing the pid file.
+1:M 08 Dec 2022 19:36:04.513 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 19:36:12.097 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:36:12.099 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:36:12.102 # Configuration loaded
+1:M 08 Dec 2022 19:36:12.105 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 19:36:12.112 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 19:36:12.117 # Server initialized
+1:M 08 Dec 2022 19:36:12.126 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 19:36:12.128 * RDB age 8 seconds
+1:M 08 Dec 2022 19:36:12.131 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 19:36:12.144 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 19:36:12.147 * DB loaded from disk: 0.024 seconds
+1:M 08 Dec 2022 19:36:12.151 * Ready to accept connections
+1:signal-handler (1670529365) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 19:56:05.432 # User requested shutdown...
+1:M 08 Dec 2022 19:56:05.436 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 19:56:05.455 * DB saved on disk
+1:M 08 Dec 2022 19:56:05.460 * Removing the pid file.
+1:M 08 Dec 2022 19:56:05.463 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 19:56:13.893 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:56:13.902 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:56:13.908 # Configuration loaded
+1:M 08 Dec 2022 19:56:13.916 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 19:56:13.923 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 19:56:13.928 # Server initialized
+1:M 08 Dec 2022 19:56:13.952 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 19:56:13.958 * RDB age 8 seconds
+1:M 08 Dec 2022 19:56:13.962 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 19:56:13.968 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 19:56:13.974 * DB loaded from disk: 0.035 seconds
+1:M 08 Dec 2022 19:56:13.978 * Ready to accept connections
+1:signal-handler (1670529387) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 19:56:27.986 # User requested shutdown...
+1:M 08 Dec 2022 19:56:27.992 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 19:56:28.002 * DB saved on disk
+1:M 08 Dec 2022 19:56:28.007 * Removing the pid file.
+1:M 08 Dec 2022 19:56:28.020 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 19:57:13.113 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 19:57:13.116 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 19:57:13.118 # Configuration loaded
+1:M 08 Dec 2022 19:57:13.121 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 19:57:13.126 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 19:57:13.129 # Server initialized
+1:M 08 Dec 2022 19:57:13.137 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 19:57:13.141 * RDB age 46 seconds
+1:M 08 Dec 2022 19:57:13.143 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 19:57:13.146 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 19:57:13.148 * DB loaded from disk: 0.014 seconds
+1:M 08 Dec 2022 19:57:13.152 * Ready to accept connections
+1:signal-handler (1670529668) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:01:08.717 # User requested shutdown...
+1:M 08 Dec 2022 20:01:08.724 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:01:08.745 * DB saved on disk
+1:M 08 Dec 2022 20:01:08.754 * Removing the pid file.
+1:M 08 Dec 2022 20:01:08.764 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:01:28.052 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:01:28.055 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:01:28.058 # Configuration loaded
+1:M 08 Dec 2022 20:01:28.062 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:01:28.067 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:01:28.070 # Server initialized
+1:M 08 Dec 2022 20:01:28.080 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:01:28.084 * RDB age 20 seconds
+1:M 08 Dec 2022 20:01:28.087 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:01:28.097 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:01:28.099 * DB loaded from disk: 0.023 seconds
+1:M 08 Dec 2022 20:01:28.103 * Ready to accept connections
+1:signal-handler (1670530025) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:07:05.404 # User requested shutdown...
+1:M 08 Dec 2022 20:07:05.408 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:07:05.416 * DB saved on disk
+1:M 08 Dec 2022 20:07:05.418 * Removing the pid file.
+1:M 08 Dec 2022 20:07:05.421 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:08:34.164 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:08:34.167 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:08:34.170 # Configuration loaded
+1:M 08 Dec 2022 20:08:34.174 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:08:34.179 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:08:34.184 # Server initialized
+1:M 08 Dec 2022 20:08:34.197 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:08:34.201 * RDB age 89 seconds
+1:M 08 Dec 2022 20:08:34.206 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:08:34.209 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:08:34.214 * DB loaded from disk: 0.021 seconds
+1:M 08 Dec 2022 20:08:34.219 * Ready to accept connections
+1:signal-handler (1670530204) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:10:04.109 # User requested shutdown...
+1:M 08 Dec 2022 20:10:04.112 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:10:04.120 * DB saved on disk
+1:M 08 Dec 2022 20:10:04.124 * Removing the pid file.
+1:M 08 Dec 2022 20:10:04.126 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:11:04.549 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:11:04.552 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:11:04.555 # Configuration loaded
+1:M 08 Dec 2022 20:11:04.559 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:11:04.562 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:11:04.568 # Server initialized
+1:M 08 Dec 2022 20:11:04.576 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:11:04.578 * RDB age 60 seconds
+1:M 08 Dec 2022 20:11:04.581 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:11:04.584 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:11:04.586 * DB loaded from disk: 0.013 seconds
+1:M 08 Dec 2022 20:11:04.589 * Ready to accept connections
+1:signal-handler (1670530323) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:12:03.807 # User requested shutdown...
+1:M 08 Dec 2022 20:12:03.809 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:12:03.816 * DB saved on disk
+1:M 08 Dec 2022 20:12:03.818 * Removing the pid file.
+1:M 08 Dec 2022 20:12:03.821 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:12:11.055 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:12:11.060 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:12:11.063 # Configuration loaded
+1:M 08 Dec 2022 20:12:11.067 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:12:11.070 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:12:11.073 # Server initialized
+1:M 08 Dec 2022 20:12:11.080 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:12:11.087 * RDB age 8 seconds
+1:M 08 Dec 2022 20:12:11.091 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:12:11.094 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:12:11.098 * DB loaded from disk: 0.019 seconds
+1:M 08 Dec 2022 20:12:11.104 * Ready to accept connections
+1:signal-handler (1670530395) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:13:15.118 # User requested shutdown...
+1:M 08 Dec 2022 20:13:15.121 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:13:15.130 * DB saved on disk
+1:M 08 Dec 2022 20:13:15.132 * Removing the pid file.
+1:M 08 Dec 2022 20:13:15.135 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:13:22.972 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:13:22.975 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:13:22.979 # Configuration loaded
+1:M 08 Dec 2022 20:13:22.984 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:13:22.988 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:13:22.991 # Server initialized
+1:M 08 Dec 2022 20:13:23.001 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:13:23.004 * RDB age 8 seconds
+1:M 08 Dec 2022 20:13:23.008 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:13:23.012 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:13:23.015 * DB loaded from disk: 0.019 seconds
+1:M 08 Dec 2022 20:13:23.018 * Ready to accept connections
+1:signal-handler (1670530497) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:14:57.897 # User requested shutdown...
+1:M 08 Dec 2022 20:14:57.899 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:14:57.906 * DB saved on disk
+1:M 08 Dec 2022 20:14:57.908 * Removing the pid file.
+1:M 08 Dec 2022 20:14:57.911 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:15:13.050 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:15:13.058 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:15:13.067 # Configuration loaded
+1:M 08 Dec 2022 20:15:13.071 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:15:13.077 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:15:13.082 # Server initialized
+1:C 08 Dec 2022 20:18:02.159 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:18:02.164 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:18:02.167 # Configuration loaded
+1:M 08 Dec 2022 20:18:02.170 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:18:02.177 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:18:02.179 # Server initialized
+1:M 08 Dec 2022 20:18:02.188 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:18:02.190 * RDB age 185 seconds
+1:M 08 Dec 2022 20:18:02.194 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:18:02.196 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:18:02.199 * DB loaded from disk: 0.013 seconds
+1:M 08 Dec 2022 20:18:02.201 * Ready to accept connections
+1:signal-handler (1670530707) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:18:27.991 # User requested shutdown...
+1:M 08 Dec 2022 20:18:27.994 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:18:28.003 * DB saved on disk
+1:M 08 Dec 2022 20:18:28.005 * Removing the pid file.
+1:M 08 Dec 2022 20:18:28.008 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:18:38.598 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:18:38.605 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:18:38.618 # Configuration loaded
+1:M 08 Dec 2022 20:18:38.622 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:18:38.626 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:18:38.631 # Server initialized
+1:M 08 Dec 2022 20:18:38.639 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:18:38.642 * RDB age 11 seconds
+1:M 08 Dec 2022 20:18:38.645 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:18:38.647 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:18:38.650 * DB loaded from disk: 0.014 seconds
+1:M 08 Dec 2022 20:18:38.652 * Ready to accept connections
+1:signal-handler (1670530859) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:20:59.739 # User requested shutdown...
+1:M 08 Dec 2022 20:20:59.742 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:20:59.752 * DB saved on disk
+1:M 08 Dec 2022 20:20:59.756 * Removing the pid file.
+1:M 08 Dec 2022 20:20:59.759 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:22:27.436 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:22:27.439 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:22:27.443 # Configuration loaded
+1:M 08 Dec 2022 20:22:27.446 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:22:27.450 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:22:27.453 # Server initialized
+1:M 08 Dec 2022 20:22:27.475 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:22:27.482 * RDB age 88 seconds
+1:M 08 Dec 2022 20:22:27.486 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:22:27.489 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:22:27.491 * DB loaded from disk: 0.022 seconds
+1:M 08 Dec 2022 20:22:27.494 * Ready to accept connections
+1:signal-handler (1670530979) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:22:59.411 # User requested shutdown...
+1:M 08 Dec 2022 20:22:59.415 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:22:59.422 * DB saved on disk
+1:M 08 Dec 2022 20:22:59.424 * Removing the pid file.
+1:M 08 Dec 2022 20:22:59.427 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:23:17.089 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:23:17.093 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:23:17.096 # Configuration loaded
+1:M 08 Dec 2022 20:23:17.104 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:23:17.111 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:23:17.115 # Server initialized
+1:M 08 Dec 2022 20:23:17.127 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:23:17.135 * RDB age 18 seconds
+1:M 08 Dec 2022 20:23:17.140 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:23:17.144 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:23:17.147 * DB loaded from disk: 0.023 seconds
+1:M 08 Dec 2022 20:23:17.152 * Ready to accept connections
+1:signal-handler (1670531043) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:24:03.684 # User requested shutdown...
+1:M 08 Dec 2022 20:24:03.687 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:24:03.695 * DB saved on disk
+1:M 08 Dec 2022 20:24:03.698 * Removing the pid file.
+1:M 08 Dec 2022 20:24:03.700 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:24:14.426 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:24:14.429 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:24:14.432 # Configuration loaded
+1:M 08 Dec 2022 20:24:14.437 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:24:14.442 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:24:14.446 # Server initialized
+1:M 08 Dec 2022 20:24:14.454 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:24:14.456 * RDB age 11 seconds
+1:M 08 Dec 2022 20:24:14.459 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:24:14.462 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:24:14.470 * DB loaded from disk: 0.014 seconds
+1:M 08 Dec 2022 20:24:14.475 * Ready to accept connections
+1:signal-handler (1670531215) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:26:55.193 # User requested shutdown...
+1:M 08 Dec 2022 20:26:55.196 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:26:55.207 * DB saved on disk
+1:M 08 Dec 2022 20:26:55.210 * Removing the pid file.
+1:M 08 Dec 2022 20:26:55.212 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:28:33.383 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:28:33.385 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:28:33.388 # Configuration loaded
+1:M 08 Dec 2022 20:28:33.390 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:28:33.393 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:28:33.396 # Server initialized
+1:M 08 Dec 2022 20:28:33.404 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:28:33.407 * RDB age 98 seconds
+1:M 08 Dec 2022 20:28:33.410 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:28:33.415 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:28:33.423 * DB loaded from disk: 0.017 seconds
+1:M 08 Dec 2022 20:28:33.428 * Ready to accept connections
+1:signal-handler (1670531397) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:29:57.445 # User requested shutdown...
+1:M 08 Dec 2022 20:29:57.448 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:29:57.457 * DB saved on disk
+1:M 08 Dec 2022 20:29:57.459 * Removing the pid file.
+1:M 08 Dec 2022 20:29:57.462 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:30:11.162 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:30:11.166 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:30:11.173 # Configuration loaded
+1:M 08 Dec 2022 20:30:11.176 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:30:11.182 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:30:11.186 # Server initialized
+1:M 08 Dec 2022 20:30:11.195 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:30:11.198 * RDB age 14 seconds
+1:M 08 Dec 2022 20:30:11.200 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:30:11.204 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:30:11.210 * DB loaded from disk: 0.014 seconds
+1:M 08 Dec 2022 20:30:11.214 * Ready to accept connections
+1:signal-handler (1670531426) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:30:26.159 # User requested shutdown...
+1:M 08 Dec 2022 20:30:26.164 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:30:26.187 * DB saved on disk
+1:M 08 Dec 2022 20:30:26.191 * Removing the pid file.
+1:M 08 Dec 2022 20:30:26.194 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:30:38.331 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:30:38.336 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:30:38.340 # Configuration loaded
+1:M 08 Dec 2022 20:30:38.343 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:30:38.347 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:30:38.349 # Server initialized
+1:M 08 Dec 2022 20:30:38.356 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:30:38.359 * RDB age 12 seconds
+1:M 08 Dec 2022 20:30:38.363 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:30:38.367 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:30:38.370 * DB loaded from disk: 0.016 seconds
+1:M 08 Dec 2022 20:30:38.372 * Ready to accept connections
+1:signal-handler (1670531501) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:31:41.651 # User requested shutdown...
+1:M 08 Dec 2022 20:31:41.654 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:31:41.661 * DB saved on disk
+1:M 08 Dec 2022 20:31:41.664 * Removing the pid file.
+1:M 08 Dec 2022 20:31:41.666 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:31:50.858 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:31:50.865 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:31:50.886 # Configuration loaded
+1:M 08 Dec 2022 20:31:50.892 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:31:50.907 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:31:50.911 # Server initialized
+1:M 08 Dec 2022 20:31:50.927 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:31:50.931 * RDB age 9 seconds
+1:M 08 Dec 2022 20:31:50.934 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:31:50.937 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:31:50.939 * DB loaded from disk: 0.021 seconds
+1:M 08 Dec 2022 20:31:50.942 * Ready to accept connections
+1:signal-handler (1670531719) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:35:19.944 # User requested shutdown...
+1:M 08 Dec 2022 20:35:19.947 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:35:19.955 * DB saved on disk
+1:M 08 Dec 2022 20:35:19.958 * Removing the pid file.
+1:M 08 Dec 2022 20:35:19.960 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:36:56.741 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:36:56.745 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:36:56.749 # Configuration loaded
+1:M 08 Dec 2022 20:36:56.756 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:36:56.761 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:36:56.766 # Server initialized
+1:M 08 Dec 2022 20:36:56.800 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:36:56.815 * RDB age 97 seconds
+1:M 08 Dec 2022 20:36:56.818 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:36:56.821 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:36:56.825 * DB loaded from disk: 0.052 seconds
+1:M 08 Dec 2022 20:36:56.828 * Ready to accept connections
+1:signal-handler (1670532003) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:40:03.481 # User requested shutdown...
+1:M 08 Dec 2022 20:40:03.483 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:40:03.491 * DB saved on disk
+1:M 08 Dec 2022 20:40:03.495 * Removing the pid file.
+1:M 08 Dec 2022 20:40:03.497 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:40:10.835 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:40:10.839 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:40:10.844 # Configuration loaded
+1:M 08 Dec 2022 20:40:10.850 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:40:10.855 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:40:10.858 # Server initialized
+1:M 08 Dec 2022 20:40:10.865 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:40:10.868 * RDB age 7 seconds
+1:M 08 Dec 2022 20:40:10.878 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:40:10.884 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:40:10.887 * DB loaded from disk: 0.024 seconds
+1:M 08 Dec 2022 20:40:10.893 * Ready to accept connections
+1:signal-handler (1670532056) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 20:40:56.266 # User requested shutdown...
+1:M 08 Dec 2022 20:40:56.270 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 20:40:56.279 * DB saved on disk
+1:M 08 Dec 2022 20:40:56.282 * Removing the pid file.
+1:M 08 Dec 2022 20:40:56.285 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 20:47:58.641 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 20:47:58.643 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 20:47:58.648 # Configuration loaded
+1:M 08 Dec 2022 20:47:58.657 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 20:47:58.661 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 20:47:58.665 # Server initialized
+1:M 08 Dec 2022 20:47:58.682 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 20:47:58.690 * RDB age 422 seconds
+1:M 08 Dec 2022 20:47:58.693 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 20:47:58.697 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 20:47:58.702 * DB loaded from disk: 0.024 seconds
+1:M 08 Dec 2022 20:47:58.705 * Ready to accept connections
+1:signal-handler (1670533265) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 21:01:05.838 # User requested shutdown...
+1:M 08 Dec 2022 21:01:05.845 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 21:01:05.878 * DB saved on disk
+1:M 08 Dec 2022 21:01:05.889 * Removing the pid file.
+1:M 08 Dec 2022 21:01:05.893 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 21:01:13.114 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 21:01:13.117 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 21:01:13.123 # Configuration loaded
+1:M 08 Dec 2022 21:01:13.126 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 21:01:13.131 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 21:01:13.134 # Server initialized
+1:M 08 Dec 2022 21:01:13.147 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 21:01:13.153 * RDB age 8 seconds
+1:M 08 Dec 2022 21:01:13.162 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 21:01:13.166 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 21:01:13.171 * DB loaded from disk: 0.030 seconds
+1:M 08 Dec 2022 21:01:13.174 * Ready to accept connections
+1:signal-handler (1670533281) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 21:01:21.552 # User requested shutdown...
+1:M 08 Dec 2022 21:01:21.557 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 21:01:21.569 * DB saved on disk
+1:M 08 Dec 2022 21:01:21.572 * Removing the pid file.
+1:M 08 Dec 2022 21:01:21.575 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 21:01:28.671 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 21:01:28.675 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 21:01:28.679 # Configuration loaded
+1:M 08 Dec 2022 21:01:28.682 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 21:01:28.685 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 21:01:28.688 # Server initialized
+1:M 08 Dec 2022 21:01:28.700 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 21:01:28.708 * RDB age 7 seconds
+1:M 08 Dec 2022 21:01:28.715 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 21:01:28.721 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 21:01:28.724 * DB loaded from disk: 0.032 seconds
+1:M 08 Dec 2022 21:01:28.727 * Ready to accept connections
+1:signal-handler (1670533304) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 21:01:44.460 # User requested shutdown...
+1:M 08 Dec 2022 21:01:44.462 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 21:01:44.471 * DB saved on disk
+1:M 08 Dec 2022 21:01:44.474 * Removing the pid file.
+1:M 08 Dec 2022 21:01:44.478 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 21:02:41.200 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 21:02:41.202 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 21:02:41.205 # Configuration loaded
+1:M 08 Dec 2022 21:02:41.209 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 21:02:41.214 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 21:02:41.221 # Server initialized
+1:M 08 Dec 2022 21:02:41.236 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 21:02:41.241 * RDB age 57 seconds
+1:M 08 Dec 2022 21:02:41.244 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 21:02:41.248 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 21:02:41.254 * DB loaded from disk: 0.022 seconds
+1:M 08 Dec 2022 21:02:41.259 * Ready to accept connections
+1:signal-handler (1670533520) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 21:05:20.781 # User requested shutdown...
+1:M 08 Dec 2022 21:05:20.789 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 21:05:20.808 * DB saved on disk
+1:M 08 Dec 2022 21:05:20.813 * Removing the pid file.
+1:M 08 Dec 2022 21:05:20.817 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 21:05:21.413 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 21:05:21.425 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 21:05:21.433 # Configuration loaded
+1:M 08 Dec 2022 21:05:21.445 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 21:05:21.461 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 21:05:21.465 # Server initialized
+1:M 08 Dec 2022 21:05:21.480 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 21:05:21.485 * RDB age 1 seconds
+1:M 08 Dec 2022 21:05:21.489 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 21:05:21.491 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 21:05:21.497 * DB loaded from disk: 0.022 seconds
+1:M 08 Dec 2022 21:05:21.500 * Ready to accept connections
+1:signal-handler (1670533543) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 21:05:43.054 # User requested shutdown...
+1:M 08 Dec 2022 21:05:43.057 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 21:05:43.066 * DB saved on disk
+1:M 08 Dec 2022 21:05:43.068 * Removing the pid file.
+1:M 08 Dec 2022 21:05:43.072 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 21:05:50.461 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 21:05:50.466 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 21:05:50.483 # Configuration loaded
+1:M 08 Dec 2022 21:05:50.489 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 21:05:50.497 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 21:05:50.503 # Server initialized
+1:M 08 Dec 2022 21:05:50.514 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 21:05:50.517 * RDB age 7 seconds
+1:M 08 Dec 2022 21:05:50.522 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 21:05:50.529 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 21:05:50.532 * DB loaded from disk: 0.022 seconds
+1:M 08 Dec 2022 21:05:50.537 * Ready to accept connections
+1:signal-handler (1670533981) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 21:13:01.388 # User requested shutdown...
+1:M 08 Dec 2022 21:13:01.391 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 21:13:01.405 * DB saved on disk
+1:M 08 Dec 2022 21:13:01.409 * Removing the pid file.
+1:M 08 Dec 2022 21:13:01.413 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 21:13:09.843 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 21:13:09.845 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 21:13:09.849 # Configuration loaded
+1:M 08 Dec 2022 21:13:09.856 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 21:13:09.862 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 21:13:09.869 # Server initialized
+1:M 08 Dec 2022 21:13:09.886 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 21:13:09.895 * RDB age 8 seconds
+1:M 08 Dec 2022 21:13:09.899 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 21:13:09.903 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 21:13:09.906 * DB loaded from disk: 0.030 seconds
+1:M 08 Dec 2022 21:13:09.909 * Ready to accept connections
+1:signal-handler (1670536660) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 21:57:40.231 # User requested shutdown...
+1:M 08 Dec 2022 21:57:40.234 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 21:57:40.241 * DB saved on disk
+1:M 08 Dec 2022 21:57:40.243 * Removing the pid file.
+1:M 08 Dec 2022 21:57:40.246 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 21:58:04.839 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 21:58:04.848 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 21:58:04.857 # Configuration loaded
+1:M 08 Dec 2022 21:58:04.866 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 21:58:04.869 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 21:58:04.872 # Server initialized
+1:M 08 Dec 2022 21:58:04.882 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 21:58:04.885 * RDB age 24 seconds
+1:M 08 Dec 2022 21:58:04.888 * RDB memory usage when created 0.97 Mb
+1:M 08 Dec 2022 21:58:04.891 * Done loading RDB, keys loaded: 2, keys expired: 0.
+1:M 08 Dec 2022 21:58:04.895 * DB loaded from disk: 0.016 seconds
+1:M 08 Dec 2022 21:58:04.900 * Ready to accept connections
+1:signal-handler (1670536760) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 21:59:20.528 # User requested shutdown...
+1:M 08 Dec 2022 21:59:20.531 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 21:59:20.542 * DB saved on disk
+1:M 08 Dec 2022 21:59:20.546 * Removing the pid file.
+1:M 08 Dec 2022 21:59:20.549 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 21:59:49.462 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 21:59:49.465 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 21:59:49.474 # Configuration loaded
+1:M 08 Dec 2022 21:59:49.479 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 21:59:49.483 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 21:59:49.490 # Server initialized
+1:M 08 Dec 2022 21:59:49.501 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 21:59:49.504 * RDB age 29 seconds
+1:M 08 Dec 2022 21:59:49.506 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 21:59:49.508 * Done loading RDB, keys loaded: 2, keys expired: 0.
+1:M 08 Dec 2022 21:59:49.513 * DB loaded from disk: 0.015 seconds
+1:M 08 Dec 2022 21:59:49.522 * Ready to accept connections
+1:M 08 Dec 2022 22:59:50.067 * 1 changes in 3600 seconds. Saving...
+1:M 08 Dec 2022 22:59:50.078 * Background saving started by pid 21
+21:C 08 Dec 2022 22:59:50.092 * DB saved on disk
+21:C 08 Dec 2022 22:59:50.096 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 08 Dec 2022 22:59:50.184 * Background saving terminated with success
+1:M 08 Dec 2022 22:59:50.189 * Replication backlog freed after 3600 seconds without connected replicas.
+1:signal-handler (1670543609) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 23:53:29.867 # User requested shutdown...
+1:M 08 Dec 2022 23:53:29.873 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 23:53:29.882 * DB saved on disk
+1:M 08 Dec 2022 23:53:29.885 * Removing the pid file.
+1:M 08 Dec 2022 23:53:29.889 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 23:58:20.017 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 23:58:20.021 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 23:58:20.024 # Configuration loaded
+1:M 08 Dec 2022 23:58:20.028 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 23:58:20.031 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 23:58:20.034 # Server initialized
+1:M 08 Dec 2022 23:58:20.042 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 23:58:20.045 * RDB age 291 seconds
+1:M 08 Dec 2022 23:58:20.050 * RDB memory usage when created 0.93 Mb
+1:M 08 Dec 2022 23:58:20.054 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 23:58:20.059 * DB loaded from disk: 0.019 seconds
+1:M 08 Dec 2022 23:58:20.063 * Ready to accept connections
+1:signal-handler (1670543957) Received SIGTERM scheduling shutdown...
+1:M 08 Dec 2022 23:59:17.255 # User requested shutdown...
+1:M 08 Dec 2022 23:59:17.259 * Saving the final RDB snapshot before exiting.
+1:M 08 Dec 2022 23:59:17.269 * DB saved on disk
+1:M 08 Dec 2022 23:59:17.273 * Removing the pid file.
+1:M 08 Dec 2022 23:59:17.276 # Redis is now ready to exit, bye bye...
+1:C 08 Dec 2022 23:59:57.168 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 08 Dec 2022 23:59:57.175 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 08 Dec 2022 23:59:57.179 # Configuration loaded
+1:M 08 Dec 2022 23:59:57.190 * monotonic clock: POSIX clock_gettime
+1:M 08 Dec 2022 23:59:57.195 * Running mode=standalone, port=6379.
+1:M 08 Dec 2022 23:59:57.199 # Server initialized
+1:M 08 Dec 2022 23:59:57.208 * Loading RDB produced by version 7.0.5
+1:M 08 Dec 2022 23:59:57.210 * RDB age 40 seconds
+1:M 08 Dec 2022 23:59:57.214 * RDB memory usage when created 0.85 Mb
+1:M 08 Dec 2022 23:59:57.219 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 08 Dec 2022 23:59:57.224 * DB loaded from disk: 0.016 seconds
+1:M 08 Dec 2022 23:59:57.227 * Ready to accept connections
+1:signal-handler (1670545104) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 00:18:24.692 # User requested shutdown...
+1:M 09 Dec 2022 00:18:24.696 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 00:18:24.708 * DB saved on disk
+1:M 09 Dec 2022 00:18:24.713 * Removing the pid file.
+1:M 09 Dec 2022 00:18:24.716 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 00:19:07.717 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 00:19:07.721 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 00:19:07.725 # Configuration loaded
+1:M 09 Dec 2022 00:19:07.729 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 00:19:07.735 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 00:19:07.739 # Server initialized
+1:M 09 Dec 2022 00:19:07.749 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 00:19:07.751 * RDB age 43 seconds
+1:M 09 Dec 2022 00:19:07.754 * RDB memory usage when created 0.95 Mb
+1:M 09 Dec 2022 00:19:07.758 * Done loading RDB, keys loaded: 1, keys expired: 0.
+1:M 09 Dec 2022 00:19:07.761 * DB loaded from disk: 0.016 seconds
+1:M 09 Dec 2022 00:19:07.764 * Ready to accept connections
+1:signal-handler (1670583302) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 10:55:02.255 # User requested shutdown...
+1:M 09 Dec 2022 10:55:02.258 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 10:55:02.268 * DB saved on disk
+1:M 09 Dec 2022 10:55:02.271 * Removing the pid file.
+1:M 09 Dec 2022 10:55:02.273 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 10:55:37.739 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 10:55:37.755 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 10:55:37.758 # Configuration loaded
+1:M 09 Dec 2022 10:55:37.763 * monotonic clock: POSIX clock_gettime
+1:C 09 Dec 2022 11:19:15.484 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 11:19:15.486 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 11:19:15.489 # Configuration loaded
+1:M 09 Dec 2022 11:19:15.493 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 11:19:15.501 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 11:19:15.503 # Server initialized
+1:M 09 Dec 2022 11:19:15.512 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 11:19:15.515 * RDB age 1453 seconds
+1:M 09 Dec 2022 11:19:15.516 * RDB memory usage when created 0.85 Mb
+1:M 09 Dec 2022 11:19:15.519 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 09 Dec 2022 11:19:15.521 * DB loaded from disk: 0.013 seconds
+1:M 09 Dec 2022 11:19:15.524 * Ready to accept connections
+1:signal-handler (1670584763) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 11:19:23.389 # User requested shutdown...
+1:M 09 Dec 2022 11:19:23.396 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 11:19:23.406 * DB saved on disk
+1:M 09 Dec 2022 11:19:23.409 * Removing the pid file.
+1:M 09 Dec 2022 11:19:23.413 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 11:20:13.496 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 11:20:13.503 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 11:20:13.508 # Configuration loaded
+1:M 09 Dec 2022 11:20:13.517 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 11:20:13.521 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 11:20:13.526 # Server initialized
+1:M 09 Dec 2022 11:20:13.536 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 11:20:13.539 * RDB age 50 seconds
+1:M 09 Dec 2022 11:20:13.541 * RDB memory usage when created 0.85 Mb
+1:M 09 Dec 2022 11:20:13.544 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 09 Dec 2022 11:20:13.555 * DB loaded from disk: 0.020 seconds
+1:M 09 Dec 2022 11:20:13.560 * Ready to accept connections
+1:signal-handler (1670584841) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 11:20:41.148 # User requested shutdown...
+1:M 09 Dec 2022 11:20:41.152 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 11:20:41.167 * DB saved on disk
+1:M 09 Dec 2022 11:20:41.170 * Removing the pid file.
+1:M 09 Dec 2022 11:20:41.173 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 11:20:56.681 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 11:20:56.683 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 11:20:56.688 # Configuration loaded
+1:M 09 Dec 2022 11:20:56.697 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 11:20:56.704 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 11:20:56.706 # Server initialized
+1:M 09 Dec 2022 11:20:56.713 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 11:20:56.715 * RDB age 15 seconds
+1:M 09 Dec 2022 11:20:56.719 * RDB memory usage when created 0.85 Mb
+1:M 09 Dec 2022 11:20:56.721 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 09 Dec 2022 11:20:56.724 * DB loaded from disk: 0.013 seconds
+1:M 09 Dec 2022 11:20:56.729 * Ready to accept connections
+1:signal-handler (1670584871) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 11:21:11.131 # User requested shutdown...
+1:M 09 Dec 2022 11:21:11.134 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 11:21:11.142 * DB saved on disk
+1:M 09 Dec 2022 11:21:11.145 * Removing the pid file.
+1:M 09 Dec 2022 11:21:11.148 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 11:21:39.832 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 11:21:39.836 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 11:21:39.842 # Configuration loaded
+1:M 09 Dec 2022 11:21:39.850 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 11:21:39.854 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 11:21:39.856 # Server initialized
+1:M 09 Dec 2022 11:21:39.866 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 11:21:39.869 * RDB age 28 seconds
+1:M 09 Dec 2022 11:21:39.872 * RDB memory usage when created 0.85 Mb
+1:M 09 Dec 2022 11:21:39.876 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 09 Dec 2022 11:21:39.879 * DB loaded from disk: 0.016 seconds
+1:M 09 Dec 2022 11:21:39.884 * Ready to accept connections
+1:signal-handler (1670585130) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 11:25:30.511 # User requested shutdown...
+1:M 09 Dec 2022 11:25:30.517 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 11:25:30.529 * DB saved on disk
+1:M 09 Dec 2022 11:25:30.531 * Removing the pid file.
+1:M 09 Dec 2022 11:25:30.534 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 11:27:59.115 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 11:27:59.120 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 11:27:59.124 # Configuration loaded
+1:M 09 Dec 2022 11:27:59.127 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 11:27:59.134 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 11:27:59.136 # Server initialized
+1:M 09 Dec 2022 11:27:59.145 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 11:27:59.148 * RDB age 149 seconds
+1:M 09 Dec 2022 11:27:59.151 * RDB memory usage when created 0.93 Mb
+1:M 09 Dec 2022 11:27:59.153 * Done loading RDB, keys loaded: 1, keys expired: 0.
+1:M 09 Dec 2022 11:27:59.157 * DB loaded from disk: 0.015 seconds
+1:M 09 Dec 2022 11:27:59.160 * Ready to accept connections
+1:M 09 Dec 2022 12:50:44.542 * 1 changes in 3600 seconds. Saving...
+1:M 09 Dec 2022 12:50:44.551 * Background saving started by pid 21
+21:C 09 Dec 2022 12:50:44.565 * DB saved on disk
+21:C 09 Dec 2022 12:50:44.568 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 09 Dec 2022 12:50:44.658 * Background saving terminated with success
+1:signal-handler (1670596559) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 14:36:00.047 # User requested shutdown...
+1:M 09 Dec 2022 14:36:00.052 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 14:36:00.060 * DB saved on disk
+1:M 09 Dec 2022 14:36:00.062 * Removing the pid file.
+1:M 09 Dec 2022 14:36:00.064 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 14:36:28.073 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 14:36:28.087 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 14:36:28.103 # Configuration loaded
+1:M 09 Dec 2022 14:36:28.137 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 14:36:28.150 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 14:36:28.160 # Server initialized
+1:M 09 Dec 2022 14:36:28.183 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 14:36:28.191 * RDB age 28 seconds
+1:M 09 Dec 2022 14:36:28.203 * RDB memory usage when created 0.95 Mb
+1:M 09 Dec 2022 14:36:28.209 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 09 Dec 2022 14:36:28.218 * DB loaded from disk: 0.043 seconds
+1:M 09 Dec 2022 14:36:28.228 * Ready to accept connections
+1:signal-handler (1670597008) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 14:43:28.607 # User requested shutdown...
+1:M 09 Dec 2022 14:43:28.612 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 14:43:28.623 * DB saved on disk
+1:M 09 Dec 2022 14:43:28.630 * Removing the pid file.
+1:M 09 Dec 2022 14:43:28.633 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 14:44:04.362 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 14:44:04.369 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 14:44:04.377 # Configuration loaded
+1:M 09 Dec 2022 14:44:04.387 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 14:44:04.403 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 14:44:04.410 # Server initialized
+1:M 09 Dec 2022 14:44:04.425 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 14:44:04.432 * RDB age 36 seconds
+1:M 09 Dec 2022 14:44:04.437 * RDB memory usage when created 0.85 Mb
+1:M 09 Dec 2022 14:44:04.445 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 09 Dec 2022 14:44:04.448 * DB loaded from disk: 0.030 seconds
+1:M 09 Dec 2022 14:44:04.451 * Ready to accept connections
+1:signal-handler (1670597901) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 14:58:21.628 # User requested shutdown...
+1:M 09 Dec 2022 14:58:21.632 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 14:58:21.640 * DB saved on disk
+1:M 09 Dec 2022 14:58:21.643 * Removing the pid file.
+1:M 09 Dec 2022 14:58:21.645 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 15:05:10.969 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 15:05:10.973 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 15:05:10.977 # Configuration loaded
+1:M 09 Dec 2022 15:05:10.980 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 15:05:10.987 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 15:05:10.990 # Server initialized
+1:M 09 Dec 2022 15:05:10.999 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 15:05:11.002 * RDB age 409 seconds
+1:M 09 Dec 2022 15:05:11.005 * RDB memory usage when created 0.85 Mb
+1:M 09 Dec 2022 15:05:11.008 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 09 Dec 2022 15:05:11.010 * DB loaded from disk: 0.015 seconds
+1:M 09 Dec 2022 15:05:11.013 * Ready to accept connections
+1:signal-handler (1670599938) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 15:32:18.724 # User requested shutdown...
+1:M 09 Dec 2022 15:32:18.727 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 15:32:18.737 * DB saved on disk
+1:M 09 Dec 2022 15:32:18.740 * Removing the pid file.
+1:M 09 Dec 2022 15:32:18.743 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 15:40:28.401 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 15:40:28.403 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 15:40:28.406 # Configuration loaded
+1:M 09 Dec 2022 15:40:28.408 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 15:40:28.413 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 15:40:28.415 # Server initialized
+1:M 09 Dec 2022 15:40:28.427 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 15:40:28.431 * RDB age 490 seconds
+1:M 09 Dec 2022 15:40:28.434 * RDB memory usage when created 0.95 Mb
+1:M 09 Dec 2022 15:40:28.442 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 09 Dec 2022 15:40:28.446 * DB loaded from disk: 0.023 seconds
+1:M 09 Dec 2022 15:40:28.449 * Ready to accept connections
+1:signal-handler (1670601139) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 15:52:19.415 # User requested shutdown...
+1:M 09 Dec 2022 15:52:19.418 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 15:52:19.425 * DB saved on disk
+1:M 09 Dec 2022 15:52:19.428 * Removing the pid file.
+1:M 09 Dec 2022 15:52:19.431 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 16:05:29.620 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 16:05:29.625 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 16:05:29.637 # Configuration loaded
+1:M 09 Dec 2022 16:05:29.643 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 16:05:29.647 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 16:05:29.651 # Server initialized
+1:M 09 Dec 2022 16:05:29.659 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 16:05:29.664 * RDB age 790 seconds
+1:M 09 Dec 2022 16:05:29.666 * RDB memory usage when created 0.95 Mb
+1:M 09 Dec 2022 16:05:29.672 * Done loading RDB, keys loaded: 0, keys expired: 1.
+1:M 09 Dec 2022 16:05:29.677 * DB loaded from disk: 0.018 seconds
+1:M 09 Dec 2022 16:05:29.689 * Ready to accept connections
+1:signal-handler (1670602055) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 16:07:35.342 # User requested shutdown...
+1:M 09 Dec 2022 16:07:35.347 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 16:07:35.359 * DB saved on disk
+1:M 09 Dec 2022 16:07:35.362 * Removing the pid file.
+1:M 09 Dec 2022 16:07:35.364 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 16:07:42.759 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 16:07:42.763 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 16:07:42.772 # Configuration loaded
+1:M 09 Dec 2022 16:07:42.776 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 16:07:42.781 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 16:07:42.784 # Server initialized
+1:M 09 Dec 2022 16:07:42.793 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 16:07:42.796 * RDB age 7 seconds
+1:M 09 Dec 2022 16:07:42.799 * RDB memory usage when created 0.87 Mb
+1:M 09 Dec 2022 16:07:42.801 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 09 Dec 2022 16:07:42.804 * DB loaded from disk: 0.014 seconds
+1:M 09 Dec 2022 16:07:42.806 * Ready to accept connections
+1:signal-handler (1670602268) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 16:11:08.297 # User requested shutdown...
+1:M 09 Dec 2022 16:11:08.300 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 16:11:08.308 * DB saved on disk
+1:M 09 Dec 2022 16:11:08.311 * Removing the pid file.
+1:M 09 Dec 2022 16:11:08.313 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 16:34:01.743 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 16:34:01.746 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 16:34:01.751 # Configuration loaded
+1:M 09 Dec 2022 16:34:01.755 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 16:34:01.762 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 16:34:01.766 # Server initialized
+1:M 09 Dec 2022 16:34:01.775 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 16:34:01.779 * RDB age 1373 seconds
+1:M 09 Dec 2022 16:34:01.790 * RDB memory usage when created 0.85 Mb
+1:M 09 Dec 2022 16:34:01.795 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 09 Dec 2022 16:34:01.800 * DB loaded from disk: 0.027 seconds
+1:M 09 Dec 2022 16:34:01.802 * Ready to accept connections
+1:signal-handler (1670604388) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 16:46:28.630 # User requested shutdown...
+1:M 09 Dec 2022 16:46:28.634 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 16:46:28.644 * DB saved on disk
+1:M 09 Dec 2022 16:46:28.646 * Removing the pid file.
+1:M 09 Dec 2022 16:46:28.649 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 16:46:42.211 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 16:46:42.213 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 16:46:42.221 # Configuration loaded
+1:M 09 Dec 2022 16:46:42.226 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 16:46:42.238 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 16:46:42.242 # Server initialized
+1:M 09 Dec 2022 16:46:42.258 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 16:46:42.262 * RDB age 14 seconds
+1:M 09 Dec 2022 16:46:42.267 * RDB memory usage when created 0.97 Mb
+1:M 09 Dec 2022 16:46:42.272 * Done loading RDB, keys loaded: 1, keys expired: 0.
+1:M 09 Dec 2022 16:46:42.280 * DB loaded from disk: 0.022 seconds
+1:M 09 Dec 2022 16:46:42.282 * Ready to accept connections
+1:signal-handler (1670605088) Received SIGTERM scheduling shutdown...
+1:M 09 Dec 2022 16:58:09.018 # User requested shutdown...
+1:M 09 Dec 2022 16:58:09.022 * Saving the final RDB snapshot before exiting.
+1:M 09 Dec 2022 16:58:09.032 * DB saved on disk
+1:M 09 Dec 2022 16:58:09.034 * Removing the pid file.
+1:M 09 Dec 2022 16:58:09.036 # Redis is now ready to exit, bye bye...
+1:C 09 Dec 2022 17:03:55.057 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 09 Dec 2022 17:03:55.061 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 09 Dec 2022 17:03:55.064 # Configuration loaded
+1:M 09 Dec 2022 17:03:55.068 * monotonic clock: POSIX clock_gettime
+1:M 09 Dec 2022 17:03:55.080 * Running mode=standalone, port=6379.
+1:M 09 Dec 2022 17:03:55.089 # Server initialized
+1:M 09 Dec 2022 17:03:55.117 * Loading RDB produced by version 7.0.5
+1:M 09 Dec 2022 17:03:55.122 * RDB age 346 seconds
+1:M 09 Dec 2022 17:03:55.126 * RDB memory usage when created 0.95 Mb
+1:M 09 Dec 2022 17:03:55.129 * Done loading RDB, keys loaded: 1, keys expired: 0.
+1:M 09 Dec 2022 17:03:55.132 * DB loaded from disk: 0.034 seconds
+1:M 09 Dec 2022 17:03:55.134 * Ready to accept connections
+1:M 09 Dec 2022 18:03:56.060 * 1 changes in 3600 seconds. Saving...
+1:M 09 Dec 2022 18:03:56.071 * Background saving started by pid 22
+22:C 09 Dec 2022 18:03:56.090 * DB saved on disk
+22:C 09 Dec 2022 18:03:56.094 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 09 Dec 2022 18:03:56.178 * Background saving terminated with success
+1:M 09 Dec 2022 18:03:57.024 * Replication backlog freed after 3600 seconds without connected replicas.
