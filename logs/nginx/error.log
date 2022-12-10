@@ -11237,3 +11237,48 @@
 2022/12/09 17:03:55 [notice] 1#1: start worker process 26
 2022/12/09 17:03:55 [notice] 1#1: start worker process 27
 2022/12/09 17:08:20 [error] 24#24: *8 directory index of "/var/www/html/private/css/" is forbidden, client: 172.27.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/10 07:34:10 [error] 24#24: *2769 directory index of "/var/www/html/private/css/" is forbidden, client: 172.27.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/10 08:07:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/10 08:07:36 [notice] 26#26: gracefully shutting down
+2022/12/10 08:07:36 [notice] 27#27: gracefully shutting down
+2022/12/10 08:07:36 [notice] 27#27: exiting
+2022/12/10 08:07:36 [notice] 25#25: gracefully shutting down
+2022/12/10 08:07:36 [notice] 24#24: gracefully shutting down
+2022/12/10 08:07:36 [notice] 26#26: exiting
+2022/12/10 08:07:36 [notice] 27#27: exit
+2022/12/10 08:07:36 [notice] 25#25: exiting
+2022/12/10 08:07:36 [notice] 25#25: exit
+2022/12/10 08:07:36 [notice] 26#26: exit
+2022/12/10 08:07:36 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/10 08:07:36 [notice] 1#1: worker process 25 exited with code 0
+2022/12/10 08:07:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/10 08:07:36 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/10 08:07:36 [notice] 1#1: worker process 26 exited with code 0
+2022/12/10 08:07:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/10 08:07:36 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/10 08:07:36 [notice] 1#1: worker process 27 exited with code 0
+2022/12/10 08:07:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/10 08:07:45 [notice] 24#24: exiting
+2022/12/10 08:07:45 [notice] 24#24: exit
+2022/12/10 08:07:45 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/10 08:07:45 [notice] 1#1: worker process 24 exited with code 0
+2022/12/10 08:07:45 [notice] 1#1: exit
+2022/12/10 08:10:27 [notice] 1#1: using the "epoll" event method
+2022/12/10 08:10:27 [notice] 1#1: nginx/1.20.2
+2022/12/10 08:10:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/10 08:10:27 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/12/10 08:10:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/10 08:10:27 [notice] 1#1: start worker processes
+2022/12/10 08:10:27 [notice] 1#1: start worker process 24
+2022/12/10 08:10:27 [notice] 1#1: start worker process 25
+2022/12/10 08:10:27 [notice] 1#1: start worker process 26
+2022/12/10 08:10:27 [notice] 1#1: start worker process 27
+2022/12/10 08:10:39 [error] 25#25: *1 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/10 08:41:44 [error] 24#24: *671 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/10 09:27:23 [error] 25#25: *756 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/10 09:28:24 [error] 25#25: *769 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/10 09:28:28 [error] 25#25: *769 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/10 09:38:12 [warn] 24#24: *813 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.1, server: localhost, request: "POST /uploading/uploading.php HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/10 09:38:17 [warn] 24#24: *813 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.1, server: localhost, request: "POST /uploading/uploading.php HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/10 11:44:56 [error] 25#25: *948 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/10 11:51:31 [error] 25#25: *960 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"

@@ -265,18 +265,18 @@ class Image
 
     public static function GetWidth($aImg = null)
     {
-        if ($aImg === null) {
-            $aImg = $this->img;
-        }
+//        if ($aImg === null) {
+//            $aImg = $this->img;
+//        }
 
         return imagesx($aImg);
     }
 
     public static function GetHeight($aImg = null)
     {
-        if ($aImg === null) {
-            $aImg = $this->img;
-        }
+//        if ($aImg === null) {
+//            $aImg = $this->img;
+//        }
 
         return imagesy($aImg);
     }

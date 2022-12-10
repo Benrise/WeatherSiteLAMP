@@ -18,7 +18,6 @@ for ($j = 0; $j < 25; $j++)
         'password' => $faker->password,
         'country' => $faker->country,
         'title' => $faker->title
-
     ];
 }
 

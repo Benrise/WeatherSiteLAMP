@@ -2,16 +2,17 @@
 function Weather()
 {
 
-
-    if ( (data == "" || data == " ") && getCookie('isCustomCity') ==""){
+    let data = ''
+    if ( (data == "" || data == " ") && getCookie('isCustomCity') == "true"){
         alert("Введите город");
     }
-    else if(getCookie('isCustomCity') !== ""){
-        var data = getCookie("customCity");
+    else if(getCookie('isCustomCity') !== "false"){
+        data = getCookie("customCity");
     }
     else{
-        let data = document.getElementById('search').value
+        data = document.getElementById('search').value
     }
+    alert(data);
 
 
 
