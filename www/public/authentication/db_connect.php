@@ -4,10 +4,23 @@ $connect = mysqli_connect('database', 'root', 'tiger', 'authDB');
 if (!$connect) {
     die('Error connect to DataBase');
 }
-//------------------------------------------------------------------------------------------//
+//-----------------------------------Redis-------------------------------------------------------//
 $redisClient = new Redis();
 
 openRedisConnection( 'redis', 6379);
+
+function openRedisConnection( $hostName, $port): Redis
+{
+    global $redisClient;
+    // Opening a redis connection
+    try {
+        $redisClient->connect($hostName, $port);
+        $redisClient->auth("1111");
+    } catch (RedisException $e) {
+        echo $e -> getMessage( );
+    }
+    return $redisClient;
+}
 
 function redisSet($key, $value): void
 {
@@ -71,15 +84,3 @@ function redisGet($key): string
 }
 
 
-function openRedisConnection( $hostName, $port): Redis
-{
-    global $redisClient;
-    // Opening a redis connection
-    try {
-        $redisClient->connect($hostName, $port);
-        $redisClient->auth("1111");
-    } catch (RedisException $e) {
-        echo $e -> getMessage( );
-    }
-    return $redisClient;
-}

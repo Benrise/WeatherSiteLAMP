@@ -3,7 +3,7 @@ function Weather()
 {
 
     let data = ''
-    if ( (data == "" || data == " ") && getCookie('isCustomCity') == "true"){
+    if ( (data == "" || data == " ") && getCookie('isCustomCity') == undefined){
         alert("Введите город");
     }
     else if(getCookie('isCustomCity') !== "false"){
@@ -12,7 +12,6 @@ function Weather()
     else{
         data = document.getElementById('search').value
     }
-    alert(data);
 
 
 

@@ -11282,3 +11282,67 @@
 2022/12/10 09:38:17 [warn] 24#24: *813 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.1, server: localhost, request: "POST /uploading/uploading.php HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
 2022/12/10 11:44:56 [error] 25#25: *948 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
 2022/12/10 11:51:31 [error] 25#25: *960 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/10 12:49:38 [error] 24#24: *968 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/10 12:50:35 [error] 26#26: *1104 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/bar_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/bar_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:35 [error] 27#27: *1117 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/bar_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/bar_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:36 [error] 27#27: *1181 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/bg_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/bg_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:38 [error] 27#27: *1215 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/bar_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/bar_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:39 [error] 24#24: *1259 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/bg_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/bg_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:39 [error] 27#27: *1254 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/pie_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/pie_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:40 [error] 24#24: *1294 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/pie_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/pie_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:40 [error] 27#27: *1254 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/bar_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/bar_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:40 [error] 25#25: *1315 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/pie_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/pie_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:41 [error] 26#26: *1350 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/line_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/line_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:41 [error] 24#24: *1365 upstream prematurely closed connection while reading upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/bg_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/bg_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:41 [error] 25#25: *1315 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/line_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/line_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:43 [error] 27#27: *1402 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/line_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/line_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:56 [error] 27#27: *1535 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/bar_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/bar_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:56 [error] 26#26: *1526 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/line_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/line_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:56 [error] 25#25: *1540 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/pie_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/pie_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 12:50:57 [error] 25#25: *1540 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/line_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/line_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 13:19:36 [error] 25#25: *1595 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/10 13:30:53 [error] 26#26: *1704 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/line_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/line_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/10 13:34:33 [error] 24#24: *1847 upstream prematurely closed connection while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /practic6_data/bg_graph.png HTTP/1.1", upstream: "http://172.19.0.5:80/practic6_data/bg_graph.png", host: "localhost", referrer: "http://localhost/graphs.php"
+2022/12/11 05:36:36 [error] 25#25: *1880 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/11 05:36:45 [error] 25#25: *1880 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/13 11:27:02 [error] 26#26: *1890 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/13 11:27:42 [error] 27#27: *1893 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/13 21:58:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 21:58:39 [notice] 27#27: gracefully shutting down
+2022/12/13 21:58:39 [notice] 24#24: gracefully shutting down
+2022/12/13 21:58:39 [notice] 25#25: gracefully shutting down
+2022/12/13 21:58:39 [notice] 26#26: gracefully shutting down
+2022/12/13 21:58:39 [notice] 27#27: exiting
+2022/12/13 21:58:39 [notice] 24#24: exiting
+2022/12/13 21:58:39 [notice] 24#24: exit
+2022/12/13 21:58:39 [notice] 25#25: exiting
+2022/12/13 21:58:39 [notice] 25#25: exit
+2022/12/13 21:58:39 [notice] 26#26: exiting
+2022/12/13 21:58:39 [notice] 26#26: exit
+2022/12/13 21:58:39 [notice] 27#27: exit
+2022/12/13 21:58:39 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/13 21:58:39 [notice] 1#1: worker process 24 exited with code 0
+2022/12/13 21:58:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 21:58:39 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/13 21:58:39 [notice] 1#1: worker process 25 exited with code 0
+2022/12/13 21:58:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 21:58:39 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/13 21:58:39 [notice] 1#1: worker process 26 exited with code 0
+2022/12/13 21:58:39 [notice] 1#1: worker process 27 exited with code 0
+2022/12/13 21:58:39 [notice] 1#1: exit
+2022/12/14 02:07:31 [notice] 1#1: using the "epoll" event method
+2022/12/14 02:07:31 [notice] 1#1: nginx/1.20.2
+2022/12/14 02:07:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/14 02:07:31 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/12/14 02:07:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/14 02:07:31 [notice] 1#1: start worker processes
+2022/12/14 02:07:31 [notice] 1#1: start worker process 23
+2022/12/14 02:07:31 [notice] 1#1: start worker process 24
+2022/12/14 02:07:31 [notice] 1#1: start worker process 25
+2022/12/14 02:07:31 [notice] 1#1: start worker process 26
+2022/12/14 02:07:37 [error] 23#23: *1 directory index of "/var/www/html/private/css/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/14 02:07:40 [error] 23#23: *1 directory index of "/var/www/html/private/css/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/weatherMap.php"
+2022/12/14 02:08:57 [error] 23#23: *7 directory index of "/var/www/html/private/css/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/weatherMap.php"
+2022/12/14 02:09:20 [error] 23#23: *7 directory index of "/var/www/html/private/css/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/weatherMap.php"
+2022/12/14 02:09:25 [error] 23#23: *7 directory index of "/var/www/html/private/css/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
+2022/12/14 02:10:31 [error] 23#23: *7 directory index of "/var/www/html/private/css/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
