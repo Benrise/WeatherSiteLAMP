@@ -2,18 +2,19 @@
 
 function Weather()
 {
-
     let data = ''
-    if ( (data == "" || data == " ") && getCookie('isCustomCity') == "true"){
+    console.log(getCookie('isCustomCity'))
+    if(getCookie('isCustomCity')){
+        data = decodeURIComponent(getCookie("customCity"));
+    }
+    else if(!getCookie('isCustomCity')){
+        data = decodeURIComponent(document.getElementById('search').value)
+    }
+
+    if ( (data == "" || data == " ") && (getCookie('CustomCity') == undefined)){
         alert("Введите город");
     }
-    else if(getCookie('isCustomCity') !== "false"){
-        data = getCookie("customCity");
-    }
-    else{
-        data = document.getElementById('search').value
-    }
-    alert(data);
+
 
         
     document.querySelector('.city').textContent = data;

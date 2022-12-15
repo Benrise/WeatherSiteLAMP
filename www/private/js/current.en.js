@@ -1,9 +1,9 @@
 
 function getCookie(name) {
-    var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
-    return matches ? decodeURIComponent(matches[1]) : undefined;
+    function escape(s) { return s.replace(/([.*+?\^$(){}|\[\]\/\\])/g, '\\$1'); }
+    var match = document.cookie.match(RegExp('(?:^|;\\s*)' + escape(name) + '=([^;]*)'));
+    return match ? match[1] : null;
 }
-
 
 
 var flag = false;
@@ -22,7 +22,7 @@ if (!flag)
 {
     function  displayLocation(position) 
     {
-        if (getCookie('customCity') == "" ^ getCookie('customCity') !== undefined){
+        if (getCookie('IsCustomCity') === 'false'){
             return Weather(), changeLocation(), Update()
         }
         flag = true;

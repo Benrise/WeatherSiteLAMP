@@ -1,7 +1,8 @@
 
 function getCookie(name) {
-    var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
-    return matches ? decodeURIComponent(matches[1]) : undefined;
+    function escape(s) { return s.replace(/([.*+?\^$(){}|\[\]\/\\])/g, '\\$1'); }
+    var match = document.cookie.match(RegExp('(?:^|;\\s*)' + escape(name) + '=([^;]*)'));
+    return match ? match[1] : null;
 }
 
 
@@ -22,10 +23,9 @@ if (!flag)
 {
     function  displayLocation(position) 
     {
-        if (getCookie('customCity') == "" ^ getCookie('customCity') !== undefined){
+        if (getCookie('IsCustomCity') === false){
             return Weather(), changeLocation(), Update()
         }
-
         flag = true;
         //передаем в нашу функцию объект position - этот объект содержит ширину и долготу и еще массу всяких вещей.
         latitude = position.coords.latitude; // излвекаем широту

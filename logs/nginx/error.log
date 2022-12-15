@@ -11282,3 +11282,21 @@
 2022/12/10 09:38:17 [warn] 24#24: *813 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.1, server: localhost, request: "POST /uploading/uploading.php HTTP/1.1", host: "localhost", referrer: "http://localhost/profile.php"
 2022/12/10 11:44:56 [error] 25#25: *948 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
 2022/12/10 11:51:31 [error] 25#25: *960 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/15 06:53:11 [notice] 1#1: using the "epoll" event method
+2022/12/15 06:53:11 [notice] 1#1: nginx/1.20.2
+2022/12/15 06:53:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/15 06:53:11 [notice] 1#1: OS: Linux 5.10.124-linuxkit
+2022/12/15 06:53:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/15 06:53:11 [notice] 1#1: start worker processes
+2022/12/15 06:53:11 [notice] 1#1: start worker process 24
+2022/12/15 06:53:11 [notice] 1#1: start worker process 25
+2022/12/15 06:53:11 [notice] 1#1: start worker process 26
+2022/12/15 06:53:11 [notice] 1#1: start worker process 27
+2022/12/15 06:53:21 [error] 24#24: *1 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/15 06:53:39 [error] 25#25: *4 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/15 06:53:44 [error] 25#25: *4 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/15 06:53:49 [error] 25#25: *4 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/register.php"
+2022/12/15 07:29:29 [error] 25#25: *168 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php"
+2022/12/15 07:29:36 [error] 25#25: *168 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/15 07:33:27 [error] 25#25: *168 directory index of "/var/www/html/private/css/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /css/ HTTP/1.1", host: "localhost", referrer: "http://localhost/login.php"
+2022/12/15 07:34:03 [error] 25#25: *168 open() "/var/www/html/private/js/script" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /js/script HTTP/1.1", host: "localhost", referrer: "http://localhost/sixteen.php"
