@@ -2,6 +2,7 @@
 function Weather()
 {
     let data = ''
+<<<<<<< HEAD
     console.log(getCookie('isCustomCity'))
     if(getCookie('isCustomCity')){
         data = decodeURIComponent(getCookie("customCity"));
@@ -14,6 +15,17 @@ function Weather()
         alert("Введите город");
     }
 
+=======
+    if ( (data == "" || data == " ") && getCookie('isCustomCity') == undefined){
+        alert("Введите город");
+    }
+    else if(getCookie('isCustomCity') !== "false"){
+        data = getCookie("customCity");
+    }
+    else{
+        data = document.getElementById('search').value
+    }
+>>>>>>> practic7
 
 
 

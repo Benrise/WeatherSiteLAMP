@@ -3263,6 +3263,7 @@
 23:C 10 Dec 2022 11:44:56.169 * DB saved on disk
 23:C 10 Dec 2022 11:44:56.173 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
 1:M 10 Dec 2022 11:44:56.263 * Background saving terminated with success
+<<<<<<< HEAD
 1:signal-handler (1670994190) Received SIGTERM scheduling shutdown...
 1:M 14 Dec 2022 05:03:10.210 # User requested shutdown...
 1:M 14 Dec 2022 05:03:10.213 * Saving the final RDB snapshot before exiting.
@@ -3286,3 +3287,64 @@
 21:C 15 Dec 2022 07:27:30.363 * DB saved on disk
 21:C 15 Dec 2022 07:27:30.367 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
 1:M 15 Dec 2022 07:27:30.463 * Background saving terminated with success
+=======
+1:M 10 Dec 2022 12:44:57.042 * 1 changes in 3600 seconds. Saving...
+1:M 10 Dec 2022 12:44:57.057 * Background saving started by pid 24
+24:C 10 Dec 2022 12:44:57.072 * DB saved on disk
+24:C 10 Dec 2022 12:44:57.077 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 10 Dec 2022 12:44:57.166 * Background saving terminated with success
+1:M 10 Dec 2022 13:44:58.938 * 1 changes in 3600 seconds. Saving...
+1:M 10 Dec 2022 13:44:58.952 * Background saving started by pid 25
+25:C 10 Dec 2022 13:44:58.966 * DB saved on disk
+25:C 10 Dec 2022 13:44:58.971 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 10 Dec 2022 13:44:59.061 * Background saving terminated with success
+1:M 11 Dec 2022 05:36:36.911 * 1 changes in 3600 seconds. Saving...
+1:M 11 Dec 2022 05:36:36.915 * Background saving started by pid 26
+26:C 11 Dec 2022 05:36:36.922 * DB saved on disk
+26:C 11 Dec 2022 05:36:36.925 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 11 Dec 2022 05:36:37.020 * Background saving terminated with success
+1:M 11 Dec 2022 06:36:38.044 * 1 changes in 3600 seconds. Saving...
+1:M 11 Dec 2022 06:36:38.061 * Background saving started by pid 27
+27:C 11 Dec 2022 06:36:38.080 * DB saved on disk
+27:C 11 Dec 2022 06:36:38.086 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 11 Dec 2022 06:36:38.171 * Background saving terminated with success
+1:M 13 Dec 2022 11:27:02.115 * 1 changes in 3600 seconds. Saving...
+1:M 13 Dec 2022 11:27:02.121 * Background saving started by pid 28
+28:C 13 Dec 2022 11:27:02.133 * DB saved on disk
+28:C 13 Dec 2022 11:27:02.135 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 13 Dec 2022 11:27:02.228 * Background saving terminated with success
+1:M 13 Dec 2022 12:54:48.873 * 1 changes in 3600 seconds. Saving...
+1:M 13 Dec 2022 12:54:48.887 * Background saving started by pid 29
+29:C 13 Dec 2022 12:54:48.896 * DB saved on disk
+29:C 13 Dec 2022 12:54:48.900 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 13 Dec 2022 12:54:48.994 * Background saving terminated with success
+1:signal-handler (1670968719) Received SIGTERM scheduling shutdown...
+1:M 13 Dec 2022 21:58:39.987 # User requested shutdown...
+1:M 13 Dec 2022 21:58:39.991 * Saving the final RDB snapshot before exiting.
+1:M 13 Dec 2022 21:58:40.009 * DB saved on disk
+1:M 13 Dec 2022 21:58:40.016 * Removing the pid file.
+1:M 13 Dec 2022 21:58:40.022 # Redis is now ready to exit, bye bye...
+1:C 14 Dec 2022 02:07:30.345 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 14 Dec 2022 02:07:30.347 # Redis version=7.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 14 Dec 2022 02:07:30.350 # Configuration loaded
+1:M 14 Dec 2022 02:07:30.353 * monotonic clock: POSIX clock_gettime
+1:M 14 Dec 2022 02:07:30.358 * Running mode=standalone, port=6379.
+1:M 14 Dec 2022 02:07:30.360 # Server initialized
+1:M 14 Dec 2022 02:07:30.369 * Loading RDB produced by version 7.0.5
+1:M 14 Dec 2022 02:07:30.371 * RDB age 14931 seconds
+1:M 14 Dec 2022 02:07:30.373 * RDB memory usage when created 1.00 Mb
+1:M 14 Dec 2022 02:07:30.376 * Done loading RDB, keys loaded: 1, keys expired: 0.
+1:M 14 Dec 2022 02:07:30.379 * DB loaded from disk: 0.013 seconds
+1:M 14 Dec 2022 02:07:30.382 * Ready to accept connections
+1:M 14 Dec 2022 03:07:31.079 * 1 changes in 3600 seconds. Saving...
+1:M 14 Dec 2022 03:07:31.094 * Background saving started by pid 21
+21:C 14 Dec 2022 03:07:31.123 * DB saved on disk
+21:C 14 Dec 2022 03:07:31.128 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 14 Dec 2022 03:07:31.202 * Background saving terminated with success
+>>>>>>> practic7
+1:signal-handler (1671091652) Received SIGTERM scheduling shutdown...
+1:M 15 Dec 2022 08:07:32.719 # User requested shutdown...
+1:M 15 Dec 2022 08:07:32.722 * Saving the final RDB snapshot before exiting.
+1:M 15 Dec 2022 08:07:32.730 * DB saved on disk
+1:M 15 Dec 2022 08:07:32.733 * Removing the pid file.
+1:M 15 Dec 2022 08:07:32.735 # Redis is now ready to exit, bye bye...
