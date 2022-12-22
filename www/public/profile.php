@@ -24,7 +24,7 @@ function setTheme(): void
 function setDefaultGeo(){
     if (intval($_POST['select-geo'])){
         $isCustomCity = "true";
-        $selectedCity = $_POST['input-default-geo'];
+        $selectedCity = urldecode($_POST['input-default-geo']);
         setcookie("isCustomCity", $isCustomCity);
         setcookie("customCity", $selectedCity);
 

@@ -6,7 +6,6 @@ function getCookie(name) {
 }
 
 
-
 var flag = false;
 var fill = false;
 window.onload = getMyLocation; //Вызываем функцию, которую создадим чуть ниже, она срабатывает сразу же после загрузки нашего сайта.
@@ -23,7 +22,7 @@ if (!flag)
 {
     function  displayLocation(position) 
     {
-        if (getCookie('IsCustomCity') === false){
+        if (getCookie('isCustomCity') == 'true'){
             return Weather(), changeLocation(), Update()
         }
         flag = true;

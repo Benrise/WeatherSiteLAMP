@@ -13,6 +13,7 @@ class ComposerStaticInit93035b4556584276245d96de462a668a
         ),
         'A' => 
         array (
+            'App\\' => 4,
             'Amenadiel\\JpGraph\\Util\\' => 23,
             'Amenadiel\\JpGraph\\Themes\\' => 25,
             'Amenadiel\\JpGraph\\Text\\' => 23,
@@ -30,6 +31,10 @@ class ComposerStaticInit93035b4556584276245d96de462a668a
         'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/App',
         ),
         'Amenadiel\\JpGraph\\Util\\' => 
         array (

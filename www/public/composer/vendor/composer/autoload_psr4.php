@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
+    'App\\' => array($baseDir . '/App'),
     'Amenadiel\\JpGraph\\Util\\' => array($vendorDir . '/amenadiel/jpgraph/src/util'),
     'Amenadiel\\JpGraph\\Themes\\' => array($vendorDir . '/amenadiel/jpgraph/src/themes'),
     'Amenadiel\\JpGraph\\Text\\' => array($vendorDir . '/amenadiel/jpgraph/src/text'),

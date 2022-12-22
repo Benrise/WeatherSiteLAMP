@@ -2,32 +2,27 @@
 
 function Weather()
 {
-    let data = ''
-<<<<<<< HEAD
-    console.log(getCookie('isCustomCity'))
+    var data = ''
     if(getCookie('isCustomCity')){
-        data = decodeURIComponent(getCookie("customCity"));
+        data = getCookie("customCity");
     }
     else if(!getCookie('isCustomCity')){
-        data = decodeURIComponent(document.getElementById('search').value)
+        data = document.getElementById('search').value
     }
 
-    if ( (data == "" || data == " ") && (getCookie('CustomCity') == undefined)){
+    if ( (data == "" || data == " ") && (getCookie('customCity') == undefined)){
         alert("Введите город");
     }
 
-=======
-    if ( (data == "" || data == " ") && (getCookie('isCustomCity')==undefined)){
+    if ( (data == "" || data == " ") && (getCookie('isCustomCity') == undefined)){
         alert("Введите город");
     }
     else if(getCookie('isCustomCity') !== "false"){
-        data = getCookie("customCity");
+        data = decodeURIComponent(getCookie("customCity"));
     }
     else{
         data = document.getElementById('search').value
     }
->>>>>>> practic7
-
         
     document.querySelector('.city').textContent = data;
 

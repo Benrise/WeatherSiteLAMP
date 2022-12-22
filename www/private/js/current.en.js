@@ -22,7 +22,7 @@ if (!flag)
 {
     function  displayLocation(position) 
     {
-        if (getCookie('IsCustomCity') === 'false'){
+        if (getCookie('isCustomCity') == 'true'){
             return Weather(), changeLocation(), Update()
         }
         flag = true;
