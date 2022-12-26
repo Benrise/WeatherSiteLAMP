@@ -17,14 +17,17 @@ if (!flag)
 
         function changeLocation()
         {
+            var data = ''
             let apiKey = "49c8e7a1210aefbd0380c4684ee65305"
-            if (getCookie('customCity') != "" && getCookie('customCity') != undefined){
-                var data = getCookie('customCity');
+            if (getCookie('customCity') != "" && getCookie('customCity') != null){
+                data = getCookie('customCity');
                 data = data.toString();
             }
             else{
-                var data = document.getElementById('search').value
+                data = document.getElementById('search').value
             }
+
+
             let url = `http://api.openweathermap.org/data/2.5/weather?q=${data}&lang=ru&units=metric&appid=${apiKey}`
             fetch(url)
             .then(function(resp){return resp.json() })

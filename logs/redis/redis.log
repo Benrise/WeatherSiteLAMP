@@ -3298,3 +3298,29 @@
 1:M 26 Dec 2022 12:04:44.286 * Done loading RDB, keys loaded: 1, keys expired: 1.
 1:M 26 Dec 2022 12:04:44.291 * DB loaded from disk: 0.040 seconds
 1:M 26 Dec 2022 12:04:44.303 * Ready to accept connections
+1:M 26 Dec 2022 12:38:50.342 * 100 changes in 300 seconds. Saving...
+1:M 26 Dec 2022 12:38:50.350 * Background saving started by pid 22
+22:C 26 Dec 2022 12:38:50.362 * DB saved on disk
+22:C 26 Dec 2022 12:38:50.367 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 26 Dec 2022 12:38:50.461 * Background saving terminated with success
+1:M 26 Dec 2022 13:00:55.640 * 100 changes in 300 seconds. Saving...
+1:M 26 Dec 2022 13:00:55.653 * Background saving started by pid 23
+23:C 26 Dec 2022 13:00:55.669 * DB saved on disk
+23:C 26 Dec 2022 13:00:55.676 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 26 Dec 2022 13:00:55.764 * Background saving terminated with success
+1:M 26 Dec 2022 13:04:45.349 * Replication backlog freed after 3600 seconds without connected replicas.
+1:M 26 Dec 2022 13:42:12.205 * 100 changes in 300 seconds. Saving...
+1:M 26 Dec 2022 13:42:12.216 * Background saving started by pid 24
+24:C 26 Dec 2022 13:42:12.232 * DB saved on disk
+24:C 26 Dec 2022 13:42:12.238 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 26 Dec 2022 13:42:12.327 * Background saving terminated with success
+1:M 26 Dec 2022 14:10:24.523 * 100 changes in 300 seconds. Saving...
+1:M 26 Dec 2022 14:10:24.530 * Background saving started by pid 25
+25:C 26 Dec 2022 14:10:24.540 * DB saved on disk
+25:C 26 Dec 2022 14:10:24.545 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 26 Dec 2022 14:10:24.639 * Background saving terminated with success
+1:M 26 Dec 2022 15:10:25.086 * 1 changes in 3600 seconds. Saving...
+1:M 26 Dec 2022 15:10:25.104 * Background saving started by pid 26
+26:C 26 Dec 2022 15:10:25.125 * DB saved on disk
+26:C 26 Dec 2022 15:10:25.132 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 26 Dec 2022 15:10:25.216 * Background saving terminated with success

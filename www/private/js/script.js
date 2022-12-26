@@ -2,22 +2,29 @@
 
 function Weather()
 {
-    let data = ''
-    console.log(getCookie('isCustomCity'))
-    if(getCookie('isCustomCity')){
-        data = decodeURIComponent(getCookie("customCity"));
+    var isCustom = getCookie('isCustomCity') // null
+    var dataCookie = decodeURIComponent(getCookie('customCity'));
+    var dataForm = decodeURIComponent(document.getElementById('search').value);
+    var data = ''
+    if (dataCookie === 'null'){
+        data = decodeURIComponent(document.getElementById('search').value);
+        document.querySelector('.city').textContent = data;
     }
-    else if(!getCookie('isCustomCity')){
-        data = decodeURIComponent(document.getElementById('search').value)
+    else if (dataForm == ''){
+        data = decodeURIComponent(getCookie('customCity'));
+        document.querySelector('.city').textContent = data;
     }
-
-    if ( (data == "" || data == " ") && (getCookie('CustomCity') == undefined)){
+    else if (dataForm != 'null' && dataCookie != 'null'){
+        data = decodeURIComponent(document.getElementById('search').value);
+        document.querySelector('.city').textContent = data;
+    }
+    if ((data == "" || data == " ") && (dataCookie == null)) {
         alert("Введите город");
     }
 
 
-        
-    document.querySelector('.city').textContent = data;
+
+
 
     let apiKey = "49c8e7a1210aefbd0380c4684ee65305"
     let url = `http://api.openweathermap.org/data/2.5/weather?q=${data}&lang=ru&units=metric&appid=${apiKey}`

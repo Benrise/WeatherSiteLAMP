@@ -33,10 +33,12 @@ function  displayLocation(position)
         
             lat: 55.75,
             lon: 37.64,
-            zoom: 3,
+            zoom: 10,
         };
-        W.map.panTo([lat,lon]);
-        W.map.zoomIn(7);
+        windyInit(options, windyAPI => {
+            const { map } = windyAPI;
+            L.map().setLatLng([lat, lon])
+        });
         let apiKey = "49c8e7a1210aefbd0380c4684ee65305"
                 fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=alerts&appid=${apiKey}&lang=ru`)
                 .then(function(resp){return resp.json() })
