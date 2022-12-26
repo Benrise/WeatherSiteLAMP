@@ -1,0 +1,137 @@
+<?php
+require_once("resources/lang.php");
+require_once("authentication/db_connect.php");
+session_start();
+if (isset($_SESSION['user'])) {
+    if (isset($_POST['select-lang'])
+        && isset($_POST['select-theme'])
+        && isset($_POST['select-geo'])){
+        setTheme();
+        setLang();
+        setDefaultGeo();
+    }
+}
+else{
+    header('Location: http://localhost/login.en.php');
+}
+
+function setTheme(): void
+{
+    $selectedTheme = $_POST['select-theme'];
+    setcookie("theme", $selectedTheme, time()+60*60*24*30, '/');
+
+}
+
+function setDefaultGeo(){
+    if (intval($_POST['select-geo'])){
+        $isCustomCity = "true";
+        $selectedCity = $_POST['input-default-geo'];
+        setcookie("isCustomCity", $isCustomCity, time()+60*60*24*30, '/');
+        setcookie("customCity", $selectedCity, time()+60*60*24*30, '/');
+    }
+    else {
+        setcookie("customCity", "", time()+60*60*24*30, '/');
+        setcookie("isCustomCity", "false", time()+60*60*24*30, '/');
+    }
+
+}
+
+function setLang(): void
+{
+    global $langInProfilePages;
+    // получаем язык
+    $selectedLang = substr($_POST['select-lang'], 0, 2);
+    setcookie("customLanguage", $selectedLang, time()+60*60*24*30, '/');
+    if (!(@$_COOKIE['autoLanguage'] == @$_COOKIE['customLanguage'])){
+        setcookie("isCustomLanguage", "true", time()+60*60*24*30, '/');
+    }
+
+
+    // проверяем есть ли язык в списке поддерживаемых
+    if (!in_array($selectedLang, array_keys($langInProfilePages))) {
+        $selectedLang = 'ru';
+    }
+    // перенаправление на субдомен
+    header('Location: ' . $langInProfilePages[$selectedLang]);
+
+}
+?>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/css/<?php echo @$_COOKIE['theme'];?>">
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body id="body" class = body">
+<!-- Profile -->
+<div class="wrapper">
+    <div class="profile-wrapper">
+        <form>
+            <a class="back-button" href="http://localhost/index.en.php">Home</a>
+            <img src="<?= @$_SESSION['user']['avatar'] ?>" alt="">
+            <h1 style="margin: 10px 0;"><?= @$_SESSION['user']['login'] ?></h1>
+            <h2 style="margin: 10px 0;"><?= @$_SESSION['user']['full_name'] ?></h2>
+            <a href="#"><?= @$_SESSION['user']['email'] ?></a>
+            <a href="authentication/logout.en.php" class="logout" style="margin-left: 10px;">Exit</a>
+        </form>
+    </div>
+    <div class="settings-wrapper">
+        <h2>Settings</h2>
+        <br>
+        <h3>Language</h3>
+        <form method="POST" class = "setting-form">
+            <select name="select-lang">
+                <option value ="russian" >Русский</option>
+                <option selected value="english" >English</option>
+            </select>
+            <br>
+            <br>
+            <h3>Selected theme</h3>
+            <select name="select-theme" id = "select-theme" onChange="themeSetup()">
+                <option <?php if (@$_COOKIE['theme'] == 'sky-theme.css'){
+                    echo "selected ";
+                }?>value="sky-theme.css">Clear Sky</option>
+                <option <?php if(@$_COOKIE['theme'] == 'dawn-theme.css') {
+                    echo "selected ";
+                }?>value="dawn-theme.css" >Dawn</option>
+            </select>
+            <br>
+            <br>
+            <h3>Forecast city</h3>
+            <select id="select-geo" name ="select-geo" onChange="geoSetup()";>
+                <option <?php if(@$_COOKIE['isCustomCity'] == 'false')  {
+                    echo "selected ";
+                }?>value="0" >Auto</option>
+                <option <?php if(@$_COOKIE['isCustomCity'] == 'true') {
+                    echo "selected ";
+                }?>value="1">Custom</option>
+            </select>
+            <p>Default forecast city</p>
+            <input type="text" placeholder="Сity" value="<?php echo @$_COOKIE['customCity']?>"  name = "input-default-geo" class = "text-input" id = "text-input" size="40">
+            <input type="submit" value="Submit" id = "submit"></p>
+        </form>
+        <form method="POST" action="./uploading/uploading.php" enctype="multipart/form-data">Uploading PDF files
+            <input type="file" accept="application/pdf" name="pdf">
+            <input type="submit" value="Upload">
+            <?php
+            if (isset($_SESSION['type_message'])) {
+                echo '<p class="msg"> ' . $_SESSION['type_message'] . ' </p>';
+            }
+            unset($_SESSION['type_message']);
+            if (isset($_SESSION['files'])){
+                foreach ( $_SESSION['files'] as $file) {
+                    echo '<a href=' . redislIndex($_SESSION['user']['id']) .' download>'. $file . ' </a>';
+                    echo '<br>';
+                }
+            }
+            ?>
+        </form>
+    </div>
+</div>
+
+</body>
+<script src="/js/profile-settings.js"></script>
+</html>

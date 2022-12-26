@@ -1,0 +1,5 @@
+body, .site-header
+{
+    background-image: linear-gradient(to right, #f5f5f5 0%, rgb(254, 148, 10) 100%);
+    background-attachment: fixed;
+}

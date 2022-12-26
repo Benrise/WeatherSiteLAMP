@@ -1,0 +1,195 @@
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+    scroll-behavior: smooth;
+}
+
+.button, .russia-city, .usa-city, .germany-city
+{
+    color: white;
+}
+#submit
+{
+    color: black !important;
+}
+body
+{
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+.site-title a{
+    font-weight: bold;
+}
+.content-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-container
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 1830px;
+    height: 1730px;
+    border: 1px solid black;
+    border-radius: 12px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.russia-container, .usa-container, .germany-container
+{
+    margin-top: 20px;
+    width: 580px;
+    height: 0 auto;
+    margin-bottom: 20px;
+}
+.usa-container
+{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 610px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.germany-city, .russia-city, .usa-city
+{
+    margin: 30px;
+    font-size: 150%;
+}
+h1
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.russia-img, .germany-img, .usa-img
+{
+    width: 560px;
+    height: 400px;
+    margin-left: 10px;
+}
+.moscow, .usa, .germany
+{
+    filter: blur(5px);
+}
+.germany-img
+{
+    background-image: url(../img/germany.jpg)
+}
+.russia-img
+{
+    background-image: url(../img/moscow.jpg);
+} 
+.usa-img
+
+{
+    background-image: url(../img/usa.jpg);
+}
+.usa-img, .germany-img, .russia-img
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tab
+{
+    display: flex;
+    width: 520px;
+    height: 360px;
+    background-color: black ;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px;
+    flex-direction: column;
+}
+.weather-img
+{
+    width: 500px;
+    height: 200px;
+    margin-left:10px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.city
+{
+    color:white;
+    font-size: 300%;
+}
+.desc
+{
+    color: white;
+    font-size: 200%;
+    text-transform: capitalize;
+}
+.weather-img
+{
+    display: flex;
+}
+.c-weather
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.c-under
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    height: 120px;
+    justify-content: flex-end;
+}
+.wind, .hum, .feel
+{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 120%;
+}
+
+a.button:hover
+{
+    color:blue;
+}
+
+@media (max-width: 1700px)
+{
+    .site-header
+    {
+        width: auto 0;
+    }
+    .main-container
+    {
+
+        flex-direction: column;
+        width: max-content;
+        height: max-content;
+    }
+    .usa-container
+    {
+        border: none;
+        padding: 0px;
+        width: 580px;
+    }
+    .usa-container, .russia-container
+    {
+        border-bottom: 1px solid black;
+    }
+  
+}
+@media (max-width: 313px)
+{
+    body
+    {
+        width: 1200px;
+    }
+}
+.weather-img
+{
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+

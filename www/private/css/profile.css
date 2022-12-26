@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    background-attachment: fixed;
+    color: white;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+form {
+
+    width: 400px;
+}
+
+input {
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    color: red;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+form img {
+    max-width: 350px;
+}
+#submit{
+    width: 230px;
+}
+.text-input{
+    border-radius: 3px;
+    margin-bottom: 5px;
+    background-color: white;
+    width: 230px;
+}
+.city-setting{
+    display: flex;
+}
+.setting-form{
+    border-bottom: 1px solid rgba(0, 0, 0, 30%);
+    margin-bottom: 5px;
+}
+
+.settings-wrapper, .profile-wrapper
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0px 10px 10px rgba(0,0,0,0.22);
+    padding: 20px;
+}
+h2 {
+    font-weight: normal;
+}
+h3 {
+    font-weight: normal;
+}
+
+.back-button {
+
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 16px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12.5px;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: top;
+    color: black;
+    background: #FFDE40	;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    overflow: hidden;
+}
+.back-button:focus-visible {
+    box-shadow: 0 -3px #FF9640 inset;
+}
+.back-button:hover {
+    opacity: 0.88;
+}
+.back-button:active {
+    line-height: 32px;
+}
+.back-button:disabled {
+    pointer-events: none;
+    opacity: 0.65;
+}
